@@ -1,0 +1,12 @@
+:root {
+/* Modifiers */
+--tint-1: tint(20%);
+--tint-2: tint(40%);
+--tint-3: tint(60%);
+--tint-4: tint(80%);
+
+--shade-1: shade(20%);
+--shade-2: shade(40%);
+--shade-3: shade(60%);
+--shade-4: shade(80%);
+}

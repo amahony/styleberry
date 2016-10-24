@@ -1,0 +1,21 @@
+@import url('color-modifiers.css');
+@import url('main-colors.css');
+@import url('linkcolor-module.css');
+
+:root {
+
+/* Base Colors */
+
+--yellow: #fed700;
+--green: #8ad400;
+--teal: #00b4a0;
+--blue: #0077FF;
+--purple: #994fd7;
+--magenta: #ff35a0;
+--red: #e9222b;
+--orange: #ff7822;
+
+--white: #ffffff;
+--gray: #808080;
+--black: #000000;
+}

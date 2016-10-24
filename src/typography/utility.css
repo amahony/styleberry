@@ -1,0 +1,66 @@
+/* font style */
+.italic{font-style: italic;}
+
+/* text transform */
+.caps{text-transform: uppercase;}
+
+/* font variant */
+.small-caps{font-variant: small-caps;}
+
+/* text align */
+.align-left{text-align: left;}
+.center{text-align: center;}
+.align-right{text-align: right;}
+.justify{text-align: justify;}
+
+/* white space */
+.nowrap {white-space: nowrap;}
+
+/* letter spacing */
+.ls0{letter-spacing: 0;}
+.ls1{letter-spacing: 0.1em;}
+.ls2{letter-spacing: 0.2em;}
+
+/*line height*/
+.lh0{line-height: 0;}
+.lh1{line-height: 1;}
+.lh2{line-height: 1.5;}
+.lh3{line-height: 2;}
+.lh4{line-height: 3;}
+
+.underline{text-decoration: underline;}
+.line-through{text-decoration: line-through;}
+
+/* text-shadow */
+.text-shadow {text-shadow: 0 0 2px hsla(0, 0%, 0%, 0.15);}
+.text-shadow-1 { text-shadow: 0px 2px 0px color(black alpha(0.2));}
+
+/* list reset */
+.list-reset {list-style: none; padding-left: 0;}
+
+/*link reset*/
+.link-reset{text-decoration: none;}
+
+/* truncate */
+.truncate { width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+
+
+
+/* blockquote */
+.blockquote {
+  quotes: "“" "”" "‘" "’";
+}
+.blockquote:before {
+    content: open-quote;
+}
+.blockquote:after {
+    content: close-quote;
+}
+.blockquote:before, .blockquote:after {
+  color: currentColor;
+  font-size: 3.5em;
+  line-height: .1em;
+  margin: 0 .125em;
+  vertical-align: -.4em;
+  opacity: .3;
+}

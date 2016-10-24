@@ -1,0 +1,34 @@
+@import url('typography/index.css');
+@import url('color/index.css');
+@import url('layout/index.css');
+@import url('box-model/index.css');
+@import url('basic.css');
+
+
+
+/* custom media queries */
+@custom-media --only-xs-screen (width <= 40em);
+@custom-media --only-sm-screen (width >= 40em) and (width <= 52em);
+@custom-media --only-md-screen (width >= 52em) and (width <= 64em);
+@custom-media --only-lg-screen (width >= 64em) and (width <= 80em);
+@custom-media --only-xl-screen (width >= 80em);
+
+
+
+/* components */
+
+@media (--only-xs-screen){
+
+}
+@media (--only-sm-screen){
+
+}
+@media (--only-md-screen){
+
+}
+@media (--only-lg-screen){
+
+}
+@media (--only-xl-screen){
+
+}

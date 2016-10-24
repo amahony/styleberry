@@ -1,0 +1,91 @@
+/*
+
+A CSS layout mode, sometimes abbreviated as layout, is an algorithm determining the position and the size of boxes based on the way they interact with their sibling and ancestor boxes. There are several of them:
+
+  -  The block layout, designed for laying out documents. The block layout contains document-centric features, like the ability to float elements or to lay them out over multiple columns.
+  -  The inline layout, designed for laying out text.
+  -  The table layout, designed for laying out tables.
+  -  The positioned layout, designed for positioning elements without much interaction with other elements.
+  -  The flexible box layout, designed for laying out complex pages that can be resized smoothly.
+  -  The grid layout, designed for laying out elements relative to a fixed grid.
+
+
+*/
+
+/* The block layout */
+
+
+
+.inline       { display: inline }
+.block        { display: block;}
+.inline-block { display: inline-block }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table
+}
+.clearfix:after { clear: both }
+
+.left  { float: left }
+.right { float: right }
+
+.z1 { z-index: 1 ;}
+.z2 { z-index: 2 ;}
+.z3 { z-index: 3 ;}
+.z4 { z-index: 4 ;}
+.z-1{z-index: -1;}
+.z-max{z-index: 10001;}
+
+.relative { position: relative ;}
+.absolute { position: absolute ;}
+.fixed    { position: fixed ;}
+
+.top-0    { top: 0 ;}
+.right-0  { right: 0 ;}
+.bottom-0 { bottom: 0 ;}
+.left-0   { left: 0 ;}
+
+.right-1{ right: 1rem;}
+.bottom-1{ bottom: 1rem;}
+
+
+
+.sm-show, .md-show, .lg-show {
+  display: none !important
+}
+
+@media (min-width: 40em) {
+  .sm-show { display: block !important }
+}
+
+@media (min-width: 52em) {
+  .md-show { display: block !important }
+}
+
+@media (min-width: 64em) {
+  .lg-show { display: block !important }
+}
+
+
+@media (min-width: 40em) {
+  .sm-hide { display: none !important }
+}
+
+@media (min-width: 52em) {
+  .md-hide { display: none !important }
+}
+
+@media (min-width: 64em) {
+  .lg-hide { display: none !important }
+}
+
+.display-none { display: none !important }
+
+.hide {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}

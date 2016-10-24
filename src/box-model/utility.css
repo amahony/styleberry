@@ -1,0 +1,58 @@
+/* box-shadow */
+
+.box-shadow-1 { box-shadow: 0px 6px 6px color(black alpha(0.48));}
+.box-shadow-2 { box-shadow: 0px 6px 12px color(black alpha(0.32));}
+.box-shadow-3{  box-shadow: 0 1px 0px rgba(255, 255, 255, 0.1)inset, 0 -2px 0px rgba(0, 0, 0, 0.13)inset;}
+
+.lift-1{box-shadow: 0px 2px 20px color(black alpha(0.52));}
+
+.box-inset { box-shadow:inset 0px 0px 6px color(black alpha(0.48));}
+
+/* overflow related */
+ .overflow-hidden { overflow: hidden;}
+ .overflow-scroll { overflow: scroll;}
+ .overflow-auto   { overflow: auto;}
+ .overflow-y      { overflow-y: auto;}
+
+/* max-width related */
+ .fit { max-width: 100%;}
+
+/* width related */
+
+ .half-width { width: 50%;}
+ .full-width { width: 100%;}
+
+/* max-height related */
+
+ .max-h, .maxh100{max-height: 100%;}
+
+ .maxh50{ max-height:50vh;}
+ .maxh100vh{ max-height: 100vh;}
+
+/* min-height related */
+
+ .minh50{ min-height:50vh;}
+ .minh66{ min-height:66vh;}
+ .minh100{ min-height: 100vh;}
+
+
+.min-vh-auto{min-height: auto;}
+.min-vh-1{min-height:25vh;}
+.min-vh-2{min-height:33vh;}
+.min-vh-3{min-height:50vh;}
+.min-vh-4{min-height:66vh;}
+.min-vh-5{min-height:75vh;}
+.min-vh-6{min-height:100vh;}
+
+/* height related */
+
+.h20{ height: 20rem;}
+.h100{ height: 100%;}
+.h50{ height: 50%;}
+
+.h50vh{ height: 50vh;}
+
+/* box-sizing related */
+
+.border-box{box-sizing: border-box;}
+.content-box{box-sizing: content-box;}

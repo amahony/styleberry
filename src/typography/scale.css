@@ -1,0 +1,52 @@
+:root {
+
+  /* Base size */
+
+  --base-size: 1rem;
+
+  /* Modifiers */
+
+  --ascend-5: calc(var(--base-size) + 3);
+  --ascend-4: calc(var(--base-size) + 2);
+  --ascend-3: calc(var(--base-size) + 1);
+  --ascend-2: calc(var(--base-size) + .5);
+  --ascend-1: calc(var(--base-size) + .125);
+
+  --descend-1: calc(var(--base-size) - .125);
+  --descend-2: calc(var(--base-size) - .25);
+  --descend-3: calc(var(--base-size) - .375);
+  --descend-4: calc(var(--base-size) - .5);
+  --descend-5: calc(var(--base-size) - .75);
+
+
+  /* Declarations */
+
+  --size-0: var(--ascend-5);
+  --size-1: var(--ascend-4);
+  --size-2: var(--ascend-3);
+  --size-3: var(--ascend-2);
+  --size-4: var(--ascend-1);
+  --size-5: var(--base-size);
+  --size-6: var(--descend-1);
+  --size-7: var(--descend-2);
+  --size-8: var(--descend-3);
+  --size-9: var(--descend-4);
+  --size-10: var(--descend-5);
+
+}
+
+/* Size */
+
+.size-0{font-size: var(--size-0);}
+.size-1{font-size: var(--size-1);}
+.size-2{font-size: var(--size-2);}
+.size-3{font-size: var(--size-3);}
+.size-4{font-size: var(--size-4);}
+.size-5{font-size: var(--size-5);}
+.size-6{font-size: var(--size-6);}
+.size-7{font-size: var(--size-7);}
+.size-8{font-size: var(--size-8);}
+.size-9{font-size: var(--size-9);}
+.size-10{font-size: var(--size-10);}
+
+.size-auto{ font-size: inherit;}

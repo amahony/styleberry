@@ -1,0 +1,14 @@
+{
+  "name": "Styleberry",
+  "version": "1.0.0",
+  "description": "Class Oriented CSS Framework",
+  "devDependencies": {
+    "cssnano": "^3.8.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.2.0",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-import": "^8.1.2"
+  },
+  "author": "Atanas Mahony",
+  "license": "MIT"
+}

@@ -1,0 +1,144 @@
+/*------------------------------------*\
+COLORS
+\*------------------------------------*/
+
+/* Yellow */
+
+.link-yellow a{color: var(--yellow);}
+.link-yellow-1 a{color: var(--yellow-1);}
+.link-yellow-2 a{color: var(--yellow-2);}
+.link-yellow-3 a{color: var(--yellow-3);}
+.link-yellow-4 a{color: var(--yellow-4);}
+.link-yellow-5 a{color: var(--yellow-5);}
+.link-yellow-6 a{color: var(--yellow-6);}
+.link-yellow-7 a{color: var(--yellow-7);}
+.link-yellow-8 a{color: var(--yellow-8);}
+.link-yellow-9 a{color: var(--yellow-9);}
+
+/* Green */
+
+.link-green a{color: var(--green);}
+.link-green-1 a{color: var(--green-1);}
+.link-green-2 a{color: var(--green-2);}
+.link-green-3 a{color: var(--green-3);}
+.link-green-4 a{color: var(--green-4);}
+.link-green-5 a{color: var(--green-5);}
+.link-green-6 a{color: var(--green-6);}
+.link-green-7 a{color: var(--green-7);}
+.link-green-8 a{color: var(--green-8);}
+.link-green-9 a{color: var(--green-9);}
+
+/* Teal */
+
+.link-teal a{color: var(--teal);}
+.link-teal-1 a{color: var(--teal-1);}
+.link-teal-2 a{color: var(--teal-2);}
+.link-teal-3 a{color: var(--teal-3);}
+.link-teal-4 a{color: var(--teal-4);}
+.link-teal-5 a{color: var(--teal-5);}
+.link-teal-6 a{color: var(--teal-6);}
+.link-teal-7 a{color: var(--teal-7);}
+.link-teal-8 a{color: var(--teal-8);}
+.link-teal-9 a{color: var(--teal-9);}
+
+/* Blue */
+
+.link-blue a{color: var(--blue);}
+.link-blue-1 a{color: var(--blue-1);}
+.link-blue-2 a{color: var(--blue-2);}
+.link-blue-3 a{color: var(--blue-3);}
+.link-blue-4 a{color: var(--blue-4);}
+.link-blue-5 a{color: var(--blue-5);}
+.link-blue-6 a{color: var(--blue-6);}
+.link-blue-7 a{color: var(--blue-7);}
+.link-blue-8 a{color: var(--blue-8);}
+.link-blue-9 a{color: var(--blue-9);}
+
+/* Purple */
+
+.link-purple a{color: var(--purple);}
+.link-purple-1 a{color: var(--purple-1);}
+.link-purple-2 a{color: var(--purple-2);}
+.link-purple-3 a{color: var(--purple-3);}
+.link-purple-4 a{color: var(--purple-4);}
+.link-purple-5 a{color: var(--purple-5);}
+.link-purple-6 a{color: var(--purple-6);}
+.link-purple-7 a{color: var(--purple-7);}
+.link-purple-8 a{color: var(--purple-8);}
+.link-purple-9 a{color: var(--purple-9);}
+
+/* Magenta */
+
+.link-magenta a{color: var(--magenta);}
+.link-magenta-1 a{color: var(--magenta-1);}
+.link-magenta-2 a{color: var(--magenta-2);}
+.link-magenta-3 a{color: var(--magenta-3);}
+.link-magenta-4 a{color: var(--magenta-4);}
+.link-magenta-5 a{color: var(--magenta-5);}
+.link-magenta-6 a{color: var(--magenta-6);}
+.link-magenta-7 a{color: var(--magenta-7);}
+.link-magenta-8 a{color: var(--magenta-8);}
+.link-magenta-9 a{color: var(--magenta-9);}
+
+/* Red */
+
+.link-red a{color: var(--red);}
+.link-red-1 a{color: var(--red-1);}
+.link-red-2 a{color: var(--red-2);}
+.link-red-3 a{color: var(--red-3);}
+.link-red-4 a{color: var(--red-4);}
+.link-red-5 a{color: var(--red-5);}
+.link-red-6 a{color: var(--red-6);}
+.link-red-7 a{color: var(--red-7);}
+.link-red-8 a{color: var(--red-8);}
+.link-red-9 a{color: var(--red-9);}
+
+/* Orange */
+
+.link-orange a{color: var(--orange);}
+.link-orange-1 a{color: var(--orange-1);}
+.link-orange-2 a{color: var(--orange-2);}
+.link-orange-3 a{color: var(--orange-3);}
+.link-orange-4 a{color: var(--orange-4);}
+.link-orange-5 a{color: var(--orange-5);}
+.link-orange-6 a{color: var(--orange-6);}
+.link-orange-7 a{color: var(--orange-7);}
+.link-orange-8 a{color: var(--orange-8);}
+.link-orange-9 a{color: var(--orange-9);}
+
+/* Gray */
+
+.link-gray a{color: var(--gray);}
+.link-gray-1 a{color: var(--gray-1);}
+.link-gray-2 a{color: var(--gray-2);}
+.link-gray-3 a{color: var(--gray-3);}
+.link-gray-4 a{color: var(--gray-4);}
+.link-gray-5 a{color: var(--gray-5);}
+.link-gray-6 a{color: var(--gray-6);}
+.link-gray-7 a{color: var(--gray-7);}
+.link-gray-8 a{color: var(--gray-8);}
+.link-gray-9 a{color: var(--gray-9);}
+
+/* Black */
+
+.link-yellow-10 a,
+.link-green-10 a,
+.link-teal-10 a,
+.link-blue-10 a,
+.link-purple-10 a,
+.link-magenta-10 a,
+.link-red-10 a,
+.link-orange-10 a,
+.link-gray-10 a {color: var(--black);}
+
+/* White */
+
+.link-yellow-0 a,
+.link-green-0 a,
+.link-teal-0 a,
+.link-blue-0 a,
+.link-purple-0 a,
+.link-magenta-0 a,
+.link-red-0 a,
+.link-orange-0 a,
+.link-gray-0 a {color: var(--white);}
