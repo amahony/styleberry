@@ -10,5 +10,9 @@
     "postcss-import": "^8.1.2"
   },
   "author": "Atanas Mahony",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://amahony@bitbucket.org/amahony/styleberry.git"
+  }
 }
