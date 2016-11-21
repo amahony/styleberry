@@ -6,17 +6,17 @@
 
   /* Modifiers */
 
-  --increase5: calc(var(--base-spacing) + 2);
-  --increase4: calc(var(--base-spacing) + 1);
-  --increase3: calc(var(--base-spacing) + .5);
-  --increase2: calc(var(--base-spacing) + .25);
-  --increase1: calc(var(--base-spacing) + .125);
-
   --decrease1: calc( var(--base-spacing) - .025 );
   --decrease2: calc( var(--base-spacing) - .05 );
-  --decrease3: calc( var(--base-spacing) - .1 );
+  --decrease3: calc( var(--base-spacing) - .0875 );
   --decrease4: calc( var(--base-spacing) - .125 );
   --decrease5: calc( var(--base-spacing) - .15 );
+
+  --increase1: calc(var(--base-spacing) + .25);
+  --increase2: calc(var(--base-spacing) + .5);
+  --increase3: calc(var(--base-spacing) + .75);
+  --increase4: calc(var(--base-spacing) + 1);
+  --increase5: calc(var(--base-spacing) + 2);
 
 }
 

@@ -1,4 +1,34 @@
-/*line height*/
+
+:root {
+
+  /* Base size */
+
+  --base-leading: 1.25;
+
+  /* Modifiers */
+
+  --inc1: calc(var(--base-leading) + .25);
+  --inc2: calc(var(--base-leading) + .5);
+  --inc3: calc(var(--base-leading) + 1);
+  --inc4: calc(var(--base-leading) + 2);
+
+}
+
+/* Letter Spacing */
+
+[class~='leading-0']{line-height: 0}
+[class~='leading+1']{line-height: var(--base-leading);}
+[class~='leading+2']{line-height: var(--inc1);}
+[class~='leading+3']{line-height: var(--inc2);}
+[class~='leading+4']{line-height: var(--inc3);}
+[class~='leading+5']{line-height: var(--inc4);}
+
+
+
+.leading-auto{ line-height: inherit;}
+
+
+/* legacy line height syntax */
 .lh0{line-height: 0;}
 .lh1{line-height: 1;}
 .lh2{line-height: 1.5;}

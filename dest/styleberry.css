@@ -241,7 +241,7 @@ textarea {
 
 [class~='spacing-4']{letter-spacing: -0.125em;}
 
-[class~='spacing-3']{letter-spacing: -0.1em;}
+[class~='spacing-3']{letter-spacing: -0.0875em;}
 
 [class~='spacing-2']{letter-spacing: -0.05em;}
 
@@ -249,11 +249,11 @@ textarea {
 
 [class~='spacing-0']{letter-spacing: 0em;}
 
-[class~='spacing+1']{letter-spacing: 0.125em;}
+[class~='spacing+1']{letter-spacing: 0.25em;}
 
-[class~='spacing+2']{letter-spacing: 0.25em;}
+[class~='spacing+2']{letter-spacing: 0.5em;}
 
-[class~='spacing+3']{letter-spacing: 0.5em;}
+[class~='spacing+3']{letter-spacing: 0.75em;}
 
 [class~='spacing+4']{letter-spacing: 1em;}
 
@@ -269,7 +269,31 @@ textarea {
 
 .ls2{letter-spacing: 0.2em;}
 
-/*line height*/
+:root {
+
+  /* Base size */
+
+  /* Modifiers */
+
+}
+
+/* Letter Spacing */
+
+[class~='leading-0']{line-height: 0}
+
+[class~='leading+1']{line-height: 1.25;}
+
+[class~='leading+2']{line-height: 1.5;}
+
+[class~='leading+3']{line-height: 1.75;}
+
+[class~='leading+4']{line-height: 2.25;}
+
+[class~='leading+5']{line-height: 3.25;}
+
+.leading-auto{ line-height: inherit;}
+
+/* legacy line height syntax */
 
 .lh0{line-height: 0;}
 
