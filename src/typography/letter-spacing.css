@@ -1,0 +1,65 @@
+:root {
+
+  /* Base size */
+
+  --base-spacing: 0em;
+
+  /* Modifiers */
+
+  --increase-5: calc(var(--base-spacing) + 2);
+  --increase-4: calc(var(--base-spacing) + 1);
+  --increase-3: calc(var(--base-spacing) + .5);
+  --increase-2: calc(var(--base-spacing) + .25);
+  --increase-1: calc(var(--base-spacing) + .125);
+
+  --decrease-1: calc( var(--base-spacing) - .025 );
+  --decrease-2: calc( var(--base-spacing) - .05 );
+  --decrease-3: calc( var(--base-spacing) - .1 );
+  --decrease-4: calc( var(--base-spacing) - .125 );
+  --decrease-5: calc( var(--base-spacing) - .15 );
+
+
+
+  /* Declarations */
+
+  --spacing-0: var(--decrease-5);
+  --spacing-1: var(--decrease-4);
+  --spacing-2: var(--decrease-3);
+  --spacing-3: var(--decrease-2);
+  --spacing-4: var(--decrease-1);
+
+  --spacing-5: var(--base-spacing);
+
+  --spacing-6: var(--increase-1);
+  --spacing-7: var(--increase-2);
+  --spacing-8: var(--increase-3);
+  --spacing-9: var(--increase-4);
+  --spacing-10:var(--increase-5);
+
+}
+
+/* Letter Spacing */
+
+
+.spacing-0{letter-spacing: var(--spacing-0);}
+.spacing-1{letter-spacing: var(--spacing-1);}
+.spacing-2{letter-spacing: var(--spacing-2);}
+.spacing-3{letter-spacing: var(--spacing-3);}
+.spacing-4{letter-spacing: var(--spacing-4);}
+.spacing-5{letter-spacing: var(--spacing-5);}
+.spacing-6{letter-spacing: var(--spacing-6);}
+.spacing-7{letter-spacing: var(--spacing-7);}
+.spacing-8{letter-spacing: var(--spacing-8);}
+.spacing-9{letter-spacing: var(--spacing-9);}
+.spacing-10{letter-spacing: var(--spacing-10);}
+
+
+
+.spacing-auto{ letter-spacing: inherit;}
+
+
+/* legacy syntax to support previous versions of framework */
+
+.ls0{letter-spacing: 0;}
+.ls1{letter-spacing: 0.1em;}
+.ls2{letter-spacing: 0.2em;}
