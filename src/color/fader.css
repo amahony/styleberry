@@ -1,0 +1,23 @@
+.fader-black{background: linear-gradient(180deg, color(var(--black) alpha(0%)) 0%, color(var(--black) alpha(40%)) 66%, color(var(--black) alpha(75%)) 90%, color(var(--black) alpha(95%)) 100%); opacity: 1;}
+
+.fader-white{background: linear-gradient(180deg, color(var(--white) alpha(0%)) 0%, color(var(--white) alpha(40%)) 66%, color(var(--white) alpha(75%)) 90%, color(var(--white) alpha(95%)) 100%); opacity: 1;}
+
+.fader-black-nxs{background: linear-gradient(180deg,
+  color(var(--black) alpha(70%)) 0%,
+  color(var(--black) alpha(40%)) 10%,
+  color(var(--black) alpha(0%)) 25%,
+  color(var(--black) alpha(0%)) 50%,
+  color(var(--black) alpha(20%)) 75%,
+  color(var(--black) alpha(40%)) 90%,
+  color(var(--black) alpha(80%)) 100%);
+  opacity: 1;}
+
+.fader-white-nxs{background: linear-gradient(180deg,
+  color(var(--white) alpha(70%)) 0%,
+  color(var(--white) alpha(40%)) 10%,
+  color(var(--white) alpha(0%)) 25%,
+  color(var(--white) alpha(0%)) 50%,
+  color(var(--white) alpha(20%)) 75%,
+  color(var(--white) alpha(40%)) 90%,
+  color(var(--white) alpha(80%)) 100%);
+  opacity: 1;}

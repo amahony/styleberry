@@ -12,8 +12,8 @@
 
 .align-justify  {justify-content: space-between;}
 
-.flex-first { order: -1;}
-.flex-last  {order: 1024;}
+.order-first { order: -1;}
+.order-last  {order: 1024;}
 
 .flex-auto {flex: 1 1 auto;}
 .flex-grow {flex: 1 0 auto;}

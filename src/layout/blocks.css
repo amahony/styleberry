@@ -1,0 +1,57 @@
+/* aspect ratio blocks */
+
+.ratio-16-9 { width: 100%; padding-bottom: 56.25%; /* 16:9 */ position: relative; }
+.ratio-16-9 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+
+.ratio-16-10 { width: 100%; padding-bottom: 62.5%; /* 16:10 */ position: relative; }
+.ratio-16-10 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+
+.ratio-4-3 { width: 100%; padding-bottom: 75%; /* 4:3 */ position: relative; }
+.ratio-4-3 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+
+.ratio-1-1 { width: 100%; padding-bottom: 100%; /* 1:1 */ position: relative; }
+.ratio-1-1 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+
+.ratio-2-3 { width: 100%; padding-bottom: 150%; /* 10:15 */ position: relative; }
+.ratio-2-3 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+
+.ratio-3-2 { width: 100%; padding-bottom: 66%; /* 1:1 */ position: relative; }
+.ratio-3-2 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+
+/* fixed size blocks */
+
+.square1{ width: 1rem; height: 1rem;}
+.square1-5{ width: 1.5rem; height: 1.5rem;}
+.square2{ width: 2rem; height: 2rem;}
+.square2-5{ width: 2.5rem; height: 2.5rem;}
+.square3{ width: 3rem; height: 3rem;}
+.square3-5{ width: 3.5rem; height: 3.5rem;}
+.square4{ width: 4rem; height: 4rem;}
+.square5{ width: 5rem; height: 5rem;}
+.square6{ width: 6rem; height: 6rem;}
+.square10{height: 10rem; width: 10rem;}
+.square12-5{height: 12.5rem; width: 12.5rem;}
+.square15{height: 15rem; width: 15rem;}
+.square20{height: 20rem; width: 20rem;}
+
+
+/* box with applied animated drop shadow on hover */
+.box {
+  position: relative;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.box:hover { }
+.box:hover::after { opacity: 1; }
