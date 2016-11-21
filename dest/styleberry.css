@@ -233,35 +233,31 @@ textarea {
 
   /* Modifiers */
 
-
-
-  /* Declarations */
-
 }
 
 /* Letter Spacing */
 
-.spacing-0{letter-spacing: -0.15em;}
+[class~="spacing-5"]{letter-spacing: -0.15em;}
 
-.spacing-1{letter-spacing: -0.125em;}
+[class~='spacing-4']{letter-spacing: -0.125em;}
 
-.spacing-2{letter-spacing: -0.1em;}
+[class~='spacing-3']{letter-spacing: -0.1em;}
 
-.spacing-3{letter-spacing: -0.05em;}
+[class~='spacing-2']{letter-spacing: -0.05em;}
 
-.spacing-4{letter-spacing: -0.025em;}
+[class~='spacing-1']{letter-spacing: -0.025em;}
 
-.spacing-5{letter-spacing: 0em;}
+[class~='spacing-0']{letter-spacing: 0em;}
 
-.spacing-6{letter-spacing: 0.125em;}
+[class~='spacing+1']{letter-spacing: 0.125em;}
 
-.spacing-7{letter-spacing: 0.25em;}
+[class~='spacing+2']{letter-spacing: 0.25em;}
 
-.spacing-8{letter-spacing: 0.5em;}
+[class~='spacing+3']{letter-spacing: 0.5em;}
 
-.spacing-9{letter-spacing: 1em;}
+[class~='spacing+4']{letter-spacing: 1em;}
 
-.spacing-10{letter-spacing: 2em;}
+[class~='spacing+5']{letter-spacing: 2em;}
 
 .spacing-auto{ letter-spacing: inherit;}
 
