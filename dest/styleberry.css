@@ -160,34 +160,31 @@ textarea {
 
   /* Modifiers */
 
-
-  /* Declarations */
-
 }
 
 /* Size */
 
-.size-0{font-size: 64px;font-size: 4rem;}
+[class~="size-5"]{font-size: 4px;font-size: 0.25rem;}
 
-.size-1{font-size: 48px;font-size: 3rem;}
+[class~="size-4"]{font-size: 8px;font-size: 0.5rem;}
 
-.size-2{font-size: 32px;font-size: 2rem;}
+[class~="size-3"]{font-size: 10px;font-size: 0.625rem;}
 
-.size-3{font-size: 24px;font-size: 1.5rem;}
+[class~="size-2"]{font-size: 12px;font-size: 0.75rem;}
 
-.size-4{font-size: 18px;font-size: 1.125rem;}
+[class~="size-1"]{font-size: 14px;font-size: 0.875rem;}
 
-.size-5{font-size: 16px;font-size: 1rem;}
+[class~="size-0"]{font-size: 16px;font-size: 1rem;}
 
-.size-6{font-size: 14px;font-size: 0.875rem;}
+[class~="size+1"]{font-size: 18px;font-size: 1.125rem;}
 
-.size-7{font-size: 12px;font-size: 0.75rem;}
+[class~="size+2"]{font-size: 24px;font-size: 1.5rem;}
 
-.size-8{font-size: 10px;font-size: 0.625rem;}
+[class~="size+3"]{font-size: 32px;font-size: 2rem;}
 
-.size-9{font-size: 8px;font-size: 0.5rem;}
+[class~="size+4"]{font-size: 48px;font-size: 3rem;}
 
-.size-10{font-size: 4px;font-size: 0.25rem;}
+[class~="size+5"]{font-size: 64px;font-size: 4rem;}
 
 .size-auto{ font-size: inherit;}
 
