@@ -28,8 +28,9 @@
 .border-lighten-3{border-color: color(var(--lighten-3));}
 .border-lighten-4{border-color: color(var(--lighten-4));}
 
-.translucent-dark{background: color(var(--gray-8) alpha(97%));}
+.translucent-dark{background: color(var(--black) alpha(97%));}
 .translucent{background: color(var(--white) alpha(97%));}
+
 
 :root{
 

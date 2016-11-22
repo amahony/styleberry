@@ -1220,561 +1220,615 @@ COLORS
 
 /* Yellow */
 
-.yellow {color: #fed700;}
+[class~='yellow'] {color: rgb(254, 215, 0);}
 
-.bg-yellow {background-color: #fed700;}
+[class~='bg-yellow'] {background-color: rgb(254, 215, 0);}
 
-.border-yellow {border-color: #fed700;}
+[class~='border-yellow'] {border-color: rgb(254, 215, 0);}
 
-.yellow-1 {color: rgb(255, 247, 204);}
+[class~='yellow-1'] {color: rgb(254, 219, 25);}
 
-.bg-yellow-1 {background-color: rgb(255, 247, 204);}
+[class~='bg-yellow-1'] {background-color: rgb(254, 219, 25);}
 
-.border-yellow-1 {border-color: rgb(255, 247, 204);}
+[class~='border-yellow-1'] {border-color: rgb(254, 219, 25);}
 
-.yellow-2 {color: rgb(255, 239, 153);}
+[class~='yellow-2'] {color: rgb(254, 225, 64);}
 
-.bg-yellow-2 {background-color: rgb(255, 239, 153);}
+[class~='bg-yellow-2'] {background-color: rgb(254, 225, 64);}
 
-.border-yellow-2 {border-color: rgb(255, 239, 153);}
+[class~='border-yellow-2'] {border-color: rgb(254, 225, 64);}
 
-.yellow-3 {color: rgb(254, 231, 102);}
+[class~='yellow-3'] {color: rgb(255, 235, 128);}
 
-.bg-yellow-3 {background-color: rgb(254, 231, 102);}
+[class~='bg-yellow-3'] {background-color: rgb(255, 235, 128);}
 
-.border-yellow-3 {border-color: rgb(254, 231, 102);}
+[class~='border-yellow-3'] {border-color: rgb(255, 235, 128);}
 
-.yellow-4 {color: rgb(254, 223, 51);}
+[class~='yellow-4'] {color: rgb(255, 245, 191);}
 
-.bg-yellow-4 {background-color: rgb(254, 223, 51);}
+[class~='bg-yellow-4'] {background-color: rgb(255, 245, 191);}
 
-.border-yellow-4 {border-color: rgb(254, 223, 51);}
+[class~='border-yellow-4'] {border-color: rgb(255, 245, 191);}
 
-.yellow-5 {color: rgb(254, 215, 0);}
+[class~='yellow-5'] {color: rgb(255, 251, 230);}
 
-.bg-yellow-5 {background-color: rgb(254, 215, 0);}
+[class~='bg-yellow-5'] {background-color: rgb(255, 251, 230);}
 
-.border-yellow-5 {border-color: rgb(254, 215, 0);}
+[class~='border-yellow-5'] {border-color: rgb(255, 251, 230);}
 
-.yellow-6 {color: rgb(203, 172, 0);}
+[class~='yellow+1'] {color: rgb(229, 194, 0);}
 
-.bg-yellow-6 {background-color: rgb(203, 172, 0);}
+[class~='bg-yellow+1'] {background-color: rgb(229, 194, 0);}
 
-.border-yellow-6 {border-color: rgb(203, 172, 0);}
+[class~='border-yellow+1'] {border-color: rgb(229, 194, 0);}
 
-.yellow-7 {color: rgb(152, 129, 0);}
+[class~='yellow+2'] {color: rgb(191, 161, 0);}
 
-.bg-yellow-7 {background-color: rgb(152, 129, 0);}
+[class~='bg-yellow+2'] {background-color: rgb(191, 161, 0);}
 
-.border-yellow-7 {border-color: rgb(152, 129, 0);}
+[class~='border-yellow+2'] {border-color: rgb(191, 161, 0);}
 
-.yellow-8 {color: rgb(102, 86, 0);}
+[class~='yellow+3'] {color: rgb(127, 108, 0);}
 
-.bg-yellow-8 {background-color: rgb(102, 86, 0);}
+[class~='bg-yellow+3'] {background-color: rgb(127, 108, 0);}
 
-.border-yellow-8 {border-color: rgb(102, 86, 0);}
+[class~='border-yellow+3'] {border-color: rgb(127, 108, 0);}
 
-.yellow-9 {color: rgb(51, 43, 0);}
+[class~='yellow+4'] {color: rgb(64, 54, 0);}
 
-.bg-yellow-9 {background-color: rgb(51, 43, 0);}
+[class~='bg-yellow+4'] {background-color: rgb(64, 54, 0);}
 
-.border-yellow-9 {border-color: rgb(51, 43, 0);}
+[class~='border-yellow+4'] {border-color: rgb(64, 54, 0);}
+
+[class~='yellow+5'] {color: rgb(25, 21, 0);}
+
+[class~='bg-yellow+5'] {background-color: rgb(25, 21, 0);}
+
+[class~='border-yellow+5'] {border-color: rgb(25, 21, 0);}
 
 /* green */
 
-.green {color: #8ad400;}
+[class~='green'] {color: rgb(138, 212, 0);}
 
-.bg-green {background-color: #8ad400;}
+[class~='bg-green'] {background-color: rgb(138, 212, 0);}
 
-.border-green {border-color: #8ad400;}
+[class~='border-green'] {border-color: rgb(138, 212, 0);}
 
-.green-1 {color: rgb(232, 246, 204);}
+[class~='green-1'] {color: rgb(150, 216, 25);}
 
-.bg-green-1 {background-color: rgb(232, 246, 204);}
+[class~='bg-green-1'] {background-color: rgb(150, 216, 25);}
 
-.border-green-1 {border-color: rgb(232, 246, 204);}
+[class~='border-green-1'] {border-color: rgb(150, 216, 25);}
 
-.green-2 {color: rgb(208, 238, 153);}
+[class~='green-2'] {color: rgb(167, 223, 64);}
 
-.bg-green-2 {background-color: rgb(208, 238, 153);}
+[class~='bg-green-2'] {background-color: rgb(167, 223, 64);}
 
-.border-green-2 {border-color: rgb(208, 238, 153);}
+[class~='border-green-2'] {border-color: rgb(167, 223, 64);}
 
-.green-3 {color: rgb(185, 229, 102);}
+[class~='green-3'] {color: rgb(197, 234, 128);}
 
-.bg-green-3 {background-color: rgb(185, 229, 102);}
+[class~='bg-green-3'] {background-color: rgb(197, 234, 128);}
 
-.border-green-3 {border-color: rgb(185, 229, 102);}
+[class~='border-green-3'] {border-color: rgb(197, 234, 128);}
 
-.green-4 {color: rgb(161, 221, 51);}
+[class~='green-4'] {color: rgb(226, 244, 191);}
 
-.bg-green-4 {background-color: rgb(161, 221, 51);}
+[class~='bg-green-4'] {background-color: rgb(226, 244, 191);}
 
-.border-green-4 {border-color: rgb(161, 221, 51);}
+[class~='border-green-4'] {border-color: rgb(226, 244, 191);}
 
-.green-5 {color: rgb(138, 212, 0);}
+[class~='green-5'] {color: rgb(243, 251, 230);}
 
-.bg-green-5 {background-color: rgb(138, 212, 0);}
+[class~='bg-green-5'] {background-color: rgb(243, 251, 230);}
 
-.border-green-5 {border-color: rgb(138, 212, 0);}
+[class~='border-green-5'] {border-color: rgb(243, 251, 230);}
 
-.green-6 {color: rgb(110, 170, 0);}
+[class~='green+1'] {color: rgb(124, 191, 0);}
 
-.bg-green-6 {background-color: rgb(110, 170, 0);}
+[class~='bg-green+1'] {background-color: rgb(124, 191, 0);}
 
-.border-green-6 {border-color: rgb(110, 170, 0);}
+[class~='border-green+1'] {border-color: rgb(124, 191, 0);}
 
-.green-7 {color: rgb(83, 127, 0);}
+[class~='green+2'] {color: rgb(104, 159, 0);}
 
-.bg-green-7 {background-color: rgb(83, 127, 0);}
+[class~='bg-green+2'] {background-color: rgb(104, 159, 0);}
 
-.border-green-7 {border-color: rgb(83, 127, 0);}
+[class~='border-green+2'] {border-color: rgb(104, 159, 0);}
 
-.green-8 {color: rgb(55, 85, 0);}
+[class~='green+3'] {color: rgb(69, 106, 0);}
 
-.bg-green-8 {background-color: rgb(55, 85, 0);}
+[class~='bg-green+3'] {background-color: rgb(69, 106, 0);}
 
-.border-green-8 {border-color: rgb(55, 85, 0);}
+[class~='border-green+3'] {border-color: rgb(69, 106, 0);}
 
-.green-9 {color: rgb(28, 42, 0);}
+[class~='green+4'] {color: rgb(35, 53, 0);}
 
-.bg-green-9 {background-color: rgb(28, 42, 0);}
+[class~='bg-green+4'] {background-color: rgb(35, 53, 0);}
 
-.border-green-9 {border-color: rgb(28, 42, 0);}
+[class~='border-green+4'] {border-color: rgb(35, 53, 0);}
+
+[class~='green+5'] {color: rgb(14, 21, 0);}
+
+[class~='bg-green+5'] {background-color: rgb(14, 21, 0);}
+
+[class~='border-green+5'] {border-color: rgb(14, 21, 0);}
 
 /* teal */
 
-.teal {color: #00b4a0;}
+[class~='teal'] {color: rgb(0, 180, 160);}
 
-.bg-teal {background-color: #00b4a0;}
+[class~='bg-teal'] {background-color: rgb(0, 180, 160);}
 
-.border-teal {border-color: #00b4a0;}
+[class~='border-teal'] {border-color: rgb(0, 180, 160);}
 
-.teal-1 {color: rgb(204, 240, 236);}
+[class~='teal-1'] {color: rgb(25, 188, 170);}
 
-.bg-teal-1 {background-color: rgb(204, 240, 236);}
+[class~='bg-teal-1'] {background-color: rgb(25, 188, 170);}
 
-.border-teal-1 {border-color: rgb(204, 240, 236);}
+[class~='border-teal-1'] {border-color: rgb(25, 188, 170);}
 
-.teal-2 {color: rgb(153, 225, 217);}
+[class~='teal-2'] {color: rgb(64, 199, 184);}
 
-.bg-teal-2 {background-color: rgb(153, 225, 217);}
+[class~='bg-teal-2'] {background-color: rgb(64, 199, 184);}
 
-.border-teal-2 {border-color: rgb(153, 225, 217);}
+[class~='border-teal-2'] {border-color: rgb(64, 199, 184);}
 
-.teal-3 {color: rgb(102, 210, 198);}
+[class~='teal-3'] {color: rgb(128, 218, 208);}
 
-.bg-teal-3 {background-color: rgb(102, 210, 198);}
+[class~='bg-teal-3'] {background-color: rgb(128, 218, 208);}
 
-.border-teal-3 {border-color: rgb(102, 210, 198);}
+[class~='border-teal-3'] {border-color: rgb(128, 218, 208);}
 
-.teal-4 {color: rgb(51, 195, 179);}
+[class~='teal-4'] {color: rgb(191, 236, 231);}
 
-.bg-teal-4 {background-color: rgb(51, 195, 179);}
+[class~='bg-teal-4'] {background-color: rgb(191, 236, 231);}
 
-.border-teal-4 {border-color: rgb(51, 195, 179);}
+[class~='border-teal-4'] {border-color: rgb(191, 236, 231);}
 
-.teal-5 {color: rgb(0, 180, 160);}
+[class~='teal-5'] {color: rgb(230, 248, 246);}
 
-.bg-teal-5 {background-color: rgb(0, 180, 160);}
+[class~='bg-teal-5'] {background-color: rgb(230, 248, 246);}
 
-.border-teal-5 {border-color: rgb(0, 180, 160);}
+[class~='border-teal-5'] {border-color: rgb(230, 248, 246);}
 
-.teal-6 {color: rgb(0, 144, 128);}
+[class~='teal+1'] {color: rgb(0, 162, 144);}
 
-.bg-teal-6 {background-color: rgb(0, 144, 128);}
+[class~='bg-teal+1'] {background-color: rgb(0, 162, 144);}
 
-.border-teal-6 {border-color: rgb(0, 144, 128);}
+[class~='border-teal+1'] {border-color: rgb(0, 162, 144);}
 
-.teal-7 {color: rgb(0, 108, 96);}
+[class~='teal+2'] {color: rgb(0, 135, 120);}
 
-.bg-teal-7 {background-color: rgb(0, 108, 96);}
+[class~='bg-teal+2'] {background-color: rgb(0, 135, 120);}
 
-.border-teal-7 {border-color: rgb(0, 108, 96);}
+[class~='border-teal+2'] {border-color: rgb(0, 135, 120);}
 
-.teal-8 {color: rgb(0, 72, 64);}
+[class~='teal+3'] {color: rgb(0, 90, 80);}
 
-.bg-teal-8 {background-color: rgb(0, 72, 64);}
+[class~='bg-teal+3'] {background-color: rgb(0, 90, 80);}
 
-.border-teal-8 {border-color: rgb(0, 72, 64);}
+[class~='border-teal+3'] {border-color: rgb(0, 90, 80);}
 
-.teal-9 {color: rgb(0, 36, 32);}
+[class~='teal+4'] {color: rgb(0, 45, 40);}
 
-.bg-teal-9 {background-color: rgb(0, 36, 32);}
+[class~='bg-teal+4'] {background-color: rgb(0, 45, 40);}
 
-.border-teal-9 {border-color: rgb(0, 36, 32);}
+[class~='border-teal+4'] {border-color: rgb(0, 45, 40);}
+
+[class~='teal+5'] {color: rgb(0, 18, 16);}
+
+[class~='bg-teal+5'] {background-color: rgb(0, 18, 16);}
+
+[class~='border-teal+5'] {border-color: rgb(0, 18, 16);}
 
 /* blue */
 
-.blue {color: #0077FF;}
+[class~='blue'] {color: rgb(0, 119, 255);}
 
-.bg-blue {background-color: #0077FF;}
+[class~='bg-blue'] {background-color: rgb(0, 119, 255);}
 
-.border-blue {border-color: #0077FF;}
+[class~='border-blue'] {border-color: rgb(0, 119, 255);}
 
-.blue-1 {color: rgb(204, 228, 255);}
+[class~='blue-1'] {color: rgb(25, 133, 255);}
 
-.bg-blue-1 {background-color: rgb(204, 228, 255);}
+[class~='bg-blue-1'] {background-color: rgb(25, 133, 255);}
 
-.border-blue-1 {border-color: rgb(204, 228, 255);}
+[class~='border-blue-1'] {border-color: rgb(25, 133, 255);}
 
-.blue-2 {color: rgb(153, 201, 255);}
+[class~='blue-2'] {color: rgb(64, 153, 255);}
 
-.bg-blue-2 {background-color: rgb(153, 201, 255);}
+[class~='bg-blue-2'] {background-color: rgb(64, 153, 255);}
 
-.border-blue-2 {border-color: rgb(153, 201, 255);}
+[class~='border-blue-2'] {border-color: rgb(64, 153, 255);}
 
-.blue-3 {color: rgb(102, 173, 255);}
+[class~='blue-3'] {color: rgb(128, 187, 255);}
 
-.bg-blue-3 {background-color: rgb(102, 173, 255);}
+[class~='bg-blue-3'] {background-color: rgb(128, 187, 255);}
 
-.border-blue-3 {border-color: rgb(102, 173, 255);}
+[class~='border-blue-3'] {border-color: rgb(128, 187, 255);}
 
-.blue-4 {color: rgb(51, 146, 255);}
+[class~='blue-4'] {color: rgb(191, 221, 255);}
 
-.bg-blue-4 {background-color: rgb(51, 146, 255);}
+[class~='bg-blue-4'] {background-color: rgb(191, 221, 255);}
 
-.border-blue-4 {border-color: rgb(51, 146, 255);}
+[class~='border-blue-4'] {border-color: rgb(191, 221, 255);}
 
-.blue-5 {color: rgb(0, 119, 255);}
+[class~='blue-5'] {color: rgb(230, 241, 255);}
 
-.bg-blue-5 {background-color: rgb(0, 119, 255);}
+[class~='bg-blue-5'] {background-color: rgb(230, 241, 255);}
 
-.border-blue-5 {border-color: rgb(0, 119, 255);}
+[class~='border-blue-5'] {border-color: rgb(230, 241, 255);}
 
-.blue-6 {color: rgb(0, 95, 204);}
+[class~='blue+1'] {color: rgb(0, 107, 230);}
 
-.bg-blue-6 {background-color: rgb(0, 95, 204);}
+[class~='bg-blue+1'] {background-color: rgb(0, 107, 230);}
 
-.border-blue-6 {border-color: rgb(0, 95, 204);}
+[class~='border-blue+1'] {border-color: rgb(0, 107, 230);}
 
-.blue-7 {color: rgb(0, 71, 153);}
+[class~='blue+2'] {color: rgb(0, 89, 191);}
 
-.bg-blue-7 {background-color: rgb(0, 71, 153);}
+[class~='bg-blue+2'] {background-color: rgb(0, 89, 191);}
 
-.border-blue-7 {border-color: rgb(0, 71, 153);}
+[class~='border-blue+2'] {border-color: rgb(0, 89, 191);}
 
-.blue-8 {color: rgb(0, 48, 102);}
+[class~='blue+3'] {color: rgb(0, 60, 128);}
 
-.bg-blue-8 {background-color: rgb(0, 48, 102);}
+[class~='bg-blue+3'] {background-color: rgb(0, 60, 128);}
 
-.border-blue-8 {border-color: rgb(0, 48, 102);}
+[class~='border-blue+3'] {border-color: rgb(0, 60, 128);}
 
-.blue-9 {color: rgb(0, 24, 51);}
+[class~='blue+4'] {color: rgb(0, 30, 64);}
 
-.bg-blue-9 {background-color: rgb(0, 24, 51);}
+[class~='bg-blue+4'] {background-color: rgb(0, 30, 64);}
 
-.border-blue-9 {border-color: rgb(0, 24, 51);}
+[class~='border-blue+4'] {border-color: rgb(0, 30, 64);}
+
+[class~='blue+5'] {color: rgb(0, 12, 25);}
+
+[class~='bg-blue+5'] {background-color: rgb(0, 12, 25);}
+
+[class~='border-blue+5'] {border-color: rgb(0, 12, 25);}
 
 /* purple */
 
-.purple {color: #994fd7;}
+[class~='purple'] {color: rgb(153, 79, 215);}
 
-.bg-purple {background-color: #994fd7;}
+[class~='bg-purple'] {background-color: rgb(153, 79, 215);}
 
-.border-purple {border-color: #994fd7;}
+[class~='border-purple'] {border-color: rgb(153, 79, 215);}
 
-.purple-1 {color: rgb(235, 220, 247);}
+[class~='purple-1'] {color: rgb(163, 97, 219);}
 
-.bg-purple-1 {background-color: rgb(235, 220, 247);}
+[class~='bg-purple-1'] {background-color: rgb(163, 97, 219);}
 
-.border-purple-1 {border-color: rgb(235, 220, 247);}
+[class~='border-purple-1'] {border-color: rgb(163, 97, 219);}
 
-.purple-2 {color: rgb(214, 185, 239);}
+[class~='purple-2'] {color: rgb(179, 123, 225);}
 
-.bg-purple-2 {background-color: rgb(214, 185, 239);}
+[class~='bg-purple-2'] {background-color: rgb(179, 123, 225);}
 
-.border-purple-2 {border-color: rgb(214, 185, 239);}
+[class~='border-purple-2'] {border-color: rgb(179, 123, 225);}
 
-.purple-3 {color: rgb(194, 149, 231);}
+[class~='purple-3'] {color: rgb(204, 167, 235);}
 
-.bg-purple-3 {background-color: rgb(194, 149, 231);}
+[class~='bg-purple-3'] {background-color: rgb(204, 167, 235);}
 
-.border-purple-3 {border-color: rgb(194, 149, 231);}
+[class~='border-purple-3'] {border-color: rgb(204, 167, 235);}
 
-.purple-4 {color: rgb(173, 114, 223);}
+[class~='purple-4'] {color: rgb(230, 211, 245);}
 
-.bg-purple-4 {background-color: rgb(173, 114, 223);}
+[class~='bg-purple-4'] {background-color: rgb(230, 211, 245);}
 
-.border-purple-4 {border-color: rgb(173, 114, 223);}
+[class~='border-purple-4'] {border-color: rgb(230, 211, 245);}
 
-.purple-5 {color: rgb(153, 79, 215);}
+[class~='purple-5'] {color: rgb(245, 237, 251);}
 
-.bg-purple-5 {background-color: rgb(153, 79, 215);}
+[class~='bg-purple-5'] {background-color: rgb(245, 237, 251);}
 
-.border-purple-5 {border-color: rgb(153, 79, 215);}
+[class~='border-purple-5'] {border-color: rgb(245, 237, 251);}
 
-.purple-6 {color: rgb(122, 63, 172);}
+[class~='purple+1'] {color: rgb(138, 71, 194);}
 
-.bg-purple-6 {background-color: rgb(122, 63, 172);}
+[class~='bg-purple+1'] {background-color: rgb(138, 71, 194);}
 
-.border-purple-6 {border-color: rgb(122, 63, 172);}
+[class~='border-purple+1'] {border-color: rgb(138, 71, 194);}
 
-.purple-7 {color: rgb(92, 47, 129);}
+[class~='purple+2'] {color: rgb(115, 59, 161);}
 
-.bg-purple-7 {background-color: rgb(92, 47, 129);}
+[class~='bg-purple+2'] {background-color: rgb(115, 59, 161);}
 
-.border-purple-7 {border-color: rgb(92, 47, 129);}
+[class~='border-purple+2'] {border-color: rgb(115, 59, 161);}
 
-.purple-8 {color: rgb(61, 32, 86);}
+[class~='purple+3'] {color: rgb(77, 40, 108);}
 
-.bg-purple-8 {background-color: rgb(61, 32, 86);}
+[class~='bg-purple+3'] {background-color: rgb(77, 40, 108);}
 
-.border-purple-8 {border-color: rgb(61, 32, 86);}
+[class~='border-purple+3'] {border-color: rgb(77, 40, 108);}
 
-.purple-9 {color: rgb(31, 16, 43);}
+[class~='purple+4'] {color: rgb(38, 20, 54);}
 
-.bg-purple-9 {background-color: rgb(31, 16, 43);}
+[class~='bg-purple+4'] {background-color: rgb(38, 20, 54);}
 
-.border-purple-9 {border-color: rgb(31, 16, 43);}
+[class~='border-purple+4'] {border-color: rgb(38, 20, 54);}
+
+[class~='purple+5'] {color: rgb(15, 8, 21);}
+
+[class~='bg-purple+5'] {background-color: rgb(15, 8, 21);}
+
+[class~='border-purple+5'] {border-color: rgb(15, 8, 21);}
 
 /* magenta */
 
-.magenta {color: #ff35a0;}
+[class~='magenta'] {color: rgb(255, 53, 160);}
 
-.bg-magenta {background-color: #ff35a0;}
+[class~='bg-magenta'] {background-color: rgb(255, 53, 160);}
 
-.border-magenta {border-color: #ff35a0;}
+[class~='border-magenta'] {border-color: rgb(255, 53, 160);}
 
-.magenta-1 {color: rgb(255, 215, 236);}
+[class~='magenta-1'] {color: rgb(255, 73, 170);}
 
-.bg-magenta-1 {background-color: rgb(255, 215, 236);}
+[class~='bg-magenta-1'] {background-color: rgb(255, 73, 170);}
 
-.border-magenta-1 {border-color: rgb(255, 215, 236);}
+[class~='border-magenta-1'] {border-color: rgb(255, 73, 170);}
 
-.magenta-2 {color: rgb(255, 174, 217);}
+[class~='magenta-2'] {color: rgb(255, 104, 184);}
 
-.bg-magenta-2 {background-color: rgb(255, 174, 217);}
+[class~='bg-magenta-2'] {background-color: rgb(255, 104, 184);}
 
-.border-magenta-2 {border-color: rgb(255, 174, 217);}
+[class~='border-magenta-2'] {border-color: rgb(255, 104, 184);}
 
-.magenta-3 {color: rgb(255, 134, 198);}
+[class~='magenta-3'] {color: rgb(255, 154, 208);}
 
-.bg-magenta-3 {background-color: rgb(255, 134, 198);}
+[class~='bg-magenta-3'] {background-color: rgb(255, 154, 208);}
 
-.border-magenta-3 {border-color: rgb(255, 134, 198);}
+[class~='border-magenta-3'] {border-color: rgb(255, 154, 208);}
 
-.magenta-4 {color: rgb(255, 93, 179);}
+[class~='magenta-4'] {color: rgb(255, 205, 231);}
 
-.bg-magenta-4 {background-color: rgb(255, 93, 179);}
+[class~='bg-magenta-4'] {background-color: rgb(255, 205, 231);}
 
-.border-magenta-4 {border-color: rgb(255, 93, 179);}
+[class~='border-magenta-4'] {border-color: rgb(255, 205, 231);}
 
-.magenta-5 {color: rgb(255, 53, 160);}
+[class~='magenta-5'] {color: rgb(255, 235, 246);}
 
-.bg-magenta-5 {background-color: rgb(255, 53, 160);}
+[class~='bg-magenta-5'] {background-color: rgb(255, 235, 246);}
 
-.border-magenta-5 {border-color: rgb(255, 53, 160);}
+[class~='border-magenta-5'] {border-color: rgb(255, 235, 246);}
 
-.magenta-6 {color: rgb(204, 42, 128);}
+[class~='magenta+1'] {color: rgb(230, 48, 144);}
 
-.bg-magenta-6 {background-color: rgb(204, 42, 128);}
+[class~='bg-magenta+1'] {background-color: rgb(230, 48, 144);}
 
-.border-magenta-6 {border-color: rgb(204, 42, 128);}
+[class~='border-magenta+1'] {border-color: rgb(230, 48, 144);}
 
-.magenta-7 {color: rgb(153, 32, 96);}
+[class~='magenta+2'] {color: rgb(191, 40, 120);}
 
-.bg-magenta-7 {background-color: rgb(153, 32, 96);}
+[class~='bg-magenta+2'] {background-color: rgb(191, 40, 120);}
 
-.border-magenta-7 {border-color: rgb(153, 32, 96);}
+[class~='border-magenta+2'] {border-color: rgb(191, 40, 120);}
 
-.magenta-8 {color: rgb(102, 21, 64);}
+[class~='magenta+3'] {color: rgb(128, 27, 80);}
 
-.bg-magenta-8 {background-color: rgb(102, 21, 64);}
+[class~='bg-magenta+3'] {background-color: rgb(128, 27, 80);}
 
-.border-magenta-8 {border-color: rgb(102, 21, 64);}
+[class~='border-magenta+3'] {border-color: rgb(128, 27, 80);}
 
-.magenta-9 {color: rgb(51, 11, 32);}
+[class~='magenta+4'] {color: rgb(64, 13, 40);}
 
-.bg-magenta-9 {background-color: rgb(51, 11, 32);}
+[class~='bg-magenta+4'] {background-color: rgb(64, 13, 40);}
 
-.border-magenta-9 {border-color: rgb(51, 11, 32);}
+[class~='border-magenta+4'] {border-color: rgb(64, 13, 40);}
+
+[class~='magenta+5'] {color: rgb(25, 5, 16);}
+
+[class~='bg-magenta+5'] {background-color: rgb(25, 5, 16);}
+
+[class~='border-magenta+5'] {border-color: rgb(25, 5, 16);}
 
 /* red */
 
-.red {color: #e9222b;}
+[class~='red'] {color: rgb(233, 34, 43);}
 
-.bg-red {background-color: #e9222b;}
+[class~='bg-red'] {background-color: rgb(233, 34, 43);}
 
-.border-red {border-color: #e9222b;}
+[class~='border-red'] {border-color: rgb(233, 34, 43);}
 
-.red-1 {color: rgb(251, 211, 213);}
+[class~='red-1'] {color: rgb(235, 56, 64);}
 
-.bg-red-1 {background-color: rgb(251, 211, 213);}
+[class~='bg-red-1'] {background-color: rgb(235, 56, 64);}
 
-.border-red-1 {border-color: rgb(251, 211, 213);}
+[class~='border-red-1'] {border-color: rgb(235, 56, 64);}
 
-.red-2 {color: rgb(246, 167, 170);}
+[class~='red-2'] {color: rgb(239, 89, 96);}
 
-.bg-red-2 {background-color: rgb(246, 167, 170);}
+[class~='bg-red-2'] {background-color: rgb(239, 89, 96);}
 
-.border-red-2 {border-color: rgb(246, 167, 170);}
+[class~='border-red-2'] {border-color: rgb(239, 89, 96);}
 
-.red-3 {color: rgb(242, 122, 128);}
+[class~='red-3'] {color: rgb(244, 145, 149);}
 
-.bg-red-3 {background-color: rgb(242, 122, 128);}
+[class~='bg-red-3'] {background-color: rgb(244, 145, 149);}
 
-.border-red-3 {border-color: rgb(242, 122, 128);}
+[class~='border-red-3'] {border-color: rgb(244, 145, 149);}
 
-.red-4 {color: rgb(237, 78, 85);}
+[class~='red-4'] {color: rgb(250, 200, 202);}
 
-.bg-red-4 {background-color: rgb(237, 78, 85);}
+[class~='bg-red-4'] {background-color: rgb(250, 200, 202);}
 
-.border-red-4 {border-color: rgb(237, 78, 85);}
+[class~='border-red-4'] {border-color: rgb(250, 200, 202);}
 
-.red-5 {color: rgb(233, 34, 43);}
+[class~='red-5'] {color: rgb(253, 233, 234);}
 
-.bg-red-5 {background-color: rgb(233, 34, 43);}
+[class~='bg-red-5'] {background-color: rgb(253, 233, 234);}
 
-.border-red-5 {border-color: rgb(233, 34, 43);}
+[class~='border-red-5'] {border-color: rgb(253, 233, 234);}
 
-.red-6 {color: rgb(186, 27, 34);}
+[class~='red+1'] {color: rgb(210, 31, 39);}
 
-.bg-red-6 {background-color: rgb(186, 27, 34);}
+[class~='bg-red+1'] {background-color: rgb(210, 31, 39);}
 
-.border-red-6 {border-color: rgb(186, 27, 34);}
+[class~='border-red+1'] {border-color: rgb(210, 31, 39);}
 
-.red-7 {color: rgb(140, 20, 26);}
+[class~='red+2'] {color: rgb(175, 26, 32);}
 
-.bg-red-7 {background-color: rgb(140, 20, 26);}
+[class~='bg-red+2'] {background-color: rgb(175, 26, 32);}
 
-.border-red-7 {border-color: rgb(140, 20, 26);}
+[class~='border-red+2'] {border-color: rgb(175, 26, 32);}
 
-.red-8 {color: rgb(93, 14, 17);}
+[class~='red+3'] {color: rgb(117, 17, 22);}
 
-.bg-red-8 {background-color: rgb(93, 14, 17);}
+[class~='bg-red+3'] {background-color: rgb(117, 17, 22);}
 
-.border-red-8 {border-color: rgb(93, 14, 17);}
+[class~='border-red+3'] {border-color: rgb(117, 17, 22);}
 
-.red-9 {color: rgb(47, 7, 9);}
+[class~='red+4'] {color: rgb(58, 9, 11);}
 
-.bg-red-9 {background-color: rgb(47, 7, 9);}
+[class~='bg-red+4'] {background-color: rgb(58, 9, 11);}
 
-.border-red-9 {border-color: rgb(47, 7, 9);}
+[class~='border-red+4'] {border-color: rgb(58, 9, 11);}
+
+[class~='red+5'] {color: rgb(23, 3, 4);}
+
+[class~='bg-red+5'] {background-color: rgb(23, 3, 4);}
+
+[class~='border-red+5'] {border-color: rgb(23, 3, 4);}
 
 /* orange */
 
-.orange {color: #ff7822;}
+[class~='orange'] {color: rgb(255, 120, 34);}
 
-.bg-orange {background-color: #ff7822;}
+[class~='bg-orange'] {background-color: rgb(255, 120, 34);}
 
-.border-orange {border-color: #ff7822;}
+[class~='border-orange'] {border-color: rgb(255, 120, 34);}
 
-.orange-1 {color: rgb(255, 228, 211);}
+[class~='orange-1'] {color: rgb(255, 134, 56);}
 
-.bg-orange-1 {background-color: rgb(255, 228, 211);}
+[class~='bg-orange-1'] {background-color: rgb(255, 134, 56);}
 
-.border-orange-1 {border-color: rgb(255, 228, 211);}
+[class~='border-orange-1'] {border-color: rgb(255, 134, 56);}
 
-.orange-2 {color: rgb(255, 201, 167);}
+[class~='orange-2'] {color: rgb(255, 154, 89);}
 
-.bg-orange-2 {background-color: rgb(255, 201, 167);}
+[class~='bg-orange-2'] {background-color: rgb(255, 154, 89);}
 
-.border-orange-2 {border-color: rgb(255, 201, 167);}
+[class~='border-orange-2'] {border-color: rgb(255, 154, 89);}
 
-.orange-3 {color: rgb(255, 174, 122);}
+[class~='orange-3'] {color: rgb(255, 188, 145);}
 
-.bg-orange-3 {background-color: rgb(255, 174, 122);}
+[class~='bg-orange-3'] {background-color: rgb(255, 188, 145);}
 
-.border-orange-3 {border-color: rgb(255, 174, 122);}
+[class~='border-orange-3'] {border-color: rgb(255, 188, 145);}
 
-.orange-4 {color: rgb(255, 147, 78);}
+[class~='orange-4'] {color: rgb(255, 221, 200);}
 
-.bg-orange-4 {background-color: rgb(255, 147, 78);}
+[class~='bg-orange-4'] {background-color: rgb(255, 221, 200);}
 
-.border-orange-4 {border-color: rgb(255, 147, 78);}
+[class~='border-orange-4'] {border-color: rgb(255, 221, 200);}
 
-.orange-5 {color: rgb(255, 120, 34);}
+[class~='orange-5'] {color: rgb(255, 242, 233);}
 
-.bg-orange-5 {background-color: rgb(255, 120, 34);}
+[class~='bg-orange-5'] {background-color: rgb(255, 242, 233);}
 
-.border-orange-5 {border-color: rgb(255, 120, 34);}
+[class~='border-orange-5'] {border-color: rgb(255, 242, 233);}
 
-.orange-6 {color: rgb(204, 96, 27);}
+[class~='orange+1'] {color: rgb(230, 108, 31);}
 
-.bg-orange-6 {background-color: rgb(204, 96, 27);}
+[class~='bg-orange+1'] {background-color: rgb(230, 108, 31);}
 
-.border-orange-6 {border-color: rgb(204, 96, 27);}
+[class~='border-orange+1'] {border-color: rgb(230, 108, 31);}
 
-.orange-7 {color: rgb(153, 72, 20);}
+[class~='orange+2'] {color: rgb(191, 90, 26);}
 
-.bg-orange-7 {background-color: rgb(153, 72, 20);}
+[class~='bg-orange+2'] {background-color: rgb(191, 90, 26);}
 
-.border-orange-7 {border-color: rgb(153, 72, 20);}
+[class~='border-orange+2'] {border-color: rgb(191, 90, 26);}
 
-.orange-8 {color: rgb(102, 48, 14);}
+[class~='orange+3'] {color: rgb(128, 60, 17);}
 
-.bg-orange-8 {background-color: rgb(102, 48, 14);}
+[class~='bg-orange+3'] {background-color: rgb(128, 60, 17);}
 
-.border-orange-8 {border-color: rgb(102, 48, 14);}
+[class~='border-orange+3'] {border-color: rgb(128, 60, 17);}
 
-.orange-9 {color: rgb(51, 24, 7);}
+[class~='orange+4'] {color: rgb(64, 30, 9);}
 
-.bg-orange-9 {background-color: rgb(51, 24, 7);}
+[class~='bg-orange+4'] {background-color: rgb(64, 30, 9);}
 
-.border-orange-9 {border-color: rgb(51, 24, 7);}
+[class~='border-orange+4'] {border-color: rgb(64, 30, 9);}
+
+[class~='orange+5'] {color: rgb(25, 12, 3);}
+
+[class~='bg-orange+5'] {background-color: rgb(25, 12, 3);}
+
+[class~='border-orange+5'] {border-color: rgb(25, 12, 3);}
 
 /* gray */
 
-.gray {color: #808080;}
+[class~='gray'] {color: rgb(128, 128, 128);}
 
-.bg-gray {background-color: #808080;}
+[class~='bg-gray'] {background-color: rgb(128, 128, 128);}
 
-.border-gray {border-color: #808080;}
+[class~='border-gray'] {border-color: rgb(128, 128, 128);}
 
-.gray-1 {color: rgb(230, 230, 230);}
+[class~='gray-1'] {color: rgb(141, 141, 141);}
 
-.bg-gray-1 {background-color: rgb(230, 230, 230);}
+[class~='bg-gray-1'] {background-color: rgb(141, 141, 141);}
 
-.border-gray-1 {border-color: rgb(230, 230, 230);}
+[class~='border-gray-1'] {border-color: rgb(141, 141, 141);}
 
-.gray-2 {color: rgb(204, 204, 204);}
+[class~='gray-2'] {color: rgb(160, 160, 160);}
 
-.bg-gray-2 {background-color: rgb(204, 204, 204);}
+[class~='bg-gray-2'] {background-color: rgb(160, 160, 160);}
 
-.border-gray-2 {border-color: rgb(204, 204, 204);}
+[class~='border-gray-2'] {border-color: rgb(160, 160, 160);}
 
-.gray-3 {color: rgb(179, 179, 179);}
+[class~='gray-3'] {color: rgb(192, 192, 192);}
 
-.bg-gray-3 {background-color: rgb(179, 179, 179);}
+[class~='bg-gray-3'] {background-color: rgb(192, 192, 192);}
 
-.border-gray-3 {border-color: rgb(179, 179, 179);}
+[class~='border-gray-3'] {border-color: rgb(192, 192, 192);}
 
-.gray-4 {color: rgb(153, 153, 153);}
+[class~='gray-4'] {color: rgb(223, 223, 223);}
 
-.bg-gray-4 {background-color: rgb(153, 153, 153);}
+[class~='bg-gray-4'] {background-color: rgb(223, 223, 223);}
 
-.border-gray-4 {border-color: rgb(153, 153, 153);}
+[class~='border-gray-4'] {border-color: rgb(223, 223, 223);}
 
-.gray-5 {color: rgb(128, 128, 128);}
+[class~='gray-5'] {color: rgb(242, 242, 242);}
 
-.bg-gray-5 {background-color: rgb(128, 128, 128);}
+[class~='bg-gray-5'] {background-color: rgb(242, 242, 242);}
 
-.border-gray-5 {border-color: rgb(128, 128, 128);}
+[class~='border-gray-5'] {border-color: rgb(242, 242, 242);}
 
-.gray-6 {color: rgb(102, 102, 102);}
+[class~='gray+1'] {color: rgb(115, 115, 115);}
 
-.bg-gray-6 {background-color: rgb(102, 102, 102);}
+[class~='bg-gray+1'] {background-color: rgb(115, 115, 115);}
 
-.border-gray-6 {border-color: rgb(102, 102, 102);}
+[class~='border-gray+1'] {border-color: rgb(115, 115, 115);}
 
-.gray-7 {color: rgb(77, 77, 77);}
+[class~='gray+2'] {color: rgb(96, 96, 96);}
 
-.bg-gray-7 {background-color: rgb(77, 77, 77);}
+[class~='bg-gray+2'] {background-color: rgb(96, 96, 96);}
 
-.border-gray-7 {border-color: rgb(77, 77, 77);}
+[class~='border-gray+2'] {border-color: rgb(96, 96, 96);}
 
-.gray-8 {color: rgb(51, 51, 51);}
+[class~='gray+3'] {color: rgb(64, 64, 64);}
 
-.bg-gray-8 {background-color: rgb(51, 51, 51);}
+[class~='bg-gray+3'] {background-color: rgb(64, 64, 64);}
 
-.border-gray-8 {border-color: rgb(51, 51, 51);}
+[class~='border-gray+3'] {border-color: rgb(64, 64, 64);}
 
-.gray-9 {color: rgb(26, 26, 26);}
+[class~='gray+4'] {color: rgb(32, 32, 32);}
 
-.bg-gray-9 {background-color: rgb(26, 26, 26);}
+[class~='bg-gray+4'] {background-color: rgb(32, 32, 32);}
 
-.border-gray-9 {border-color: rgb(26, 26, 26);}
+[class~='border-gray+4'] {border-color: rgb(32, 32, 32);}
+
+[class~='gray+5'] {color: rgb(13, 13, 13);}
+
+[class~='bg-gray+5'] {background-color: rgb(13, 13, 13);}
+
+[class~='border-gray+5'] {border-color: rgb(13, 13, 13);}
 
 .black, .yellow-10, .green-10, .teal-10, .blue-10, .purple-10, .magenta-10, .red-10, .orange-10, .gray-10 {color: #000000;}
 
@@ -1796,231 +1850,7 @@ COLORS
 
 .bg-inherit{background-color: inherit;}
 
-/*------------------------------------*\
-COLORS
-\*------------------------------------*/
-
-/* Yellow */
-
-.link-yellow a{color: #fed700;}
-
-.link-yellow-1 a{color: rgb(255, 247, 204);}
-
-.link-yellow-2 a{color: rgb(255, 239, 153);}
-
-.link-yellow-3 a{color: rgb(254, 231, 102);}
-
-.link-yellow-4 a{color: rgb(254, 223, 51);}
-
-.link-yellow-5 a{color: rgb(254, 215, 0);}
-
-.link-yellow-6 a{color: rgb(203, 172, 0);}
-
-.link-yellow-7 a{color: rgb(152, 129, 0);}
-
-.link-yellow-8 a{color: rgb(102, 86, 0);}
-
-.link-yellow-9 a{color: rgb(51, 43, 0);}
-
-/* Green */
-
-.link-green a{color: #8ad400;}
-
-.link-green-1 a{color: rgb(232, 246, 204);}
-
-.link-green-2 a{color: rgb(208, 238, 153);}
-
-.link-green-3 a{color: rgb(185, 229, 102);}
-
-.link-green-4 a{color: rgb(161, 221, 51);}
-
-.link-green-5 a{color: rgb(138, 212, 0);}
-
-.link-green-6 a{color: rgb(110, 170, 0);}
-
-.link-green-7 a{color: rgb(83, 127, 0);}
-
-.link-green-8 a{color: rgb(55, 85, 0);}
-
-.link-green-9 a{color: rgb(28, 42, 0);}
-
-/* Teal */
-
-.link-teal a{color: #00b4a0;}
-
-.link-teal-1 a{color: rgb(204, 240, 236);}
-
-.link-teal-2 a{color: rgb(153, 225, 217);}
-
-.link-teal-3 a{color: rgb(102, 210, 198);}
-
-.link-teal-4 a{color: rgb(51, 195, 179);}
-
-.link-teal-5 a{color: rgb(0, 180, 160);}
-
-.link-teal-6 a{color: rgb(0, 144, 128);}
-
-.link-teal-7 a{color: rgb(0, 108, 96);}
-
-.link-teal-8 a{color: rgb(0, 72, 64);}
-
-.link-teal-9 a{color: rgb(0, 36, 32);}
-
-/* Blue */
-
-.link-blue a{color: #0077FF;}
-
-.link-blue-1 a{color: rgb(204, 228, 255);}
-
-.link-blue-2 a{color: rgb(153, 201, 255);}
-
-.link-blue-3 a{color: rgb(102, 173, 255);}
-
-.link-blue-4 a{color: rgb(51, 146, 255);}
-
-.link-blue-5 a{color: rgb(0, 119, 255);}
-
-.link-blue-6 a{color: rgb(0, 95, 204);}
-
-.link-blue-7 a{color: rgb(0, 71, 153);}
-
-.link-blue-8 a{color: rgb(0, 48, 102);}
-
-.link-blue-9 a{color: rgb(0, 24, 51);}
-
-/* Purple */
-
-.link-purple a{color: #994fd7;}
-
-.link-purple-1 a{color: rgb(235, 220, 247);}
-
-.link-purple-2 a{color: rgb(214, 185, 239);}
-
-.link-purple-3 a{color: rgb(194, 149, 231);}
-
-.link-purple-4 a{color: rgb(173, 114, 223);}
-
-.link-purple-5 a{color: rgb(153, 79, 215);}
-
-.link-purple-6 a{color: rgb(122, 63, 172);}
-
-.link-purple-7 a{color: rgb(92, 47, 129);}
-
-.link-purple-8 a{color: rgb(61, 32, 86);}
-
-.link-purple-9 a{color: rgb(31, 16, 43);}
-
-/* Magenta */
-
-.link-magenta a{color: #ff35a0;}
-
-.link-magenta-1 a{color: rgb(255, 215, 236);}
-
-.link-magenta-2 a{color: rgb(255, 174, 217);}
-
-.link-magenta-3 a{color: rgb(255, 134, 198);}
-
-.link-magenta-4 a{color: rgb(255, 93, 179);}
-
-.link-magenta-5 a{color: rgb(255, 53, 160);}
-
-.link-magenta-6 a{color: rgb(204, 42, 128);}
-
-.link-magenta-7 a{color: rgb(153, 32, 96);}
-
-.link-magenta-8 a{color: rgb(102, 21, 64);}
-
-.link-magenta-9 a{color: rgb(51, 11, 32);}
-
-/* Red */
-
-.link-red a{color: #e9222b;}
-
-.link-red-1 a{color: rgb(251, 211, 213);}
-
-.link-red-2 a{color: rgb(246, 167, 170);}
-
-.link-red-3 a{color: rgb(242, 122, 128);}
-
-.link-red-4 a{color: rgb(237, 78, 85);}
-
-.link-red-5 a{color: rgb(233, 34, 43);}
-
-.link-red-6 a{color: rgb(186, 27, 34);}
-
-.link-red-7 a{color: rgb(140, 20, 26);}
-
-.link-red-8 a{color: rgb(93, 14, 17);}
-
-.link-red-9 a{color: rgb(47, 7, 9);}
-
-/* Orange */
-
-.link-orange a{color: #ff7822;}
-
-.link-orange-1 a{color: rgb(255, 228, 211);}
-
-.link-orange-2 a{color: rgb(255, 201, 167);}
-
-.link-orange-3 a{color: rgb(255, 174, 122);}
-
-.link-orange-4 a{color: rgb(255, 147, 78);}
-
-.link-orange-5 a{color: rgb(255, 120, 34);}
-
-.link-orange-6 a{color: rgb(204, 96, 27);}
-
-.link-orange-7 a{color: rgb(153, 72, 20);}
-
-.link-orange-8 a{color: rgb(102, 48, 14);}
-
-.link-orange-9 a{color: rgb(51, 24, 7);}
-
-/* Gray */
-
-.link-gray a{color: #808080;}
-
-.link-gray-1 a{color: rgb(230, 230, 230);}
-
-.link-gray-2 a{color: rgb(204, 204, 204);}
-
-.link-gray-3 a{color: rgb(179, 179, 179);}
-
-.link-gray-4 a{color: rgb(153, 153, 153);}
-
-.link-gray-5 a{color: rgb(128, 128, 128);}
-
-.link-gray-6 a{color: rgb(102, 102, 102);}
-
-.link-gray-7 a{color: rgb(77, 77, 77);}
-
-.link-gray-8 a{color: rgb(51, 51, 51);}
-
-.link-gray-9 a{color: rgb(26, 26, 26);}
-
-/* Black */
-
-.link-yellow-10 a,
-.link-green-10 a,
-.link-teal-10 a,
-.link-blue-10 a,
-.link-purple-10 a,
-.link-magenta-10 a,
-.link-red-10 a,
-.link-orange-10 a,
-.link-gray-10 a {color: #000000;}
-
-/* White */
-
-.link-yellow-0 a,
-.link-green-0 a,
-.link-teal-0 a,
-.link-blue-0 a,
-.link-purple-0 a,
-.link-magenta-0 a,
-.link-red-0 a,
-.link-orange-0 a,
-.link-gray-0 a {color: #ffffff;}
+/*@import url('linkcolor-module.css');*/
 
 .darken-1{color: rgba(0, 0, 0, 0.12);}
 
@@ -2070,7 +1900,7 @@ COLORS
 
 .border-lighten-4{border-color: rgba(255, 255, 255, 0.75);}
 
-.translucent-dark{background: rgba(51, 51, 51, 0.97);}
+.translucent-dark{background: rgba(0, 0, 0, 0.97);}
 
 .translucent{background: rgba(255, 255, 255, 0.97);}
 
