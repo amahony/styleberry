@@ -546,17 +546,14 @@ COLORS
 [class~='border-gray+5'] {border-color: var(--gray5);}
 
 
+.black{color: var(--black);}
+.bg-black{background-color: var(--black);}
+.border-black {border-color: var(--black);}
 
-
-.black, .yellow-10, .green-10, .teal-10, .blue-10, .purple-10, .magenta-10, .red-10, .orange-10, .gray-10 {color: var(--black);}
-.bg-black, .bg-yellow-10, .bg-green-10, .bg-teal-10, .bg-blue-10, .bg-purple-10, .bg-magenta-10, .bg-red-10, .bg-orange-10, .bg-gray-10 {background-color: var(--black);}
-.border-black, .border-yellow-10, .border-green-10, .border-teal-10, .border-blue-10, .border-purple-10, .border-magenta-10, .border-red-10, .border-orange-10, .border-gray-10 {border-color: var(--black);}
-
-.white, .yellow-0, .green-0, .teal-0, .blue-0, .purple-0, .magenta-0, .red-0, .orange-0, .gray-0 {color: var(--white);}
-.bg-white, .bg-yellow-0, .bg-green-0, .bg-teal-0, .bg-blue-0, .bg-purple-0, .bg-magenta-0, .bg-red-0, .bg-orange-0, .bg-gray-0 {background-color: var(--white);}
-.border-white,.border-yellow-0, .border-green-0, .border-teal-0, .border-blue-0, .border-purple-0, .border-magenta-0, .border-red-0, .border-orange-0, .border-gray-0 {border-color: var(--white);}
+.white {color: var(--white);}
+.bg-white{background-color: var(--white);}
+.border-white {border-color: var(--white);}
 
 .color-inherit{color: inherit;}
-.bg-color-inherit{background-color: inherit;}
-.border-color-inherit{border-color: inherit;}
 .bg-inherit{background-color: inherit;}
+.border-inherit{border-color: inherit;}
