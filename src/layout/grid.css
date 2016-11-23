@@ -1,20 +1,40 @@
 
+
+[class~='width+1']{ width: 10%;}
+[class~='width+2']{ width: 20%;}
+[class~='width+3']{ width: 30%;}
+[class~='width+4']{ width: 40%;}
+[class~='width+5']{ width: 50%;}
+[class~='width+6']{ width: 60%;}
+[class~='width+7']{ width: 70%;}
+[class~='width+8']{ width: 80%;}
+[class~='width+9']{ width: 90%;}
+[class~='width+10']{ width: 100%;}
+
+
+
+[class~='ratio1:1'],
+[class~='ratio2:2'],
+[class~='ratio3:3'],
+[class~='ratio4:4'],
+
+{ width: calc(100% / 1);}
+
+[class~='ratio1:2'],
+[class~='ratio2:4'],
+[class~='ratio3:6']{ width: calc(100% / 2);}
+
+[class~='ratio1:3']{ width: calc(100% / 3);}
+[class~='ratio2:3']{ width: calc(100% / 1.5);}
+
+[class~='ratio1:4']{ width: calc(100% / 4);}
+[class~='ratio3:4']{ width: calc(100% / .75);}
+
+
+
+
 /* Grid */
 
-.container {
-  max-width: 64em;
-  margin-left: auto;
-  margin-right: auto;
-}
-.col {
-  float: left;
-  box-sizing: border-box;
-}
-
-.col-right {
-  float: right;
-  box-sizing: border-box;
-}
 
 .col-1 {
   width: 8.33333%;
