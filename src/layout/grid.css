@@ -1,5 +1,4 @@
-
-
+/* interval scale */
 [class~='width+1']{ width: 10%;}
 [class~='width+2']{ width: 20%;}
 [class~='width+3']{ width: 30%;}
@@ -11,31 +10,80 @@
 [class~='width+9']{ width: 90%;}
 [class~='width+10']{ width: 100%;}
 
-
-
+/* ratio scale */
 [class~='ratio1:1'],
 [class~='ratio2:2'],
 [class~='ratio3:3'],
 [class~='ratio4:4'],
-
-{ width: calc(100% / 1);}
+[class~='ratio5:5'],
+[class~='ratio6:6'],
+[class~='ratio7:7'],
+[class~='ratio8:8'],
+[class~='ratio9:9'],
+[class~='ratio10:10']{ width: 100%;}
 
 [class~='ratio1:2'],
 [class~='ratio2:4'],
-[class~='ratio3:6']{ width: calc(100% / 2);}
+[class~='ratio3:6'],
+[class~='ratio4:8'],
+[class~='ratio5:10']{ width: calc(100% / 2);}
 
-[class~='ratio1:3']{ width: calc(100% / 3);}
-[class~='ratio2:3']{ width: calc(100% / 1.5);}
+[class~='ratio1:3'],
+[class~='ratio2:6'],
+[class~='ratio3:9'],
+[class~='ratio3:10']{ width: calc(100% / 3);}
 
-[class~='ratio1:4']{ width: calc(100% / 4);}
-[class~='ratio3:4']{ width: calc(100% / .75);}
+[class~='ratio2:3'],
+[class~='ratio4:6'],
+[class~='ratio6:9']{ width: calc(100% / (3 / 2));}
 
+[class~='ratio1:4'],
+[class~='ratio2:8']{ width: calc(100% / 4);}
 
+[class~='ratio3:4'],
+[class~='ratio6:8']{ width: calc(100% / (4 / 3));}
 
+[class~='ratio1:5'],
+[class~='ratio2:10']{ width: calc(100% / 5);}
+
+[class~='ratio2:5'],
+[class~='ratio4:10']{ width: calc(100% / (5 / 2));}
+
+[class~='ratio3:5'],
+[class~='ratio6:10']{ width: calc(100% / (5 / 3));}
+
+[class~='ratio4:5'],
+[class~='ratio8:10']{ width: calc(100% / (5 / 4));}
+
+[class~='ratio1:6']{ width: calc(100% / 6);}
+[class~='ratio5:6']{ width: calc(100% / (6 / 5));}
+
+[class~='ratio1:7']{ width: calc(100% / 7);}
+[class~='ratio2:7']{ width: calc(100% / (7 / 2));}
+[class~='ratio3:7']{ width: calc(100% / (7 / 3));}
+[class~='ratio4:7']{ width: calc(100% / (7 / 4));}
+[class~='ratio5:7']{ width: calc(100% / (7 / 5));}
+[class~='ratio6:7']{ width: calc(100% / (7 / 6));}
+
+[class~='ratio1:8']{ width: calc(100% / 8);}
+[class~='ratio3:8']{ width: calc(100% / (8 / 3));}
+[class~='ratio5:8']{ width: calc(100% / (8 / 5));}
+[class~='ratio7:8']{ width: calc(100% / (8 / 7));}
+
+[class~='ratio1:9']{ width: calc(100% / 9);}
+[class~='ratio2:9']{ width: calc(100% / (9 / 2));}
+[class~='ratio4:9']{ width: calc(100% / (9 / 4));}
+[class~='ratio5:9']{ width: calc(100% / (9 / 5));}
+[class~='ratio7:9']{ width: calc(100% / (9 / 7));}
+[class~='ratio8:9']{ width: calc(100% / (9 / 8));}
+
+[class~='ratio1:10']{ width: calc(100% / 10);}
+[class~='ratio7:10']{ width: calc(100% / (10 / 7));}
+[class~='ratio9:10']{ width: calc(100% / (10 / 9));}
 
 /* Grid */
 
-
+/*
 .col-1 {
   width: 8.33333%;
 }
@@ -265,4 +313,4 @@
     width: 100%;
   }
 
-}
+}*/

@@ -13,12 +13,7 @@ A CSS layout mode, sometimes abbreviated as layout, is an algorithm determining 
 */
 
 /* The block layout */
-
-
-
-.inline       { display: inline }
-.block        { display: block;}
-.inline-block { display: inline-block }
+.block {display: block;}
 
 .clearfix:before,
 .clearfix:after {
@@ -30,12 +25,13 @@ A CSS layout mode, sometimes abbreviated as layout, is an algorithm determining 
 .left  { float: left }
 .right { float: right }
 
-.z1 { z-index: 1 ;}
-.z2 { z-index: 2 ;}
-.z3 { z-index: 3 ;}
-.z4 { z-index: 4 ;}
-.z-1{z-index: -1;}
-.z-max{z-index: 10001;}
+
+
+/* The inline layout */
+.inline {display: inline;}
+.inline-block {display: inline-block;}
+
+/* The positioned layout */
 
 .relative { position: relative ;}
 .absolute { position: absolute ;}
@@ -45,9 +41,6 @@ A CSS layout mode, sometimes abbreviated as layout, is an algorithm determining 
 .right-0  { right: 0 ;}
 .bottom-0 { bottom: 0 ;}
 .left-0   { left: 0 ;}
-
-.right-1{ right: 1rem;}
-.bottom-1{ bottom: 1rem;}
 
 
 

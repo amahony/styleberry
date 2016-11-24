@@ -1,0 +1,11 @@
+
+[class~='z-1']{z-index: -1;}
+[class~='z+1']{z-index: 1;}
+[class~='z+2']{z-index: 2;}
+[class~='z+3']{z-index: 3;}
+[class~='z+4']{z-index: 4;}
+[class~='z+5']{z-index: 5;}
+[class~='z+99']{z-index: 99;}
+[class~='z+999']{z-index: 999;}
+[class~='z+9999']{z-index: 9999;}
+[class~='zmax']{z-index: 10001;}
