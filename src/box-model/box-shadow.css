@@ -1,0 +1,7 @@
+/* box-shadow */
+
+[class~="lift+1"]{box-shadow: 0px 1px 2px color(black alpha(0.125));}
+[class~="lift+2"]{box-shadow: 0px 2px 4px color(black alpha(0.15));}
+[class~="lift+3"]{box-shadow: 0px 3px 8px color(black alpha(0.15));}
+[class~="lift+4"]{box-shadow: 0px 6px 16px color(black alpha(0.15));}
+[class~="lift+5"]{box-shadow: 0px 12px 32px color(black alpha(0.15));}
