@@ -1,4 +1,16 @@
-/* interval scale */
+/* linear scale */
+
+/*[class~='width-1']{ width: 9%;}
+[class~='width-2']{ width: 8%;}
+[class~='width-3']{ width: 7%;}
+[class~='width-4']{ width: 6%;}
+[class~='width-5']{ width: 5%;}
+[class~='width-6']{ width: 4%;}
+[class~='width-7']{ width: 3%;}
+[class~='width-8']{ width: 2%;}
+[class~='width-9']{ width: 1%;}
+[class~='width-10']{ width: 0%;}*/
+
 [class~='width+1']{ width: 10%;}
 [class~='width+2']{ width: 20%;}
 [class~='width+3']{ width: 30%;}
@@ -10,7 +22,10 @@
 [class~='width+9']{ width: 90%;}
 [class~='width+10']{ width: 100%;}
 
+
+
 /* ratio scale */
+
 [class~='ratio1:1'],
 [class~='ratio2:2'],
 [class~='ratio3:3'],
