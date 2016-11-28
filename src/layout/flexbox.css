@@ -1,35 +1,70 @@
 /* Flex */
-.flex { display: flex;}
 
-.flex-column  {flex-direction: column;}
-.flex-wrap    {flex-wrap: wrap;}
+.flex { display: flex; }
 
-.align-center   {align-items: center;}
-.align-baseline {align-items: baseline;}
-.align-stretch  {align-items: stretch;}
-.align-start    {align-items: flex-start;}
-.align-end      {align-items: flex-end;}
+.flex-column  { flex-direction: column; }
+.flex-wrap    { flex-wrap: wrap; }
 
-.align-justify  {justify-content: space-between;}
+/* 1. Fix for Chrome 44 bug.
+ * https://code.google.com/p/chromium/issues/detail?id=506893 */
+.flex-auto {
+  flex: 1 1 auto;
+  min-width: 0; /* 1 */
+  min-height: 0; /* 1 */
+}
 
-.order-first { order: -1;}
-.order-last  {order: 1024;}
+.flex-none { flex: none; }
 
-.flex-auto {flex: 1 1 auto;}
-.flex-grow {flex: 1 0 auto;}
-.flex-none {flex: none;}
 
-.flex > div { box-sizing: border-box }
+.items-start    { align-items: flex-start; }
+.items-end      { align-items: flex-end; }
+.items-center   { align-items: center; }
+.items-baseline { align-items: baseline; }
+.items-stretch  { align-items: stretch; }
 
-@media (min-width: 40em) {
+.self-start    { align-self: flex-start; }
+.self-end      { align-self: flex-end; }
+.self-center   { align-self: center; }
+.self-baseline { align-self: baseline; }
+.self-stretch  { align-self: stretch; }
+
+.justify-start   { justify-content: flex-start; }
+.justify-end     { justify-content: flex-end; }
+.justify-center  { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.justify-around  { justify-content: space-around; }
+
+.content-start   { align-content: flex-start; }
+.content-end     { align-content: flex-end; }
+.content-center  { align-content: center; }
+.content-between { align-content: space-between; }
+.content-around  { align-content: space-around; }
+.content-stretch { align-content: stretch; }
+
+.order-0 { order: 0; }
+.order-1 { order: 1; }
+.order-2 { order: 2; }
+.order-3 { order: 3; }
+.order-4 { order: 4; }
+.order-5 { order: 5; }
+.order-6 { order: 6; }
+.order-7 { order: 7; }
+.order-8 { order: 8; }
+.order-last { order: 9999; }
+
+
+@media (--only-xs-screen) {
+  .xs-flex { display: flex;}
+}
+@media (--only-sm-screen) {
   .sm-flex { display: flex;}
-  .sm-flex > div { box-sizing: border-box }
 }
-@media (min-width: 52em) {
+@media (--only-md-screen) {
   .md-flex { display: flex;}
-  .md-flex > div { box-sizing: border-box }
 }
-@media (min-width: 64em) {
-  .lg-flex { display: flex }
-  .lg-flex > div { box-sizing: border-box;}
+@media (--only-lg-screen){
+  .lg-flex { display: flex; }
+}
+@media (--only-xl-screen) {
+  .xl-flex { display: flex;}
 }
