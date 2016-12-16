@@ -256,6 +256,41 @@ textarea {
 .blockquote:before { content: open-quote;}
 .blockquote:after { content: close-quote;}
 .blockquote::before, .blockquote::after { color: currentColor; font-size: 1.5em; line-height: inherit; opacity: .5; margin: 0 .25em;}
+/* The block layout */
+.block {display: block;}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table
+}
+.clearfix:after { clear: both }
+.left  { float: left }
+.right { float: right }
+/* The inline layout */
+.inline {display: inline;}
+.inline-block {display: inline-block;}
+/* The table layout */
+.table {display: table;}
+/* The positioned layout */
+.relative { position: relative ;}
+.absolute { position: absolute ;}
+.fixed    { position: fixed ;}
+.top-0    { top: 0 ;}
+.right-0  { right: 0 ;}
+.bottom-0 { bottom: 0 ;}
+.left-0   { left: 0 ;}
+/* Z-index */
+[class~='z-1']{z-index: -1;}
+[class~='z0']{z-index: 0;}
+[class~='z+1']{z-index: 1;}
+[class~='z+2']{z-index: 2;}
+[class~='z+3']{z-index: 3;}
+[class~='z+4']{z-index: 4;}
+[class~='z+5']{z-index: 5;}
+[class~='z+99']{z-index: 99;}
+[class~='z+999']{z-index: 999;}
+[class~='z+9999']{z-index: 9999;}
+[class~='zmax']{z-index: 10001;}
 /* Flex */
 .flex { display: -webkit-box; display: -ms-flexbox; display: flex; }
 .flex-column  { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
@@ -329,28 +364,6 @@ A CSS layout mode, sometimes abbreviated as layout, is an algorithm determining 
 
 
 */
-/* The block layout */
-.block {display: block;}
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table
-}
-.clearfix:after { clear: both }
-.left  { float: left }
-.right { float: right }
-/* The inline layout */
-.inline {display: inline;}
-.inline-block {display: inline-block;}
-.table{display: table;}
-/* The positioned layout */
-.relative { position: relative ;}
-.absolute { position: absolute ;}
-.fixed    { position: fixed ;}
-.top-0    { top: 0 ;}
-.right-0  { right: 0 ;}
-.bottom-0 { bottom: 0 ;}
-.left-0   { left: 0 ;}
 .sm-show, .md-show, .lg-show {
   display: none !important
 }
@@ -380,65 +393,6 @@ A CSS layout mode, sometimes abbreviated as layout, is an algorithm determining 
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* Z-index */
-[class~='z-1']{z-index: -1;}
-[class~='z0']{z-index: 0;}
-[class~='z+1']{z-index: 1;}
-[class~='z+2']{z-index: 2;}
-[class~='z+3']{z-index: 3;}
-[class~='z+4']{z-index: 4;}
-[class~='z+5']{z-index: 5;}
-[class~='z+99']{z-index: 99;}
-[class~='z+999']{z-index: 999;}
-[class~='z+9999']{z-index: 9999;}
-[class~='zmax']{z-index: 10001;}
-/* aspect ratio blocks */
-.ratio-16-9 { width: 100%; padding-bottom: 56.25%; /* 16:9 */ position: relative; }
-.ratio-16-9 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
-.ratio-16-10 { width: 100%; padding-bottom: 62.5%; /* 16:10 */ position: relative; }
-.ratio-16-10 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
-.ratio-4-3 { width: 100%; padding-bottom: 75%; /* 4:3 */ position: relative; }
-.ratio-4-3 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
-.ratio-1-1 { width: 100%; padding-bottom: 100%; /* 1:1 */ position: relative; }
-.ratio-1-1 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
-.ratio-2-3 { width: 100%; padding-bottom: 150%; /* 10:15 */ position: relative; }
-.ratio-2-3 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
-.ratio-3-2 { width: 100%; padding-bottom: 66%; /* 1:1 */ position: relative; }
-.ratio-3-2 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
-/* fixed size blocks */
-.square1{ width: 16px; width: 1rem; height: 16px; height: 1rem;}
-.square1-5{ width: 24px; width: 1.5rem; height: 24px; height: 1.5rem;}
-.square2{ width: 32px; width: 2rem; height: 32px; height: 2rem;}
-.square2-5{ width: 40px; width: 2.5rem; height: 40px; height: 2.5rem;}
-.square3{ width: 48px; width: 3rem; height: 48px; height: 3rem;}
-.square3-5{ width: 56px; width: 3.5rem; height: 56px; height: 3.5rem;}
-.square4{ width: 64px; width: 4rem; height: 64px; height: 4rem;}
-.square5{ width: 80px; width: 5rem; height: 80px; height: 5rem;}
-.square6{ width: 96px; width: 6rem; height: 96px; height: 6rem;}
-.square10{height: 160px;height: 10rem; width: 160px; width: 10rem;}
-.square12-5{height: 200px;height: 12.5rem; width: 200px; width: 12.5rem;}
-.square15{height: 240px;height: 15rem; width: 240px; width: 15rem;}
-.square20{height: 320px;height: 20rem; width: 320px; width: 20rem;}
-/* box with applied animated drop shadow on hover */
-.box {
-  position: relative;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-.box::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  -webkit-transition: opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-.box:hover { }
-.box:hover::after { opacity: 1; }
 /*
 Borders
 
@@ -1340,3 +1294,50 @@ COLORS
 
 /* Modifiers */
 }
+/* aspect ratio blocks */
+.ratio-16-9 { width: 100%; padding-bottom: 56.25%; /* 16:9 */ position: relative; }
+.ratio-16-9 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+.ratio-16-10 { width: 100%; padding-bottom: 62.5%; /* 16:10 */ position: relative; }
+.ratio-16-10 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+.ratio-4-3 { width: 100%; padding-bottom: 75%; /* 4:3 */ position: relative; }
+.ratio-4-3 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+.ratio-1-1 { width: 100%; padding-bottom: 100%; /* 1:1 */ position: relative; }
+.ratio-1-1 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+.ratio-2-3 { width: 100%; padding-bottom: 150%; /* 10:15 */ position: relative; }
+.ratio-2-3 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+.ratio-3-2 { width: 100%; padding-bottom: 66%; /* 1:1 */ position: relative; }
+.ratio-3-2 > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+/* fixed size blocks */
+.square1{ width: 16px; width: 1rem; height: 16px; height: 1rem;}
+.square1-5{ width: 24px; width: 1.5rem; height: 24px; height: 1.5rem;}
+.square2{ width: 32px; width: 2rem; height: 32px; height: 2rem;}
+.square2-5{ width: 40px; width: 2.5rem; height: 40px; height: 2.5rem;}
+.square3{ width: 48px; width: 3rem; height: 48px; height: 3rem;}
+.square3-5{ width: 56px; width: 3.5rem; height: 56px; height: 3.5rem;}
+.square4{ width: 64px; width: 4rem; height: 64px; height: 4rem;}
+.square5{ width: 80px; width: 5rem; height: 80px; height: 5rem;}
+.square6{ width: 96px; width: 6rem; height: 96px; height: 6rem;}
+.square10{height: 160px;height: 10rem; width: 160px; width: 10rem;}
+.square12-5{height: 200px;height: 12.5rem; width: 200px; width: 12.5rem;}
+.square15{height: 240px;height: 15rem; width: 240px; width: 15rem;}
+.square20{height: 320px;height: 20rem; width: 320px; width: 20rem;}
+/* box with applied animated drop shadow on hover */
+.box {
+  position: relative;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.box::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.box:hover { }
+.box:hover::after { opacity: 1; }

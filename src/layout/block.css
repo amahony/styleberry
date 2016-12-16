@@ -1,0 +1,12 @@
+/* The block layout */
+.block {display: block;}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table
+}
+.clearfix:after { clear: both }
+
+.left  { float: left }
+.right { float: right }
