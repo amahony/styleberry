@@ -14,10 +14,9 @@
       <li class="inline-block p2"><a class="link-reset" href="#SbColor">🎨 Color</a></li>
       <li class="inline-block p2"><a class="link-reset" href="#SbBModel">📦 Box Model</a></li>
       <li class="inline-block p2"><a class="link-reset" href="#SbLayout">📐 Layout</a></li>
-      <li class="inline-block p2"><a class="link-reset" href="#SbAnimation">🎥 Animation</a></li>
+      <li class="inline-block p2"><a class="link-reset" href="#SbAnimation"><del>🎥 Animation</del></a></li>
     </ul>
   </header>
-
 
   <header id="SbTypography" class="p4 bg-yellow-2 yellow+3 border-top border-bottom">
     <h1 class="size+4 m0">✏️ Typography</h1>
@@ -30,7 +29,7 @@
     <h2 class="size+3">This is text with size+3</h2>
     <h2 class="size+2">This is text with size+2</h2>
     <h2 class="size+1">This is text with size+1</h2>
-    <h2 class="size-0">This is text with size-0</h2>
+    <h2 class="size0">This is text with size0</h2>
     <h2 class="size-1">This is text with size-1</h2>
     <h2 class="size-2">This is text with size-2</h2>
     <h2 class="size-3">This is text with size-3</h2>
@@ -123,7 +122,6 @@
   <header id="SbColor" class="p4 bg-yellow-2 yellow+3 border-top border-bottom">
     <h1 class="size+4 m0">🎨 Color</h1>
   </header>
-
 
   <section class="p4">
     <h2 class="size+3">⚫️ Pallete</h2>
@@ -327,7 +325,7 @@
     </div>
 
     <div class="flex center">
-      <div class="bg-magenta-4 ratio1:1 m1">1:7</div>
+      <div class="bg-magenta-4 ratio1:7 m1">1:7</div>
       <div class="bg-magenta-4 ratio6:7 m1">6:7</div>
     </div>
 
@@ -353,12 +351,32 @@
     <h1 class="size+4 m0">📐 Layout</h1>
   </header>
 
-
   <section class="p4">
     <h2 class="size+3">⚫️ Display</h2>
+    <div class="bg-blue-5 p1">
+      <div class="bg-blue-4 block">block</div>
+    </div>
 
+    <div class="bg-blue-5 mt1 p1 clearfix">
+      <div class="bg-blue-4 left">float left</div>
+    </div>
+    <div class="bg-blue-5 mt1 p1 clearfix">
+      <div class="bg-blue-4 right">float right</div>
+    </div>
 
-    <h2 class="size+3">⚫️ Flex</h2>
+    <div class="bg-blue-5 mt1 p1">
+      <div class="bg-blue-4 inline">inline</div>
+    </div>
+    <div class="bg-blue-5 mt1 p1">
+      <div class="bg-blue-4 inline-block">inline-block</div>
+    </div>
+    <div class="bg-blue-5 mt1 p1">
+      <div class="bg-blue-4 table">table</div>
+    </div>
+  </section>
+
+  <section class="p4 bg-gray-5">
+    <h2 class="size+3">⚫️ Flexbox</h2>
     <h3>Direction and Wrap</h3>
     <div class="flex mxn3">
       <div class="ratio1:4 px3">
@@ -374,9 +392,9 @@
           <pre class="bg-white m0 border-top rounded-bottom">
             <code>
   <&zwj;div class="flex">
-    <&zwj;div>Flex Item 1<&zwj;/div>
-    <&zwj;div>Flex Item 2<&zwj;/div>
-    <&zwj;div>Flex Item 3<&zwj;/div>
+    <&zwj;div>Item 1<&zwj;/div>
+    <&zwj;div>Item 2<&zwj;/div>
+    <&zwj;div>Item 3<&zwj;/div>
   <&zwj;/div>
             </code>
           </pre>
@@ -396,9 +414,9 @@
           <pre class="bg-white m0 border-top rounded-bottom">
             <code>
   <&zwj;div class="flex flex-column">
-    <&zwj;div>Flex Item 1<&zwj;/div>
-    <&zwj;div>Flex Item 2<&zwj;/div>
-    <&zwj;div>Flex Item 3<&zwj;/div>
+    <&zwj;div>Item 1<&zwj;/div>
+    <&zwj;div>Item 2<&zwj;/div>
+    <&zwj;div>Item 3<&zwj;/div>
   <&zwj;/div>
             </code>
           </pre>
@@ -406,7 +424,7 @@
       </div>
 
       <div class="ratio1:4 px3">
-        <p>To wrap elements inside a flex container apply <br> <code class="bg-yellow-4 yellow+3 px1 rounded">.flex</code> <code class="bg-yellow-4 yellow+3 px1 rounded">.flex-wrap</code> classes to the element container.</p>
+        <p>To wrap elements inside a flex container apply <code class="bg-yellow-4 yellow+3 px1 rounded">.flex</code> <code class="bg-yellow-4 yellow+3 px1 rounded">.flex-wrap</code> classes to the element container.</p>
         <div class="border border-gray-3 rounded lift+1">
           <div class="ratio-4-3 center bg-blue-5 rounded-top">
             <div class="flex flex-wrap p2">
@@ -418,14 +436,37 @@
           <pre class="bg-white m0 border-top rounded-bottom">
             <code>
   <&zwj;div class="flex flex-wrap">
-    <&zwj;div>Flex Item 1<&zwj;/div>
-    <&zwj;div>Flex Item 2<&zwj;/div>
-    <&zwj;div>Flex Item 3<&zwj;/div>
+    <&zwj;div>Item 1<&zwj;/div>
+    <&zwj;div>Item 2<&zwj;/div>
+    <&zwj;div>Item 3<&zwj;/div>
   <&zwj;/div>
             </code>
           </pre>
         </div>
       </div>
+
+      <div class="ratio1:4 px3">
+        <p>To control the flex property of items inside a container apply <code class="bg-yellow-4 yellow+3 px1 rounded">.flex-auto</code> or <code class="bg-yellow-4 yellow+3 px1 rounded">.flex-none</code> class to the item.</p>
+        <div class="border border-gray-3 rounded lift+1">
+          <div class="ratio-4-3 center bg-blue-5 rounded-top">
+            <div class="flex p2">
+              <div class="bg-blue-4 flex-auto ml1">1</div>
+              <div class="bg-blue-4 flex-auto mx1">2</div>
+              <div class="bg-blue-4 flex-none mr1">3</div>
+            </div>
+          </div>
+          <pre class="bg-white m0 border-top rounded-bottom">
+            <code>
+<&zwj;div class="flex">
+  <&zwj;div class="flex-auto">Item 1<&zwj;/div>
+  <&zwj;div class="flex-auto">Item 2<&zwj;/div>
+  <&zwj;div class="flex-none">Item 3<&zwj;/div>
+<&zwj;/div>
+            </code>
+          </pre>
+        </div>
+      </div>
+
     </div>
 
 

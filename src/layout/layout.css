@@ -26,10 +26,12 @@ A CSS layout mode, sometimes abbreviated as layout, is an algorithm determining 
 .right { float: right }
 
 
-
 /* The inline layout */
 .inline {display: inline;}
 .inline-block {display: inline-block;}
+
+.table{display: table;}
+
 
 /* The positioned layout */
 

@@ -3,35 +3,37 @@
   /* Base size */
 
   --base-size: 1rem;
+  --base-fluid: 2vmin;
+
 
   /* Modifiers */
 
-  --ascend-5: calc(var(--base-size) + 3);
-  --ascend-4: calc(var(--base-size) + 2);
-  --ascend-3: calc(var(--base-size) + 1);
-  --ascend-2: calc(var(--base-size) + .5);
-  --ascend-1: calc(var(--base-size) + .125);
+  --ascend5: calc(var(--base-size) + (var(--base-fluid) * 2.4));
+  --ascend4: calc(var(--base-size) + (var(--base-fluid) * 1.6));
+  --ascend3: calc(var(--base-size) + (var(--base-fluid) * .8));
+  --ascend2: calc(var(--base-size) + (var(--base-fluid) * .4));
+  --ascend1: calc(var(--base-size) + (var(--base-fluid) * .2));
 
-  --descend-1: calc(var(--base-size) - .125);
-  --descend-2: calc(var(--base-size) - .25);
-  --descend-3: calc(var(--base-size) - .375);
-  --descend-4: calc(var(--base-size) - .5);
-  --descend-5: calc(var(--base-size) - .75);
+  --descend1: calc(var(--base-size) - (var(--base-fluid) * .1));
+  --descend2: calc(var(--base-size) - (var(--base-fluid) * .2));
+  --descend3: calc(var(--base-size) - (var(--base-fluid) * .3));
+  --descend4: calc(var(--base-size) - (var(--base-fluid) * .4));
+  --descend5: calc(var(--base-size) - (var(--base-fluid) * .5));
 
 }
 
 /* Size */
 
-[class~="size-5"]{font-size: var(--descend-5);}
-[class~="size-4"]{font-size: var(--descend-4);}
-[class~="size-3"]{font-size: var(--descend-3);}
-[class~="size-2"]{font-size: var(--descend-2);}
-[class~="size-1"]{font-size: var(--descend-1);}
-[class~="size-0"]{font-size: var(--base-size);}
-[class~="size+1"]{font-size: var(--ascend-1);}
-[class~="size+2"]{font-size: var(--ascend-2);}
-[class~="size+3"]{font-size: var(--ascend-3);}
-[class~="size+4"]{font-size: var(--ascend-4);}
-[class~="size+5"]{font-size: var(--ascend-5);}
+[class~="size-5"]{font-size: var(--descend5);}
+[class~="size-4"]{font-size: var(--descend4);}
+[class~="size-3"]{font-size: var(--descend3);}
+[class~="size-2"]{font-size: var(--descend2);}
+[class~="size-1"]{font-size: var(--descend1);}
+[class~="size0"]{font-size: var(--base-size);}
+[class~="size+1"]{font-size: var(--ascend1);}
+[class~="size+2"]{font-size: var(--ascend2);}
+[class~="size+3"]{font-size: var(--ascend3);}
+[class~="size+4"]{font-size: var(--ascend4);}
+[class~="size+5"]{font-size: var(--ascend5);}
 
 .size-auto{ font-size: inherit;}
