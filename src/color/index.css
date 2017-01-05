@@ -1,4 +1,5 @@
 @import url('main-colors.css');
+@import url('hover-colors.css');
 @import url('transparent-color.css');
 @import url('fader.css');
 
@@ -20,15 +21,137 @@
 --black: #000000;
 
 /* Modifiers */
---tint-1: tint(10%);
---tint-2: tint(25%);
+
+--shade-1: shade(15%);
+--shade-2: shade(33%);
+--shade-3: shade(50%);
+--shade-4: shade(66%);
+--shade-5: shade(80%);
+
+--tint-1: tint(20%);
+--tint-2: tint(33%);
 --tint-3: tint(50%);
 --tint-4: tint(75%);
---tint-5: tint(90%);
+--tint-5: tint(92.5%);
 
---shade-1: shade(10%);
---shade-2: shade(25%);
---shade-3: shade(50%);
---shade-4: shade(75%);
---shade-5: shade(90%);
+
+
+/* Yellow */
+--yellow-5: color(var(--yellow) var(--shade-5));
+--yellow-4: color(var(--yellow) var(--shade-4));
+--yellow-3: color(var(--yellow) var(--shade-3));
+--yellow-2: color(var(--yellow) var(--shade-2));
+--yellow-1: color(var(--yellow) var(--shade-1));
+--yellow0: color(var(--yellow));
+--yellow1: color(var(--yellow) var(--tint-1));
+--yellow2: color(var(--yellow) var(--tint-2));
+--yellow3: color(var(--yellow) var(--tint-3));
+--yellow4: color(var(--yellow) var(--tint-4));
+--yellow5: color(var(--yellow) var(--tint-5));
+
+/* Green */
+--green-5: color(var(--green) var(--shade-5));
+--green-4: color(var(--green) var(--shade-4));
+--green-3: color(var(--green) var(--shade-3));
+--green-2: color(var(--green) var(--shade-2));
+--green-1: color(var(--green) var(--shade-1));
+--green0:  color(var(--green));
+--green1:  color(var(--green) var(--tint-1));
+--green2:  color(var(--green) var(--tint-2));
+--green3:  color(var(--green) var(--tint-3));
+--green4:  color(var(--green) var(--tint-4));
+--green5:  color(var(--green) var(--tint-5));
+
+/* Teal */
+--teal-5: color(var(--teal) var(--shade-5));
+--teal-4: color(var(--teal) var(--shade-4));
+--teal-3: color(var(--teal) var(--shade-3));
+--teal-2: color(var(--teal) var(--shade-2));
+--teal-1: color(var(--teal) var(--shade-1));
+--teal0:  color(var(--teal));
+--teal1:  color(var(--teal) var(--tint-1));
+--teal2:  color(var(--teal) var(--tint-2));
+--teal3:  color(var(--teal) var(--tint-3));
+--teal4:  color(var(--teal) var(--tint-4));
+--teal5:  color(var(--teal) var(--tint-5));
+
+/* Blue */
+--blue-5: color(var(--blue) var(--shade-5));
+--blue-4: color(var(--blue) var(--shade-4));
+--blue-3: color(var(--blue) var(--shade-3));
+--blue-2: color(var(--blue) var(--shade-2));
+--blue-1: color(var(--blue) var(--shade-1));
+--blue0:  color(var(--blue));
+--blue1:  color(var(--blue) var(--tint-1));
+--blue2:  color(var(--blue) var(--tint-2));
+--blue3:  color(var(--blue) var(--tint-3));
+--blue4:  color(var(--blue) var(--tint-4));
+--blue5:  color(var(--blue) var(--tint-5));
+
+/* Purple */
+--purple-5: color(var(--purple) var(--shade-5));
+--purple-4: color(var(--purple) var(--shade-4));
+--purple-3: color(var(--purple) var(--shade-3));
+--purple-2: color(var(--purple) var(--shade-2));
+--purple-1: color(var(--purple) var(--shade-1));
+--purple0:  color(var(--purple));
+--purple1:  color(var(--purple) var(--tint-1));
+--purple2:  color(var(--purple) var(--tint-2));
+--purple3:  color(var(--purple) var(--tint-3));
+--purple4:  color(var(--purple) var(--tint-4));
+--purple5:  color(var(--purple) var(--tint-5));
+
+/* Magenta */
+--magenta-5: color(var(--magenta) var(--shade-5));
+--magenta-4: color(var(--magenta) var(--shade-4));
+--magenta-3: color(var(--magenta) var(--shade-3));
+--magenta-2: color(var(--magenta) var(--shade-2));
+--magenta-1: color(var(--magenta) var(--shade-1));
+--magenta0:  color(var(--magenta));
+--magenta1:  color(var(--magenta) var(--tint-1));
+--magenta2:  color(var(--magenta) var(--tint-2));
+--magenta3:  color(var(--magenta) var(--tint-3));
+--magenta4:  color(var(--magenta) var(--tint-4));
+--magenta5:  color(var(--magenta) var(--tint-5));
+
+/* Red */
+--red-5: color(var(--red) var(--shade-5));
+--red-4: color(var(--red) var(--shade-4));
+--red-3: color(var(--red) var(--shade-3));
+--red-2: color(var(--red) var(--shade-2));
+--red-1: color(var(--red) var(--shade-1));
+--red0:  color(var(--red));
+--red1:  color(var(--red) var(--tint-1));
+--red2:  color(var(--red) var(--tint-2));
+--red3:  color(var(--red) var(--tint-3));
+--red4:  color(var(--red) var(--tint-4));
+--red5:  color(var(--red) var(--tint-5));
+
+/* Orange */
+--orange-5: color(var(--orange) var(--shade-5));
+--orange-4: color(var(--orange) var(--shade-4));
+--orange-3: color(var(--orange) var(--shade-3));
+--orange-2: color(var(--orange) var(--shade-2));
+--orange-1: color(var(--orange) var(--shade-1));
+--orange0:  color(var(--orange));
+--orange1:  color(var(--orange) var(--tint-1));
+--orange2:  color(var(--orange) var(--tint-2));
+--orange3:  color(var(--orange) var(--tint-3));
+--orange4:  color(var(--orange) var(--tint-4));
+--orange5:  color(var(--orange) var(--tint-5));
+
+/* Gray */
+--gray-5: color(var(--gray) var(--shade-5));
+--gray-4: color(var(--gray) var(--shade-4));
+--gray-3: color(var(--gray) var(--shade-3));
+--gray-2: color(var(--gray) var(--shade-2));
+--gray-1: color(var(--gray) var(--shade-1));
+--gray0:  color(var(--gray));
+--gray1:  color(var(--gray) var(--tint-1));
+--gray2:  color(var(--gray) var(--tint-2));
+--gray3:  color(var(--gray) var(--tint-3));
+--gray4:  color(var(--gray) var(--tint-4));
+--gray5:  color(var(--gray) var(--tint-5));
+
+
 }

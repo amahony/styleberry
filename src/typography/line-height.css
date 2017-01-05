@@ -14,23 +14,13 @@
 
 }
 
-/* Letter Spacing */
+/* Line Height */
 
-[class~='leading-0']{line-height: 0}
-[class~='leading+1']{line-height: var(--base-leading);}
-[class~='leading+2']{line-height: var(--inc1);}
-[class~='leading+3']{line-height: var(--inc2);}
-[class~='leading+4']{line-height: var(--inc3);}
-[class~='leading+5']{line-height: var(--inc4);}
-
-
+[class~='leading0']{line-height: 0}
+[class~='leading1']{line-height: var(--base-leading);}
+[class~='leading2']{line-height: var(--inc1);}
+[class~='leading3']{line-height: var(--inc2);}
+[class~='leading4']{line-height: var(--inc3);}
+[class~='leading5']{line-height: var(--inc4);}
 
 .leading-auto{ line-height: inherit;}
-
-
-/* legacy line height syntax */
-.lh0{line-height: 0;}
-.lh1{line-height: 1;}
-.lh2{line-height: 1.5;}
-.lh3{line-height: 2;}
-.lh4{line-height: 3;}

@@ -1,0 +1,450 @@
+/*------------------------------------*\
+COLORS
+\*------------------------------------*/
+
+/* Yellow */
+
+[class~='hover-yellow']:hover {color: var(--yellow0);}
+[class~='hover-bg-yellow']:hover {background-color: var(--yellow0);}
+[class~='hover-border-yellow']:hover {border-color: var(--yellow0);}
+
+[class~='hover-yellow-1']:hover {color: var(--yellow-1);}
+[class~='hover-bg-yellow-1']:hover {background-color: var(--yellow-1);}
+[class~='hover-border-yellow-1']:hover {border-color: var(--yellow-1);}
+
+[class~='hover-yellow-2']:hover {color: var(--yellow-2);}
+[class~='hover-bg-yellow-2']:hover {background-color: var(--yellow-2);}
+[class~='hover-border-yellow-2']:hover {border-color: var(--yellow-2);}
+
+[class~='hover-yellow-3']:hover {color: var(--yellow-3);}
+[class~='hover-bg-yellow-3']:hover {background-color: var(--yellow-3);}
+[class~='hover-border-yellow-3']:hover {border-color: var(--yellow-3);}
+
+[class~='hover-yellow-4']:hover {color: var(--yellow-4);}
+[class~='hover-bg-yellow-4']:hover {background-color: var(--yellow-4);}
+[class~='hover-border-yellow-4']:hover {border-color: var(--yellow-4);}
+
+[class~='hover-yellow-5']:hover {color: var(--yellow-5);}
+[class~='hover-bg-yellow-5']:hover {background-color: var(--yellow-5);}
+[class~='hover-border-yellow-5']:hover {border-color: var(--yellow-5);}
+
+[class~='hover-yellow1']:hover {color: var(--yellow1);}
+[class~='hover-bg-yellow1']:hover {background-color: var(--yellow1);}
+[class~='hover-border-yellow1']:hover {border-color: var(--yellow1);}
+
+[class~='hover-yellow2']:hover {color: var(--yellow2);}
+[class~='hover-bg-yellow2']:hover {background-color: var(--yellow2);}
+[class~='hover-border-yellow2']:hover {border-color: var(--yellow2);}
+
+[class~='hover-yellow3']:hover {color: var(--yellow3);}
+[class~='hover-bg-yellow3']:hover {background-color: var(--yellow3);}
+[class~='hover-border-yellow3']:hover {border-color: var(--yellow3);}
+
+[class~='hover-yellow4']:hover {color: var(--yellow4);}
+[class~='hover-bg-yellow4']:hover {background-color: var(--yellow4);}
+[class~='hover-border-yellow4']:hover {border-color: var(--yellow4);}
+
+[class~='hover-yellow5']:hover {color: var(--yellow5);}
+[class~='hover-bg-yellow5']:hover {background-color: var(--yellow5);}
+[class~='hover-border-yellow5']:hover {border-color: var(--yellow5);}
+
+/* green */
+
+[class~='hover-green']:hover {color: var(--green0);}
+[class~='hover-bg-green']:hover {background-color: var(--green0);}
+[class~='hover-border-green']:hover {border-color: var(--green0);}
+
+[class~='hover-green-1']:hover {color: var(--green-1);}
+[class~='hover-bg-green-1']:hover {background-color: var(--green-1);}
+[class~='hover-border-green-1']:hover {border-color: var(--green-1);}
+
+[class~='hover-green-2']:hover {color: var(--green-2);}
+[class~='hover-bg-green-2']:hover {background-color: var(--green-2);}
+[class~='hover-border-green-2']:hover {border-color: var(--green-2);}
+
+[class~='hover-green-3']:hover {color: var(--green-3);}
+[class~='hover-bg-green-3']:hover {background-color: var(--green-3);}
+[class~='hover-border-green-3']:hover {border-color: var(--green-3);}
+
+[class~='hover-green-4']:hover {color: var(--green-4);}
+[class~='hover-bg-green-4']:hover {background-color: var(--green-4);}
+[class~='hover-border-green-4']:hover {border-color: var(--green-4);}
+
+[class~='hover-green-5']:hover {color: var(--green-5);}
+[class~='hover-bg-green-5']:hover {background-color: var(--green-5);}
+[class~='hover-border-green-5']:hover {border-color: var(--green-5);}
+
+[class~='hover-green1']:hover {color: var(--green1);}
+[class~='hover-bg-green1']:hover {background-color: var(--green1);}
+[class~='hover-border-green1']:hover {border-color: var(--green1);}
+
+[class~='hover-green2']:hover {color: var(--green2);}
+[class~='hover-bg-green2']:hover {background-color: var(--green2);}
+[class~='hover-border-green2']:hover {border-color: var(--green2);}
+
+[class~='hover-green3']:hover {color: var(--green3);}
+[class~='hover-bg-green3']:hover {background-color: var(--green3);}
+[class~='hover-border-green3']:hover {border-color: var(--green3);}
+
+[class~='hover-green4']:hover {color: var(--green4);}
+[class~='hover-bg-green4']:hover {background-color: var(--green4);}
+[class~='hover-border-green4']:hover {border-color: var(--green4);}
+
+[class~='hover-green5']:hover {color: var(--green5);}
+[class~='hover-bg-green5']:hover {background-color: var(--green5);}
+[class~='hover-border-green5']:hover {border-color: var(--green5);}
+
+/* teal */
+
+[class~='hover-teal']:hover {color: var(--teal0);}
+[class~='hover-bg-teal']:hover {background-color: var(--teal0);}
+[class~='hover-border-teal']:hover {border-color: var(--teal0);}
+
+[class~='hover-teal-1']:hover {color: var(--teal-1);}
+[class~='hover-bg-teal-1']:hover {background-color: var(--teal-1);}
+[class~='hover-border-teal-1']:hover {border-color: var(--teal-1);}
+
+[class~='hover-teal-2']:hover {color: var(--teal-2);}
+[class~='hover-bg-teal-2']:hover {background-color: var(--teal-2);}
+[class~='hover-border-teal-2']:hover {border-color: var(--teal-2);}
+
+[class~='hover-teal-3']:hover {color: var(--teal-3);}
+[class~='hover-bg-teal-3']:hover {background-color: var(--teal-3);}
+[class~='hover-border-teal-3']:hover {border-color: var(--teal-3);}
+
+[class~='hover-teal-4']:hover {color: var(--teal-4);}
+[class~='hover-bg-teal-4']:hover {background-color: var(--teal-4);}
+[class~='hover-border-teal-4']:hover {border-color: var(--teal-4);}
+
+[class~='hover-teal-5']:hover {color: var(--teal-5);}
+[class~='hover-bg-teal-5']:hover {background-color: var(--teal-5);}
+[class~='hover-border-teal-5']:hover {border-color: var(--teal-5);}
+
+[class~='hover-teal1']:hover {color: var(--teal1);}
+[class~='hover-bg-teal1']:hover {background-color: var(--teal1);}
+[class~='hover-border-teal1']:hover {border-color: var(--teal1);}
+
+[class~='hover-teal2']:hover {color: var(--teal2);}
+[class~='hover-bg-teal2']:hover {background-color: var(--teal2);}
+[class~='hover-border-teal2']:hover {border-color: var(--teal2);}
+
+[class~='hover-teal3']:hover {color: var(--teal3);}
+[class~='hover-bg-teal3']:hover {background-color: var(--teal3);}
+[class~='hover-border-teal3']:hover {border-color: var(--teal3);}
+
+[class~='hover-teal4']:hover {color: var(--teal4);}
+[class~='hover-bg-teal4']:hover {background-color: var(--teal4);}
+[class~='hover-border-teal4']:hover {border-color: var(--teal4);}
+
+[class~='hover-teal5']:hover {color: var(--teal5);}
+[class~='hover-bg-teal5']:hover {background-color: var(--teal5);}
+[class~='hover-border-teal5']:hover {border-color: var(--teal5);}
+
+/* blue */
+
+[class~='hover-blue']:hover {color: var(--blue0);}
+[class~='hover-bg-blue']:hover {background-color: var(--blue0);}
+[class~='hover-border-blue']:hover {border-color: var(--blue0);}
+
+[class~='hover-blue-1']:hover {color: var(--blue-1);}
+[class~='hover-bg-blue-1']:hover {background-color: var(--blue-1);}
+[class~='hover-border-blue-1']:hover {border-color: var(--blue-1);}
+
+[class~='hover-blue-2']:hover {color: var(--blue-2);}
+[class~='hover-bg-blue-2']:hover {background-color: var(--blue-2);}
+[class~='hover-border-blue-2']:hover {border-color: var(--blue-2);}
+
+[class~='hover-blue-3']:hover {color: var(--blue-3);}
+[class~='hover-bg-blue-3']:hover {background-color: var(--blue-3);}
+[class~='hover-border-blue-3']:hover {border-color: var(--blue-3);}
+
+[class~='hover-blue-4']:hover {color: var(--blue-4);}
+[class~='hover-bg-blue-4']:hover {background-color: var(--blue-4);}
+[class~='hover-border-blue-4']:hover {border-color: var(--blue-4);}
+
+[class~='hover-blue-5']:hover {color: var(--blue-5);}
+[class~='hover-bg-blue-5']:hover {background-color: var(--blue-5);}
+[class~='hover-border-blue-5']:hover {border-color: var(--blue-5);}
+
+[class~='hover-blue1']:hover {color: var(--blue1);}
+[class~='hover-bg-blue1']:hover {background-color: var(--blue1);}
+[class~='hover-border-blue1']:hover {border-color: var(--blue1);}
+
+[class~='hover-blue2']:hover {color: var(--blue2);}
+[class~='hover-bg-blue2']:hover {background-color: var(--blue2);}
+[class~='hover-border-blue2']:hover {border-color: var(--blue2);}
+
+[class~='hover-blue3']:hover {color: var(--blue3);}
+[class~='hover-bg-blue3']:hover {background-color: var(--blue3);}
+[class~='hover-border-blue3']:hover {border-color: var(--blue3);}
+
+[class~='hover-blue4']:hover {color: var(--blue4);}
+[class~='hover-bg-blue4']:hover {background-color: var(--blue4);}
+[class~='hover-border-blue4']:hover {border-color: var(--blue4);}
+
+[class~='hover-blue5']:hover {color: var(--blue5);}
+[class~='hover-bg-blue5']:hover {background-color: var(--blue5);}
+[class~='hover-border-blue5']:hover {border-color: var(--blue5);}
+
+
+
+/* purple */
+[class~='hover-purple']:hover {color: var(--purple0);}
+[class~='hover-bg-purple']:hover {background-color: var(--purple0);}
+[class~='hover-border-purple']:hover {border-color: var(--purple0);}
+
+[class~='hover-purple-1']:hover {color: var(--purple-1);}
+[class~='hover-bg-purple-1']:hover {background-color: var(--purple-1);}
+[class~='hover-border-purple-1']:hover {border-color: var(--purple-1);}
+
+[class~='hover-purple-2']:hover {color: var(--purple-2);}
+[class~='hover-bg-purple-2']:hover {background-color: var(--purple-2);}
+[class~='hover-border-purple-2']:hover {border-color: var(--purple-2);}
+
+[class~='hover-purple-3']:hover {color: var(--purple-3);}
+[class~='hover-bg-purple-3']:hover {background-color: var(--purple-3);}
+[class~='hover-border-purple-3']:hover {border-color: var(--purple-3);}
+
+[class~='hover-purple-4']:hover {color: var(--purple-4);}
+[class~='hover-bg-purple-4']:hover {background-color: var(--purple-4);}
+[class~='hover-border-purple-4']:hover {border-color: var(--purple-4);}
+
+[class~='hover-purple-5']:hover {color: var(--purple-5);}
+[class~='hover-bg-purple-5']:hover {background-color: var(--purple-5);}
+[class~='hover-border-purple-5']:hover {border-color: var(--purple-5);}
+
+[class~='hover-purple1']:hover {color: var(--purple1);}
+[class~='hover-bg-purple1']:hover {background-color: var(--purple1);}
+[class~='hover-border-purple1']:hover {border-color: var(--purple1);}
+
+[class~='hover-purple2']:hover {color: var(--purple2);}
+[class~='hover-bg-purple2']:hover {background-color: var(--purple2);}
+[class~='hover-border-purple2']:hover {border-color: var(--purple2);}
+
+[class~='hover-purple3']:hover {color: var(--purple3);}
+[class~='hover-bg-purple3']:hover {background-color: var(--purple3);}
+[class~='hover-border-purple3']:hover {border-color: var(--purple3);}
+
+[class~='hover-purple4']:hover {color: var(--purple4);}
+[class~='hover-bg-purple4']:hover {background-color: var(--purple4);}
+[class~='hover-border-purple4']:hover {border-color: var(--purple4);}
+
+[class~='hover-purple5']:hover {color: var(--purple5);}
+[class~='hover-bg-purple5']:hover {background-color: var(--purple5);}
+[class~='hover-border-purple5']:hover {border-color: var(--purple5);}
+
+
+
+/* magenta */
+
+[class~='hover-magenta']:hover {color: var(--magenta0);}
+[class~='hover-bg-magenta']:hover {background-color: var(--magenta0);}
+[class~='hover-border-magenta']:hover {border-color: var(--magenta0);}
+
+[class~='hover-magenta-1']:hover {color: var(--magenta-1);}
+[class~='hover-bg-magenta-1']:hover {background-color: var(--magenta-1);}
+[class~='hover-border-magenta-1']:hover {border-color: var(--magenta-1);}
+
+[class~='hover-magenta-2']:hover {color: var(--magenta-2);}
+[class~='hover-bg-magenta-2']:hover {background-color: var(--magenta-2);}
+[class~='hover-border-magenta-2']:hover {border-color: var(--magenta-2);}
+
+[class~='hover-magenta-3']:hover {color: var(--magenta-3);}
+[class~='hover-bg-magenta-3']:hover {background-color: var(--magenta-3);}
+[class~='hover-border-magenta-3']:hover {border-color: var(--magenta-3);}
+
+[class~='hover-magenta-4']:hover {color: var(--magenta-4);}
+[class~='hover-bg-magenta-4']:hover {background-color: var(--magenta-4);}
+[class~='hover-border-magenta-4']:hover {border-color: var(--magenta-4);}
+
+[class~='hover-magenta-5']:hover {color: var(--magenta-5);}
+[class~='hover-bg-magenta-5']:hover {background-color: var(--magenta-5);}
+[class~='hover-border-magenta-5']:hover {border-color: var(--magenta-5);}
+
+[class~='hover-magenta1']:hover {color: var(--magenta1);}
+[class~='hover-bg-magenta1']:hover {background-color: var(--magenta1);}
+[class~='hover-border-magenta1']:hover {border-color: var(--magenta1);}
+
+[class~='hover-magenta2']:hover {color: var(--magenta2);}
+[class~='hover-bg-magenta2']:hover {background-color: var(--magenta2);}
+[class~='hover-border-magenta2']:hover {border-color: var(--magenta2);}
+
+[class~='hover-magenta3']:hover {color: var(--magenta3);}
+[class~='hover-bg-magenta3']:hover {background-color: var(--magenta3);}
+[class~='hover-border-magenta3']:hover {border-color: var(--magenta3);}
+
+[class~='hover-magenta4']:hover {color: var(--magenta4);}
+[class~='hover-bg-magenta4']:hover {background-color: var(--magenta4);}
+[class~='hover-border-magenta4']:hover {border-color: var(--magenta4);}
+
+[class~='hover-magenta5']:hover {color: var(--magenta5);}
+[class~='hover-bg-magenta5']:hover {background-color: var(--magenta5);}
+[class~='hover-border-magenta5']:hover {border-color: var(--magenta5);}
+
+
+/* red */
+
+[class~='hover-red']:hover {color: var(--red0);}
+[class~='hover-bg-red']:hover {background-color: var(--red0);}
+[class~='hover-border-red']:hover {border-color: var(--red0);}
+
+[class~='hover-red-1']:hover {color: var(--red-1);}
+[class~='hover-bg-red-1']:hover {background-color: var(--red-1);}
+[class~='hover-border-red-1']:hover {border-color: var(--red-1);}
+
+[class~='hover-red-2']:hover {color: var(--red-2);}
+[class~='hover-bg-red-2']:hover {background-color: var(--red-2);}
+[class~='hover-border-red-2']:hover {border-color: var(--red-2);}
+
+[class~='hover-red-3']:hover {color: var(--red-3);}
+[class~='hover-bg-red-3']:hover {background-color: var(--red-3);}
+[class~='hover-border-red-3']:hover {border-color: var(--red-3);}
+
+[class~='hover-red-4']:hover {color: var(--red-4);}
+[class~='hover-bg-red-4']:hover {background-color: var(--red-4);}
+[class~='hover-border-red-4']:hover {border-color: var(--red-4);}
+
+[class~='hover-red-5']:hover {color: var(--red-5);}
+[class~='hover-bg-red-5']:hover {background-color: var(--red-5);}
+[class~='hover-border-red-5']:hover {border-color: var(--red-5);}
+
+[class~='hover-red1']:hover {color: var(--red1);}
+[class~='hover-bg-red1']:hover {background-color: var(--red1);}
+[class~='hover-border-red1']:hover {border-color: var(--red1);}
+
+[class~='hover-red2']:hover {color: var(--red2);}
+[class~='hover-bg-red2']:hover {background-color: var(--red2);}
+[class~='hover-border-red2']:hover {border-color: var(--red2);}
+
+[class~='hover-red3']:hover {color: var(--red3);}
+[class~='hover-bg-red3']:hover {background-color: var(--red3);}
+[class~='hover-border-red3']:hover {border-color: var(--red3);}
+
+[class~='hover-red4']:hover {color: var(--red4);}
+[class~='hover-bg-red4']:hover {background-color: var(--red4);}
+[class~='hover-border-red4']:hover {border-color: var(--red4);}
+
+[class~='hover-red5']:hover {color: var(--red5);}
+[class~='hover-bg-red5']:hover {background-color: var(--red5);}
+[class~='hover-border-red5']:hover {border-color: var(--red5);}
+
+
+
+/* orange */
+
+[class~='hover-orange']:hover {color: var(--orange0);}
+[class~='hover-bg-orange']:hover {background-color: var(--orange0);}
+[class~='hover-border-orange']:hover {border-color: var(--orange0);}
+
+[class~='hover-orange-1']:hover {color: var(--orange-1);}
+[class~='hover-bg-orange-1']:hover {background-color: var(--orange-1);}
+[class~='hover-border-orange-1']:hover {border-color: var(--orange-1);}
+
+[class~='hover-orange-2']:hover {color: var(--orange-2);}
+[class~='hover-bg-orange-2']:hover {background-color: var(--orange-2);}
+[class~='hover-border-orange-2']:hover {border-color: var(--orange-2);}
+
+[class~='hover-orange-3']:hover {color: var(--orange-3);}
+[class~='hover-bg-orange-3']:hover {background-color: var(--orange-3);}
+[class~='hover-border-orange-3']:hover {border-color: var(--orange-3);}
+
+[class~='hover-orange-4']:hover {color: var(--orange-4);}
+[class~='hover-bg-orange-4']:hover {background-color: var(--orange-4);}
+[class~='hover-border-orange-4']:hover {border-color: var(--orange-4);}
+
+[class~='hover-orange-5']:hover {color: var(--orange-5);}
+[class~='hover-bg-orange-5']:hover {background-color: var(--orange-5);}
+[class~='hover-border-orange-5']:hover {border-color: var(--orange-5);}
+
+[class~='hover-orange1']:hover {color: var(--orange1);}
+[class~='hover-bg-orange1']:hover {background-color: var(--orange1);}
+[class~='hover-border-orange1']:hover {border-color: var(--orange1);}
+
+[class~='hover-orange2']:hover {color: var(--orange2);}
+[class~='hover-bg-orange2']:hover {background-color: var(--orange2);}
+[class~='hover-border-orange2']:hover {border-color: var(--orange2);}
+
+[class~='hover-orange3']:hover {color: var(--orange3);}
+[class~='hover-bg-orange3']:hover {background-color: var(--orange3);}
+[class~='hover-border-orange3']:hover {border-color: var(--orange3);}
+
+[class~='hover-orange4']:hover {color: var(--orange4);}
+[class~='hover-bg-orange4']:hover {background-color: var(--orange4);}
+[class~='hover-border-orange4']:hover {border-color: var(--orange4);}
+
+[class~='hover-orange5']:hover {color: var(--orange5);}
+[class~='hover-bg-orange5']:hover {background-color: var(--orange5);}
+[class~='hover-border-orange5']:hover {border-color: var(--orange5);}
+
+
+
+/* gray */
+
+[class~='hover-gray']:hover {color: var(--gray0);}
+[class~='hover-bg-gray']:hover {background-color: var(--gray0);}
+[class~='hover-border-gray']:hover {border-color: var(--gray0);}
+
+[class~='hover-gray-1']:hover {color: var(--gray-1);}
+[class~='hover-bg-gray-1']:hover {background-color: var(--gray-1);}
+[class~='hover-border-gray-1']:hover {border-color: var(--gray-1);}
+
+[class~='hover-gray-2']:hover {color: var(--gray-2);}
+[class~='hover-bg-gray-2']:hover {background-color: var(--gray-2);}
+[class~='hover-border-gray-2']:hover {border-color: var(--gray-2);}
+
+[class~='hover-gray-3']:hover {color: var(--gray-3);}
+[class~='hover-bg-gray-3']:hover {background-color: var(--gray-3);}
+[class~='hover-border-gray-3']:hover {border-color: var(--gray-3);}
+
+[class~='hover-gray-4']:hover {color: var(--gray-4);}
+[class~='hover-bg-gray-4']:hover {background-color: var(--gray-4);}
+[class~='hover-border-gray-4']:hover {border-color: var(--gray-4);}
+
+[class~='hover-gray-5']:hover {color: var(--gray-5);}
+[class~='hover-bg-gray-5']:hover {background-color: var(--gray-5);}
+[class~='hover-border-gray-5']:hover {border-color: var(--gray-5);}
+
+[class~='hover-gray1']:hover {color: var(--gray1);}
+[class~='hover-bg-gray1']:hover {background-color: var(--gray1);}
+[class~='hover-border-gray1']:hover {border-color: var(--gray1);}
+
+[class~='hover-gray2']:hover {color: var(--gray2);}
+[class~='hover-bg-gray2']:hover {background-color: var(--gray2);}
+[class~='hover-border-gray2']:hover {border-color: var(--gray2);}
+
+[class~='hover-gray3']:hover {color: var(--gray3);}
+[class~='hover-bg-gray3']:hover {background-color: var(--gray3);}
+[class~='hover-border-gray3']:hover {border-color: var(--gray3);}
+
+[class~='hover-gray4']:hover {color: var(--gray4);}
+[class~='hover-bg-gray4']:hover {background-color: var(--gray4);}
+[class~='hover-border-gray4']:hover {border-color: var(--gray4);}
+
+[class~='hover-gray5']:hover {color: var(--gray5);}
+[class~='hover-bg-gray5']:hover {background-color: var(--gray5);}
+[class~='hover-border-gray5']:hover {border-color: var(--gray5);}
+
+
+.black{color: var(--black);}
+.bg-black{background-color: var(--black);}
+.border-black {border-color: var(--black);}
+
+.hover-black:hover{color: var(--black);}
+.hover-bg-black:hover{background-color: var(--black);}
+.hover-border-black:hover {border-color: var(--black);}
+
+.white {color: var(--white);}
+.bg-white{background-color: var(--white);}
+.border-white {border-color: var(--white);}
+
+.hover-white:hover {color: var(--white);}
+.hover-bg-white:hover{background-color: var(--white);}
+.hover-border-white:hover {border-color: var(--white);}
+
+.color-inherit{color: inherit;}
+.bg-inherit{background-color: inherit;}
+.border-inherit{border-color: inherit;}
+
+.hover-color-inherit:hover{color: inherit;}
+.hover-bg-inherit:hover{background-color: inherit;}
+.hover-border-inherit:hover{border-color: inherit;}

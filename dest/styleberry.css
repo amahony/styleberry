@@ -20,14 +20,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Helvetica Neue',
-    Helvetica,
-    sans-serif;
+  font-family: 'Helvetica Neue','Segoe UI','Roboto', sans-serif;
   line-height: 1.4;
   margin: 0;
   color: #333;
@@ -58,7 +51,7 @@ h5 { font-size: 14px; font-size: .875rem }
 h6 { font-size: 12px; font-size: .75rem }
 p, dl, ol, ul, pre, blockquote {
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
 }
 code,
 pre,
@@ -80,8 +73,7 @@ pre {
   overflow: scroll;
 }
 blockquote {
-  font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 1.25em;
   font-style: italic;
   margin-left: 0;
 }
@@ -91,43 +83,39 @@ hr {
   border: 0;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: #ccc;
+  border-bottom-color: #ddd;
 }
 label {
-  font-size: 14px;
-  font-size: .875rem;
+  font-size: .875em;
   font-weight: bold;
   display: block;
-  margin-bottom: 8px;
-  margin-bottom: .5rem;
+  margin-bottom: .5em;
 }
 input {
   font-family: inherit;
   font-size: inherit;
   display: block;
   width: 100%;
-  height: 40px;
-  height: 2.5rem;
-  padding: 8px;
-  padding: .5rem;
-  margin-bottom: 16px;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
+  height: inherit;
+  min-height: 2.5em;
+  padding: .5em;
+  margin-bottom: 1em;
+  border: 1px solid #ddd;
   border-radius: 3px;
   box-sizing: border-box;
 }
+input[type='range']{min-height: auto;}
 select {
   font-family: inherit;
   font-size: inherit;
   display: block;
   width: 100%;
-  height: 40px;
-  height: 2.5rem;
-  padding: 8px;
-  padding: .5rem;
+  height: inherit;
+  min-height: 2.5em;
+  padding: .5em;
   margin-bottom: 16px;
   margin-bottom: 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
   border-radius: 3px;
   box-sizing: border-box;
 }
@@ -136,11 +124,9 @@ textarea {
   font-size: inherit;
   display: block;
   width: 100%;
-  padding: 8px;
-  padding: .5rem;
-  margin-bottom: 16px;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
+  padding: .5em;
+  margin-bottom: 1em;
+  border: 1px solid #ddd;
   border-radius: 3px;
   box-sizing: border-box;
 }
@@ -156,28 +142,28 @@ textarea {
 
 }
 /* Size */
-[class~="size-5"]{font-size: calc(1rem - 1vmin);}
-[class~="size-4"]{font-size: calc(1rem - 0.8vmin);}
-[class~="size-3"]{font-size: calc(1rem - 0.6vmin);}
-[class~="size-2"]{font-size: calc(1rem - 0.4vmin);}
-[class~="size-1"]{font-size: calc(1rem - 0.2vmin);}
+[class~="size-5"]{font-size: calc(1rem - 0.809vmin);}
+[class~="size-4"]{font-size: calc(1rem - 0.6472vmin);}
+[class~="size-3"]{font-size: calc(1rem - 0.4854vmin);}
+[class~="size-2"]{font-size: calc(1rem - 0.3236vmin);}
+[class~="size-1"]{font-size: calc(1rem - 0.1618vmin);}
 [class~="size0"]{font-size: 16px;font-size: 1rem;}
-[class~="size+1"]{font-size: calc(1rem + 0.4vmin);}
-[class~="size+2"]{font-size: calc(1rem + 0.8vmin);}
-[class~="size+3"]{font-size: calc(1rem + 1.6vmin);}
-[class~="size+4"]{font-size: calc(1rem + 3.2vmin);}
-[class~="size+5"]{font-size: calc(1rem + 4.8vmin);}
-.size-auto{ font-size: inherit;}
+[class~="size1"]{font-size: calc(1rem + 0.4854vmin);}
+[class~="size2"]{font-size: calc(1rem + 0.9708vmin);}
+[class~="size3"]{font-size: calc(1rem + 1.4562vmin);}
+[class~="size4"]{font-size: calc(1rem + 2.427vmin);}
+[class~="size5"]{font-size: calc(1rem + 3.8832vmin);}
+.size-inherit{ font-size: inherit;}
 /* Font Weight */
-.thin{ font-weight: 100;}
-.extra-light{ font-weight: 200;}
-.light{ font-weight: 300;}
-.normal{ font-weight: 400;}
-.medium{ font-weight: 500;}
-.semi-bold{ font-weight: 600;}
-.bold{ font-weight: 700;}
-.extra-bold{ font-weight: 800;}
-.heavy{ font-weight: 900;}
+[class~="weight-3"], .thin{ font-weight: 100;}
+[class~="weight-2"], .extra-light{ font-weight: 200;}
+[class~="weight-1"], .light{ font-weight: 300;}
+[class~="weight0"], .normal{ font-weight: 400;}
+[class~="weight1"], .medium{ font-weight: 500;}
+[class~="weight2"], .semi-bold{ font-weight: 600;}
+[class~="weight3"], .bold{ font-weight: 700;}
+[class~="weight4"], .extra-bold{ font-weight: 800;}
+[class~="weight5"], .heavy{ font-weight: 900;}
 .lighter{font-weight: lighter;}
 /* lighter than parent element*/
 .bolder{font-weight: bolder;}
@@ -199,12 +185,12 @@ textarea {
 [class~='spacing-3']{letter-spacing: -0.0875em;}
 [class~='spacing-2']{letter-spacing: -0.05em;}
 [class~='spacing-1']{letter-spacing: -0.025em;}
-[class~='spacing-0']{letter-spacing: 0em;}
-[class~='spacing+1']{letter-spacing: 0.0875em;}
-[class~='spacing+2']{letter-spacing: 0.125em;}
-[class~='spacing+3']{letter-spacing: 0.25em;}
-[class~='spacing+4']{letter-spacing: 0.5em;}
-[class~='spacing+5']{letter-spacing: 1em;}
+[class~='spacing0']{letter-spacing: 0em;}
+[class~='spacing1']{letter-spacing: 0.0875em;}
+[class~='spacing2']{letter-spacing: 0.125em;}
+[class~='spacing3']{letter-spacing: 0.25em;}
+[class~='spacing4']{letter-spacing: 0.5em;}
+[class~='spacing5']{letter-spacing: 1em;}
 .spacing-auto{ letter-spacing: inherit;}
 /* legacy syntax to support previous versions of framework */
 .ls0{letter-spacing: 0;}
@@ -217,20 +203,14 @@ textarea {
   /* Modifiers */
 
 }
-/* Letter Spacing */
-[class~='leading-0']{line-height: 0}
-[class~='leading+1']{line-height: 1.25;}
-[class~='leading+2']{line-height: 1.5;}
-[class~='leading+3']{line-height: 1.75;}
-[class~='leading+4']{line-height: 2.25;}
-[class~='leading+5']{line-height: 3.25;}
+/* Line Height */
+[class~='leading0']{line-height: 0}
+[class~='leading1']{line-height: 1.25;}
+[class~='leading2']{line-height: 1.5;}
+[class~='leading3']{line-height: 1.75;}
+[class~='leading4']{line-height: 2.25;}
+[class~='leading5']{line-height: 3.25;}
 .leading-auto{ line-height: inherit;}
-/* legacy line height syntax */
-.lh0{line-height: 0;}
-.lh1{line-height: 1;}
-.lh2{line-height: 1.5;}
-.lh3{line-height: 2;}
-.lh4{line-height: 3;}
 /* font style */
 .italic{font-style: italic;}
 /* text transform */
@@ -423,6 +403,11 @@ Borders
   border-left-color: rgba(0,0,0,.125);
 }
 .rounded { border-radius: 3px }
+.rounded-1 { border-radius: .25rem }
+.rounded-2 { border-radius: .375rem }
+.rounded-3 { border-radius: .5rem }
+.rounded-4 { border-radius: .75rem }
+.rounded-5 { border-radius: 1rem }
 .circle  { border-radius: 50% }
 .rounded-top    { border-radius: 3px 3px 0 0 }
 .rounded-right  { border-radius: 0 3px 3px 0 }
@@ -843,7 +828,6 @@ Borders
   }
 
 }*/
-.lift-1{box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.52);}
 .box-inset { box-shadow:inset 0px 0px 6px rgba(0, 0, 0, 0.48);}
 /* overflow related */
 .overflow-hidden { overflow: hidden;}
@@ -889,27 +873,6 @@ Box model properties
   visibility
   width
  */
-:root {
-
-/* Yellow */
-
-/* Green */
-
-/* Teal */
-
-/* Blue */
-
-/* Purple */
-
-/* Magenta */
-
-/* Red */
-
-/* Orange */
-
-/* Gray */
-
-}
 /*------------------------------------*\
 COLORS
 \*------------------------------------*/
@@ -917,308 +880,308 @@ COLORS
 [class~='yellow'] {color: rgb(254, 215, 0);}
 [class~='bg-yellow'] {background-color: rgb(254, 215, 0);}
 [class~='border-yellow'] {border-color: rgb(254, 215, 0);}
-[class~='yellow-1'] {color: rgb(254, 219, 25);}
-[class~='bg-yellow-1'] {background-color: rgb(254, 219, 25);}
-[class~='border-yellow-1'] {border-color: rgb(254, 219, 25);}
-[class~='yellow-2'] {color: rgb(254, 225, 64);}
-[class~='bg-yellow-2'] {background-color: rgb(254, 225, 64);}
-[class~='border-yellow-2'] {border-color: rgb(254, 225, 64);}
-[class~='yellow-3'] {color: rgb(255, 235, 128);}
-[class~='bg-yellow-3'] {background-color: rgb(255, 235, 128);}
-[class~='border-yellow-3'] {border-color: rgb(255, 235, 128);}
-[class~='yellow-4'] {color: rgb(255, 245, 191);}
-[class~='bg-yellow-4'] {background-color: rgb(255, 245, 191);}
-[class~='border-yellow-4'] {border-color: rgb(255, 245, 191);}
-[class~='yellow-5'] {color: rgb(255, 251, 230);}
-[class~='bg-yellow-5'] {background-color: rgb(255, 251, 230);}
-[class~='border-yellow-5'] {border-color: rgb(255, 251, 230);}
-[class~='yellow+1'] {color: rgb(229, 194, 0);}
-[class~='bg-yellow+1'] {background-color: rgb(229, 194, 0);}
-[class~='border-yellow+1'] {border-color: rgb(229, 194, 0);}
-[class~='yellow+2'] {color: rgb(191, 161, 0);}
-[class~='bg-yellow+2'] {background-color: rgb(191, 161, 0);}
-[class~='border-yellow+2'] {border-color: rgb(191, 161, 0);}
-[class~='yellow+3'] {color: rgb(127, 108, 0);}
-[class~='bg-yellow+3'] {background-color: rgb(127, 108, 0);}
-[class~='border-yellow+3'] {border-color: rgb(127, 108, 0);}
-[class~='yellow+4'] {color: rgb(64, 54, 0);}
-[class~='bg-yellow+4'] {background-color: rgb(64, 54, 0);}
-[class~='border-yellow+4'] {border-color: rgb(64, 54, 0);}
-[class~='yellow+5'] {color: rgb(25, 21, 0);}
-[class~='bg-yellow+5'] {background-color: rgb(25, 21, 0);}
-[class~='border-yellow+5'] {border-color: rgb(25, 21, 0);}
+[class~='yellow-1'] {color: rgb(216, 183, 0);}
+[class~='bg-yellow-1'] {background-color: rgb(216, 183, 0);}
+[class~='border-yellow-1'] {border-color: rgb(216, 183, 0);}
+[class~='yellow-2'] {color: rgb(170, 144, 0);}
+[class~='bg-yellow-2'] {background-color: rgb(170, 144, 0);}
+[class~='border-yellow-2'] {border-color: rgb(170, 144, 0);}
+[class~='yellow-3'] {color: rgb(127, 108, 0);}
+[class~='bg-yellow-3'] {background-color: rgb(127, 108, 0);}
+[class~='border-yellow-3'] {border-color: rgb(127, 108, 0);}
+[class~='yellow-4'] {color: rgb(86, 73, 0);}
+[class~='bg-yellow-4'] {background-color: rgb(86, 73, 0);}
+[class~='border-yellow-4'] {border-color: rgb(86, 73, 0);}
+[class~='yellow-5'] {color: rgb(51, 43, 0);}
+[class~='bg-yellow-5'] {background-color: rgb(51, 43, 0);}
+[class~='border-yellow-5'] {border-color: rgb(51, 43, 0);}
+[class~='yellow1'] {color: rgb(254, 223, 51);}
+[class~='bg-yellow1'] {background-color: rgb(254, 223, 51);}
+[class~='border-yellow1'] {border-color: rgb(254, 223, 51);}
+[class~='yellow2'] {color: rgb(254, 228, 84);}
+[class~='bg-yellow2'] {background-color: rgb(254, 228, 84);}
+[class~='border-yellow2'] {border-color: rgb(254, 228, 84);}
+[class~='yellow3'] {color: rgb(255, 235, 128);}
+[class~='bg-yellow3'] {background-color: rgb(255, 235, 128);}
+[class~='border-yellow3'] {border-color: rgb(255, 235, 128);}
+[class~='yellow4'] {color: rgb(255, 245, 191);}
+[class~='bg-yellow4'] {background-color: rgb(255, 245, 191);}
+[class~='border-yellow4'] {border-color: rgb(255, 245, 191);}
+[class~='yellow5'] {color: rgb(255, 252, 235);}
+[class~='bg-yellow5'] {background-color: rgb(255, 252, 235);}
+[class~='border-yellow5'] {border-color: rgb(255, 252, 235);}
 /* green */
 [class~='green'] {color: rgb(102, 204, 0);}
 [class~='bg-green'] {background-color: rgb(102, 204, 0);}
 [class~='border-green'] {border-color: rgb(102, 204, 0);}
-[class~='green-1'] {color: rgb(117, 209, 25);}
-[class~='bg-green-1'] {background-color: rgb(117, 209, 25);}
-[class~='border-green-1'] {border-color: rgb(117, 209, 25);}
-[class~='green-2'] {color: rgb(140, 217, 64);}
-[class~='bg-green-2'] {background-color: rgb(140, 217, 64);}
-[class~='border-green-2'] {border-color: rgb(140, 217, 64);}
-[class~='green-3'] {color: rgb(179, 230, 128);}
-[class~='bg-green-3'] {background-color: rgb(179, 230, 128);}
-[class~='border-green-3'] {border-color: rgb(179, 230, 128);}
-[class~='green-4'] {color: rgb(217, 242, 191);}
-[class~='bg-green-4'] {background-color: rgb(217, 242, 191);}
-[class~='border-green-4'] {border-color: rgb(217, 242, 191);}
-[class~='green-5'] {color: rgb(240, 250, 230);}
-[class~='bg-green-5'] {background-color: rgb(240, 250, 230);}
-[class~='border-green-5'] {border-color: rgb(240, 250, 230);}
-[class~='green+1'] {color: rgb(92, 184, 0);}
-[class~='bg-green+1'] {background-color: rgb(92, 184, 0);}
-[class~='border-green+1'] {border-color: rgb(92, 184, 0);}
-[class~='green+2'] {color: rgb(77, 153, 0);}
-[class~='bg-green+2'] {background-color: rgb(77, 153, 0);}
-[class~='border-green+2'] {border-color: rgb(77, 153, 0);}
-[class~='green+3'] {color: rgb(51, 102, 0);}
-[class~='bg-green+3'] {background-color: rgb(51, 102, 0);}
-[class~='border-green+3'] {border-color: rgb(51, 102, 0);}
-[class~='green+4'] {color: rgb(26, 51, 0);}
-[class~='bg-green+4'] {background-color: rgb(26, 51, 0);}
-[class~='border-green+4'] {border-color: rgb(26, 51, 0);}
-[class~='green+5'] {color: rgb(10, 20, 0);}
-[class~='bg-green+5'] {background-color: rgb(10, 20, 0);}
-[class~='border-green+5'] {border-color: rgb(10, 20, 0);}
+[class~='green-1'] {color: rgb(87, 173, 0);}
+[class~='bg-green-1'] {background-color: rgb(87, 173, 0);}
+[class~='border-green-1'] {border-color: rgb(87, 173, 0);}
+[class~='green-2'] {color: rgb(68, 137, 0);}
+[class~='bg-green-2'] {background-color: rgb(68, 137, 0);}
+[class~='border-green-2'] {border-color: rgb(68, 137, 0);}
+[class~='green-3'] {color: rgb(51, 102, 0);}
+[class~='bg-green-3'] {background-color: rgb(51, 102, 0);}
+[class~='border-green-3'] {border-color: rgb(51, 102, 0);}
+[class~='green-4'] {color: rgb(35, 69, 0);}
+[class~='bg-green-4'] {background-color: rgb(35, 69, 0);}
+[class~='border-green-4'] {border-color: rgb(35, 69, 0);}
+[class~='green-5'] {color: rgb(20, 41, 0);}
+[class~='bg-green-5'] {background-color: rgb(20, 41, 0);}
+[class~='border-green-5'] {border-color: rgb(20, 41, 0);}
+[class~='green1'] {color: rgb(133, 214, 51);}
+[class~='bg-green1'] {background-color: rgb(133, 214, 51);}
+[class~='border-green1'] {border-color: rgb(133, 214, 51);}
+[class~='green2'] {color: rgb(152, 221, 84);}
+[class~='bg-green2'] {background-color: rgb(152, 221, 84);}
+[class~='border-green2'] {border-color: rgb(152, 221, 84);}
+[class~='green3'] {color: rgb(179, 230, 128);}
+[class~='bg-green3'] {background-color: rgb(179, 230, 128);}
+[class~='border-green3'] {border-color: rgb(179, 230, 128);}
+[class~='green4'] {color: rgb(217, 242, 191);}
+[class~='bg-green4'] {background-color: rgb(217, 242, 191);}
+[class~='border-green4'] {border-color: rgb(217, 242, 191);}
+[class~='green5'] {color: rgb(243, 251, 235);}
+[class~='bg-green5'] {background-color: rgb(243, 251, 235);}
+[class~='border-green5'] {border-color: rgb(243, 251, 235);}
 /* teal */
 [class~='teal'] {color: rgb(0, 180, 160);}
 [class~='bg-teal'] {background-color: rgb(0, 180, 160);}
 [class~='border-teal'] {border-color: rgb(0, 180, 160);}
-[class~='teal-1'] {color: rgb(25, 188, 170);}
-[class~='bg-teal-1'] {background-color: rgb(25, 188, 170);}
-[class~='border-teal-1'] {border-color: rgb(25, 188, 170);}
-[class~='teal-2'] {color: rgb(64, 199, 184);}
-[class~='bg-teal-2'] {background-color: rgb(64, 199, 184);}
-[class~='border-teal-2'] {border-color: rgb(64, 199, 184);}
-[class~='teal-3'] {color: rgb(128, 218, 208);}
-[class~='bg-teal-3'] {background-color: rgb(128, 218, 208);}
-[class~='border-teal-3'] {border-color: rgb(128, 218, 208);}
-[class~='teal-4'] {color: rgb(191, 236, 231);}
-[class~='bg-teal-4'] {background-color: rgb(191, 236, 231);}
-[class~='border-teal-4'] {border-color: rgb(191, 236, 231);}
-[class~='teal-5'] {color: rgb(230, 248, 246);}
-[class~='bg-teal-5'] {background-color: rgb(230, 248, 246);}
-[class~='border-teal-5'] {border-color: rgb(230, 248, 246);}
-[class~='teal+1'] {color: rgb(0, 162, 144);}
-[class~='bg-teal+1'] {background-color: rgb(0, 162, 144);}
-[class~='border-teal+1'] {border-color: rgb(0, 162, 144);}
-[class~='teal+2'] {color: rgb(0, 135, 120);}
-[class~='bg-teal+2'] {background-color: rgb(0, 135, 120);}
-[class~='border-teal+2'] {border-color: rgb(0, 135, 120);}
-[class~='teal+3'] {color: rgb(0, 90, 80);}
-[class~='bg-teal+3'] {background-color: rgb(0, 90, 80);}
-[class~='border-teal+3'] {border-color: rgb(0, 90, 80);}
-[class~='teal+4'] {color: rgb(0, 45, 40);}
-[class~='bg-teal+4'] {background-color: rgb(0, 45, 40);}
-[class~='border-teal+4'] {border-color: rgb(0, 45, 40);}
-[class~='teal+5'] {color: rgb(0, 18, 16);}
-[class~='bg-teal+5'] {background-color: rgb(0, 18, 16);}
-[class~='border-teal+5'] {border-color: rgb(0, 18, 16);}
+[class~='teal-1'] {color: rgb(0, 153, 136);}
+[class~='bg-teal-1'] {background-color: rgb(0, 153, 136);}
+[class~='border-teal-1'] {border-color: rgb(0, 153, 136);}
+[class~='teal-2'] {color: rgb(0, 121, 107);}
+[class~='bg-teal-2'] {background-color: rgb(0, 121, 107);}
+[class~='border-teal-2'] {border-color: rgb(0, 121, 107);}
+[class~='teal-3'] {color: rgb(0, 90, 80);}
+[class~='bg-teal-3'] {background-color: rgb(0, 90, 80);}
+[class~='border-teal-3'] {border-color: rgb(0, 90, 80);}
+[class~='teal-4'] {color: rgb(0, 61, 54);}
+[class~='bg-teal-4'] {background-color: rgb(0, 61, 54);}
+[class~='border-teal-4'] {border-color: rgb(0, 61, 54);}
+[class~='teal-5'] {color: rgb(0, 36, 32);}
+[class~='bg-teal-5'] {background-color: rgb(0, 36, 32);}
+[class~='border-teal-5'] {border-color: rgb(0, 36, 32);}
+[class~='teal1'] {color: rgb(51, 195, 179);}
+[class~='bg-teal1'] {background-color: rgb(51, 195, 179);}
+[class~='border-teal1'] {border-color: rgb(51, 195, 179);}
+[class~='teal2'] {color: rgb(84, 205, 191);}
+[class~='bg-teal2'] {background-color: rgb(84, 205, 191);}
+[class~='border-teal2'] {border-color: rgb(84, 205, 191);}
+[class~='teal3'] {color: rgb(128, 218, 208);}
+[class~='bg-teal3'] {background-color: rgb(128, 218, 208);}
+[class~='border-teal3'] {border-color: rgb(128, 218, 208);}
+[class~='teal4'] {color: rgb(191, 236, 231);}
+[class~='bg-teal4'] {background-color: rgb(191, 236, 231);}
+[class~='border-teal4'] {border-color: rgb(191, 236, 231);}
+[class~='teal5'] {color: rgb(235, 249, 247);}
+[class~='bg-teal5'] {background-color: rgb(235, 249, 247);}
+[class~='border-teal5'] {border-color: rgb(235, 249, 247);}
 /* blue */
 [class~='blue'] {color: rgb(0, 119, 255);}
 [class~='bg-blue'] {background-color: rgb(0, 119, 255);}
 [class~='border-blue'] {border-color: rgb(0, 119, 255);}
-[class~='blue-1'] {color: rgb(25, 133, 255);}
-[class~='bg-blue-1'] {background-color: rgb(25, 133, 255);}
-[class~='border-blue-1'] {border-color: rgb(25, 133, 255);}
-[class~='blue-2'] {color: rgb(64, 153, 255);}
-[class~='bg-blue-2'] {background-color: rgb(64, 153, 255);}
-[class~='border-blue-2'] {border-color: rgb(64, 153, 255);}
-[class~='blue-3'] {color: rgb(128, 187, 255);}
-[class~='bg-blue-3'] {background-color: rgb(128, 187, 255);}
-[class~='border-blue-3'] {border-color: rgb(128, 187, 255);}
-[class~='blue-4'] {color: rgb(191, 221, 255);}
-[class~='bg-blue-4'] {background-color: rgb(191, 221, 255);}
-[class~='border-blue-4'] {border-color: rgb(191, 221, 255);}
-[class~='blue-5'] {color: rgb(230, 241, 255);}
-[class~='bg-blue-5'] {background-color: rgb(230, 241, 255);}
-[class~='border-blue-5'] {border-color: rgb(230, 241, 255);}
-[class~='blue+1'] {color: rgb(0, 107, 230);}
-[class~='bg-blue+1'] {background-color: rgb(0, 107, 230);}
-[class~='border-blue+1'] {border-color: rgb(0, 107, 230);}
-[class~='blue+2'] {color: rgb(0, 89, 191);}
-[class~='bg-blue+2'] {background-color: rgb(0, 89, 191);}
-[class~='border-blue+2'] {border-color: rgb(0, 89, 191);}
-[class~='blue+3'] {color: rgb(0, 60, 128);}
-[class~='bg-blue+3'] {background-color: rgb(0, 60, 128);}
-[class~='border-blue+3'] {border-color: rgb(0, 60, 128);}
-[class~='blue+4'] {color: rgb(0, 30, 64);}
-[class~='bg-blue+4'] {background-color: rgb(0, 30, 64);}
-[class~='border-blue+4'] {border-color: rgb(0, 30, 64);}
-[class~='blue+5'] {color: rgb(0, 12, 25);}
-[class~='bg-blue+5'] {background-color: rgb(0, 12, 25);}
-[class~='border-blue+5'] {border-color: rgb(0, 12, 25);}
+[class~='blue-1'] {color: rgb(0, 101, 217);}
+[class~='bg-blue-1'] {background-color: rgb(0, 101, 217);}
+[class~='border-blue-1'] {border-color: rgb(0, 101, 217);}
+[class~='blue-2'] {color: rgb(0, 80, 171);}
+[class~='bg-blue-2'] {background-color: rgb(0, 80, 171);}
+[class~='border-blue-2'] {border-color: rgb(0, 80, 171);}
+[class~='blue-3'] {color: rgb(0, 60, 128);}
+[class~='bg-blue-3'] {background-color: rgb(0, 60, 128);}
+[class~='border-blue-3'] {border-color: rgb(0, 60, 128);}
+[class~='blue-4'] {color: rgb(0, 40, 87);}
+[class~='bg-blue-4'] {background-color: rgb(0, 40, 87);}
+[class~='border-blue-4'] {border-color: rgb(0, 40, 87);}
+[class~='blue-5'] {color: rgb(0, 24, 51);}
+[class~='bg-blue-5'] {background-color: rgb(0, 24, 51);}
+[class~='border-blue-5'] {border-color: rgb(0, 24, 51);}
+[class~='blue1'] {color: rgb(51, 146, 255);}
+[class~='bg-blue1'] {background-color: rgb(51, 146, 255);}
+[class~='border-blue1'] {border-color: rgb(51, 146, 255);}
+[class~='blue2'] {color: rgb(84, 164, 255);}
+[class~='bg-blue2'] {background-color: rgb(84, 164, 255);}
+[class~='border-blue2'] {border-color: rgb(84, 164, 255);}
+[class~='blue3'] {color: rgb(128, 187, 255);}
+[class~='bg-blue3'] {background-color: rgb(128, 187, 255);}
+[class~='border-blue3'] {border-color: rgb(128, 187, 255);}
+[class~='blue4'] {color: rgb(191, 221, 255);}
+[class~='bg-blue4'] {background-color: rgb(191, 221, 255);}
+[class~='border-blue4'] {border-color: rgb(191, 221, 255);}
+[class~='blue5'] {color: rgb(235, 244, 255);}
+[class~='bg-blue5'] {background-color: rgb(235, 244, 255);}
+[class~='border-blue5'] {border-color: rgb(235, 244, 255);}
 /* purple */
 [class~='purple'] {color: rgb(153, 79, 215);}
 [class~='bg-purple'] {background-color: rgb(153, 79, 215);}
 [class~='border-purple'] {border-color: rgb(153, 79, 215);}
-[class~='purple-1'] {color: rgb(163, 97, 219);}
-[class~='bg-purple-1'] {background-color: rgb(163, 97, 219);}
-[class~='border-purple-1'] {border-color: rgb(163, 97, 219);}
-[class~='purple-2'] {color: rgb(179, 123, 225);}
-[class~='bg-purple-2'] {background-color: rgb(179, 123, 225);}
-[class~='border-purple-2'] {border-color: rgb(179, 123, 225);}
-[class~='purple-3'] {color: rgb(204, 167, 235);}
-[class~='bg-purple-3'] {background-color: rgb(204, 167, 235);}
-[class~='border-purple-3'] {border-color: rgb(204, 167, 235);}
-[class~='purple-4'] {color: rgb(230, 211, 245);}
-[class~='bg-purple-4'] {background-color: rgb(230, 211, 245);}
-[class~='border-purple-4'] {border-color: rgb(230, 211, 245);}
-[class~='purple-5'] {color: rgb(245, 237, 251);}
-[class~='bg-purple-5'] {background-color: rgb(245, 237, 251);}
-[class~='border-purple-5'] {border-color: rgb(245, 237, 251);}
-[class~='purple+1'] {color: rgb(138, 71, 194);}
-[class~='bg-purple+1'] {background-color: rgb(138, 71, 194);}
-[class~='border-purple+1'] {border-color: rgb(138, 71, 194);}
-[class~='purple+2'] {color: rgb(115, 59, 161);}
-[class~='bg-purple+2'] {background-color: rgb(115, 59, 161);}
-[class~='border-purple+2'] {border-color: rgb(115, 59, 161);}
-[class~='purple+3'] {color: rgb(77, 40, 108);}
-[class~='bg-purple+3'] {background-color: rgb(77, 40, 108);}
-[class~='border-purple+3'] {border-color: rgb(77, 40, 108);}
-[class~='purple+4'] {color: rgb(38, 20, 54);}
-[class~='bg-purple+4'] {background-color: rgb(38, 20, 54);}
-[class~='border-purple+4'] {border-color: rgb(38, 20, 54);}
-[class~='purple+5'] {color: rgb(15, 8, 21);}
-[class~='bg-purple+5'] {background-color: rgb(15, 8, 21);}
-[class~='border-purple+5'] {border-color: rgb(15, 8, 21);}
+[class~='purple-1'] {color: rgb(130, 67, 183);}
+[class~='bg-purple-1'] {background-color: rgb(130, 67, 183);}
+[class~='border-purple-1'] {border-color: rgb(130, 67, 183);}
+[class~='purple-2'] {color: rgb(103, 53, 144);}
+[class~='bg-purple-2'] {background-color: rgb(103, 53, 144);}
+[class~='border-purple-2'] {border-color: rgb(103, 53, 144);}
+[class~='purple-3'] {color: rgb(77, 40, 108);}
+[class~='bg-purple-3'] {background-color: rgb(77, 40, 108);}
+[class~='border-purple-3'] {border-color: rgb(77, 40, 108);}
+[class~='purple-4'] {color: rgb(52, 27, 73);}
+[class~='bg-purple-4'] {background-color: rgb(52, 27, 73);}
+[class~='border-purple-4'] {border-color: rgb(52, 27, 73);}
+[class~='purple-5'] {color: rgb(31, 16, 43);}
+[class~='bg-purple-5'] {background-color: rgb(31, 16, 43);}
+[class~='border-purple-5'] {border-color: rgb(31, 16, 43);}
+[class~='purple1'] {color: rgb(173, 114, 223);}
+[class~='bg-purple1'] {background-color: rgb(173, 114, 223);}
+[class~='border-purple1'] {border-color: rgb(173, 114, 223);}
+[class~='purple2'] {color: rgb(187, 137, 228);}
+[class~='bg-purple2'] {background-color: rgb(187, 137, 228);}
+[class~='border-purple2'] {border-color: rgb(187, 137, 228);}
+[class~='purple3'] {color: rgb(204, 167, 235);}
+[class~='bg-purple3'] {background-color: rgb(204, 167, 235);}
+[class~='border-purple3'] {border-color: rgb(204, 167, 235);}
+[class~='purple4'] {color: rgb(230, 211, 245);}
+[class~='bg-purple4'] {background-color: rgb(230, 211, 245);}
+[class~='border-purple4'] {border-color: rgb(230, 211, 245);}
+[class~='purple5'] {color: rgb(247, 241, 252);}
+[class~='bg-purple5'] {background-color: rgb(247, 241, 252);}
+[class~='border-purple5'] {border-color: rgb(247, 241, 252);}
 /* magenta */
 [class~='magenta'] {color: rgb(255, 53, 160);}
 [class~='bg-magenta'] {background-color: rgb(255, 53, 160);}
 [class~='border-magenta'] {border-color: rgb(255, 53, 160);}
-[class~='magenta-1'] {color: rgb(255, 73, 170);}
-[class~='bg-magenta-1'] {background-color: rgb(255, 73, 170);}
-[class~='border-magenta-1'] {border-color: rgb(255, 73, 170);}
-[class~='magenta-2'] {color: rgb(255, 104, 184);}
-[class~='bg-magenta-2'] {background-color: rgb(255, 104, 184);}
-[class~='border-magenta-2'] {border-color: rgb(255, 104, 184);}
-[class~='magenta-3'] {color: rgb(255, 154, 208);}
-[class~='bg-magenta-3'] {background-color: rgb(255, 154, 208);}
-[class~='border-magenta-3'] {border-color: rgb(255, 154, 208);}
-[class~='magenta-4'] {color: rgb(255, 205, 231);}
-[class~='bg-magenta-4'] {background-color: rgb(255, 205, 231);}
-[class~='border-magenta-4'] {border-color: rgb(255, 205, 231);}
-[class~='magenta-5'] {color: rgb(255, 235, 246);}
-[class~='bg-magenta-5'] {background-color: rgb(255, 235, 246);}
-[class~='border-magenta-5'] {border-color: rgb(255, 235, 246);}
-[class~='magenta+1'] {color: rgb(230, 48, 144);}
-[class~='bg-magenta+1'] {background-color: rgb(230, 48, 144);}
-[class~='border-magenta+1'] {border-color: rgb(230, 48, 144);}
-[class~='magenta+2'] {color: rgb(191, 40, 120);}
-[class~='bg-magenta+2'] {background-color: rgb(191, 40, 120);}
-[class~='border-magenta+2'] {border-color: rgb(191, 40, 120);}
-[class~='magenta+3'] {color: rgb(128, 27, 80);}
-[class~='bg-magenta+3'] {background-color: rgb(128, 27, 80);}
-[class~='border-magenta+3'] {border-color: rgb(128, 27, 80);}
-[class~='magenta+4'] {color: rgb(64, 13, 40);}
-[class~='bg-magenta+4'] {background-color: rgb(64, 13, 40);}
-[class~='border-magenta+4'] {border-color: rgb(64, 13, 40);}
-[class~='magenta+5'] {color: rgb(25, 5, 16);}
-[class~='bg-magenta+5'] {background-color: rgb(25, 5, 16);}
-[class~='border-magenta+5'] {border-color: rgb(25, 5, 16);}
+[class~='magenta-1'] {color: rgb(217, 45, 136);}
+[class~='bg-magenta-1'] {background-color: rgb(217, 45, 136);}
+[class~='border-magenta-1'] {border-color: rgb(217, 45, 136);}
+[class~='magenta-2'] {color: rgb(171, 36, 107);}
+[class~='bg-magenta-2'] {background-color: rgb(171, 36, 107);}
+[class~='border-magenta-2'] {border-color: rgb(171, 36, 107);}
+[class~='magenta-3'] {color: rgb(128, 27, 80);}
+[class~='bg-magenta-3'] {background-color: rgb(128, 27, 80);}
+[class~='border-magenta-3'] {border-color: rgb(128, 27, 80);}
+[class~='magenta-4'] {color: rgb(87, 18, 54);}
+[class~='bg-magenta-4'] {background-color: rgb(87, 18, 54);}
+[class~='border-magenta-4'] {border-color: rgb(87, 18, 54);}
+[class~='magenta-5'] {color: rgb(51, 11, 32);}
+[class~='bg-magenta-5'] {background-color: rgb(51, 11, 32);}
+[class~='border-magenta-5'] {border-color: rgb(51, 11, 32);}
+[class~='magenta1'] {color: rgb(255, 93, 179);}
+[class~='bg-magenta1'] {background-color: rgb(255, 93, 179);}
+[class~='border-magenta1'] {border-color: rgb(255, 93, 179);}
+[class~='magenta2'] {color: rgb(255, 120, 191);}
+[class~='bg-magenta2'] {background-color: rgb(255, 120, 191);}
+[class~='border-magenta2'] {border-color: rgb(255, 120, 191);}
+[class~='magenta3'] {color: rgb(255, 154, 208);}
+[class~='bg-magenta3'] {background-color: rgb(255, 154, 208);}
+[class~='border-magenta3'] {border-color: rgb(255, 154, 208);}
+[class~='magenta4'] {color: rgb(255, 205, 231);}
+[class~='bg-magenta4'] {background-color: rgb(255, 205, 231);}
+[class~='border-magenta4'] {border-color: rgb(255, 205, 231);}
+[class~='magenta5'] {color: rgb(255, 239, 247);}
+[class~='bg-magenta5'] {background-color: rgb(255, 239, 247);}
+[class~='border-magenta5'] {border-color: rgb(255, 239, 247);}
 /* red */
 [class~='red'] {color: rgb(233, 34, 43);}
 [class~='bg-red'] {background-color: rgb(233, 34, 43);}
 [class~='border-red'] {border-color: rgb(233, 34, 43);}
-[class~='red-1'] {color: rgb(235, 56, 64);}
-[class~='bg-red-1'] {background-color: rgb(235, 56, 64);}
-[class~='border-red-1'] {border-color: rgb(235, 56, 64);}
-[class~='red-2'] {color: rgb(239, 89, 96);}
-[class~='bg-red-2'] {background-color: rgb(239, 89, 96);}
-[class~='border-red-2'] {border-color: rgb(239, 89, 96);}
-[class~='red-3'] {color: rgb(244, 145, 149);}
-[class~='bg-red-3'] {background-color: rgb(244, 145, 149);}
-[class~='border-red-3'] {border-color: rgb(244, 145, 149);}
-[class~='red-4'] {color: rgb(250, 200, 202);}
-[class~='bg-red-4'] {background-color: rgb(250, 200, 202);}
-[class~='border-red-4'] {border-color: rgb(250, 200, 202);}
-[class~='red-5'] {color: rgb(253, 233, 234);}
-[class~='bg-red-5'] {background-color: rgb(253, 233, 234);}
-[class~='border-red-5'] {border-color: rgb(253, 233, 234);}
-[class~='red+1'] {color: rgb(210, 31, 39);}
-[class~='bg-red+1'] {background-color: rgb(210, 31, 39);}
-[class~='border-red+1'] {border-color: rgb(210, 31, 39);}
-[class~='red+2'] {color: rgb(175, 26, 32);}
-[class~='bg-red+2'] {background-color: rgb(175, 26, 32);}
-[class~='border-red+2'] {border-color: rgb(175, 26, 32);}
-[class~='red+3'] {color: rgb(117, 17, 22);}
-[class~='bg-red+3'] {background-color: rgb(117, 17, 22);}
-[class~='border-red+3'] {border-color: rgb(117, 17, 22);}
-[class~='red+4'] {color: rgb(58, 9, 11);}
-[class~='bg-red+4'] {background-color: rgb(58, 9, 11);}
-[class~='border-red+4'] {border-color: rgb(58, 9, 11);}
-[class~='red+5'] {color: rgb(23, 3, 4);}
-[class~='bg-red+5'] {background-color: rgb(23, 3, 4);}
-[class~='border-red+5'] {border-color: rgb(23, 3, 4);}
+[class~='red-1'] {color: rgb(198, 29, 37);}
+[class~='bg-red-1'] {background-color: rgb(198, 29, 37);}
+[class~='border-red-1'] {border-color: rgb(198, 29, 37);}
+[class~='red-2'] {color: rgb(156, 23, 29);}
+[class~='bg-red-2'] {background-color: rgb(156, 23, 29);}
+[class~='border-red-2'] {border-color: rgb(156, 23, 29);}
+[class~='red-3'] {color: rgb(117, 17, 22);}
+[class~='bg-red-3'] {background-color: rgb(117, 17, 22);}
+[class~='border-red-3'] {border-color: rgb(117, 17, 22);}
+[class~='red-4'] {color: rgb(79, 12, 15);}
+[class~='bg-red-4'] {background-color: rgb(79, 12, 15);}
+[class~='border-red-4'] {border-color: rgb(79, 12, 15);}
+[class~='red-5'] {color: rgb(47, 7, 9);}
+[class~='bg-red-5'] {background-color: rgb(47, 7, 9);}
+[class~='border-red-5'] {border-color: rgb(47, 7, 9);}
+[class~='red1'] {color: rgb(237, 78, 85);}
+[class~='bg-red1'] {background-color: rgb(237, 78, 85);}
+[class~='border-red1'] {border-color: rgb(237, 78, 85);}
+[class~='red2'] {color: rgb(240, 107, 113);}
+[class~='bg-red2'] {background-color: rgb(240, 107, 113);}
+[class~='border-red2'] {border-color: rgb(240, 107, 113);}
+[class~='red3'] {color: rgb(244, 145, 149);}
+[class~='bg-red3'] {background-color: rgb(244, 145, 149);}
+[class~='border-red3'] {border-color: rgb(244, 145, 149);}
+[class~='red4'] {color: rgb(250, 200, 202);}
+[class~='bg-red4'] {background-color: rgb(250, 200, 202);}
+[class~='border-red4'] {border-color: rgb(250, 200, 202);}
+[class~='red5'] {color: rgb(253, 237, 238);}
+[class~='bg-red5'] {background-color: rgb(253, 237, 238);}
+[class~='border-red5'] {border-color: rgb(253, 237, 238);}
 /* orange */
 [class~='orange'] {color: rgb(255, 120, 34);}
 [class~='bg-orange'] {background-color: rgb(255, 120, 34);}
 [class~='border-orange'] {border-color: rgb(255, 120, 34);}
-[class~='orange-1'] {color: rgb(255, 134, 56);}
-[class~='bg-orange-1'] {background-color: rgb(255, 134, 56);}
-[class~='border-orange-1'] {border-color: rgb(255, 134, 56);}
-[class~='orange-2'] {color: rgb(255, 154, 89);}
-[class~='bg-orange-2'] {background-color: rgb(255, 154, 89);}
-[class~='border-orange-2'] {border-color: rgb(255, 154, 89);}
-[class~='orange-3'] {color: rgb(255, 188, 145);}
-[class~='bg-orange-3'] {background-color: rgb(255, 188, 145);}
-[class~='border-orange-3'] {border-color: rgb(255, 188, 145);}
-[class~='orange-4'] {color: rgb(255, 221, 200);}
-[class~='bg-orange-4'] {background-color: rgb(255, 221, 200);}
-[class~='border-orange-4'] {border-color: rgb(255, 221, 200);}
-[class~='orange-5'] {color: rgb(255, 242, 233);}
-[class~='bg-orange-5'] {background-color: rgb(255, 242, 233);}
-[class~='border-orange-5'] {border-color: rgb(255, 242, 233);}
-[class~='orange+1'] {color: rgb(230, 108, 31);}
-[class~='bg-orange+1'] {background-color: rgb(230, 108, 31);}
-[class~='border-orange+1'] {border-color: rgb(230, 108, 31);}
-[class~='orange+2'] {color: rgb(191, 90, 26);}
-[class~='bg-orange+2'] {background-color: rgb(191, 90, 26);}
-[class~='border-orange+2'] {border-color: rgb(191, 90, 26);}
-[class~='orange+3'] {color: rgb(128, 60, 17);}
-[class~='bg-orange+3'] {background-color: rgb(128, 60, 17);}
-[class~='border-orange+3'] {border-color: rgb(128, 60, 17);}
-[class~='orange+4'] {color: rgb(64, 30, 9);}
-[class~='bg-orange+4'] {background-color: rgb(64, 30, 9);}
-[class~='border-orange+4'] {border-color: rgb(64, 30, 9);}
-[class~='orange+5'] {color: rgb(25, 12, 3);}
-[class~='bg-orange+5'] {background-color: rgb(25, 12, 3);}
-[class~='border-orange+5'] {border-color: rgb(25, 12, 3);}
+[class~='orange-1'] {color: rgb(217, 102, 29);}
+[class~='bg-orange-1'] {background-color: rgb(217, 102, 29);}
+[class~='border-orange-1'] {border-color: rgb(217, 102, 29);}
+[class~='orange-2'] {color: rgb(171, 80, 23);}
+[class~='bg-orange-2'] {background-color: rgb(171, 80, 23);}
+[class~='border-orange-2'] {border-color: rgb(171, 80, 23);}
+[class~='orange-3'] {color: rgb(128, 60, 17);}
+[class~='bg-orange-3'] {background-color: rgb(128, 60, 17);}
+[class~='border-orange-3'] {border-color: rgb(128, 60, 17);}
+[class~='orange-4'] {color: rgb(87, 41, 12);}
+[class~='bg-orange-4'] {background-color: rgb(87, 41, 12);}
+[class~='border-orange-4'] {border-color: rgb(87, 41, 12);}
+[class~='orange-5'] {color: rgb(51, 24, 7);}
+[class~='bg-orange-5'] {background-color: rgb(51, 24, 7);}
+[class~='border-orange-5'] {border-color: rgb(51, 24, 7);}
+[class~='orange1'] {color: rgb(255, 147, 78);}
+[class~='bg-orange1'] {background-color: rgb(255, 147, 78);}
+[class~='border-orange1'] {border-color: rgb(255, 147, 78);}
+[class~='orange2'] {color: rgb(255, 165, 107);}
+[class~='bg-orange2'] {background-color: rgb(255, 165, 107);}
+[class~='border-orange2'] {border-color: rgb(255, 165, 107);}
+[class~='orange3'] {color: rgb(255, 188, 145);}
+[class~='bg-orange3'] {background-color: rgb(255, 188, 145);}
+[class~='border-orange3'] {border-color: rgb(255, 188, 145);}
+[class~='orange4'] {color: rgb(255, 221, 200);}
+[class~='bg-orange4'] {background-color: rgb(255, 221, 200);}
+[class~='border-orange4'] {border-color: rgb(255, 221, 200);}
+[class~='orange5'] {color: rgb(255, 244, 237);}
+[class~='bg-orange5'] {background-color: rgb(255, 244, 237);}
+[class~='border-orange5'] {border-color: rgb(255, 244, 237);}
 /* gray */
 [class~='gray'] {color: rgb(128, 128, 128);}
 [class~='bg-gray'] {background-color: rgb(128, 128, 128);}
 [class~='border-gray'] {border-color: rgb(128, 128, 128);}
-[class~='gray-1'] {color: rgb(141, 141, 141);}
-[class~='bg-gray-1'] {background-color: rgb(141, 141, 141);}
-[class~='border-gray-1'] {border-color: rgb(141, 141, 141);}
-[class~='gray-2'] {color: rgb(160, 160, 160);}
-[class~='bg-gray-2'] {background-color: rgb(160, 160, 160);}
-[class~='border-gray-2'] {border-color: rgb(160, 160, 160);}
-[class~='gray-3'] {color: rgb(192, 192, 192);}
-[class~='bg-gray-3'] {background-color: rgb(192, 192, 192);}
-[class~='border-gray-3'] {border-color: rgb(192, 192, 192);}
-[class~='gray-4'] {color: rgb(223, 223, 223);}
-[class~='bg-gray-4'] {background-color: rgb(223, 223, 223);}
-[class~='border-gray-4'] {border-color: rgb(223, 223, 223);}
-[class~='gray-5'] {color: rgb(242, 242, 242);}
-[class~='bg-gray-5'] {background-color: rgb(242, 242, 242);}
-[class~='border-gray-5'] {border-color: rgb(242, 242, 242);}
-[class~='gray+1'] {color: rgb(115, 115, 115);}
-[class~='bg-gray+1'] {background-color: rgb(115, 115, 115);}
-[class~='border-gray+1'] {border-color: rgb(115, 115, 115);}
-[class~='gray+2'] {color: rgb(96, 96, 96);}
-[class~='bg-gray+2'] {background-color: rgb(96, 96, 96);}
-[class~='border-gray+2'] {border-color: rgb(96, 96, 96);}
-[class~='gray+3'] {color: rgb(64, 64, 64);}
-[class~='bg-gray+3'] {background-color: rgb(64, 64, 64);}
-[class~='border-gray+3'] {border-color: rgb(64, 64, 64);}
-[class~='gray+4'] {color: rgb(32, 32, 32);}
-[class~='bg-gray+4'] {background-color: rgb(32, 32, 32);}
-[class~='border-gray+4'] {border-color: rgb(32, 32, 32);}
-[class~='gray+5'] {color: rgb(13, 13, 13);}
-[class~='bg-gray+5'] {background-color: rgb(13, 13, 13);}
-[class~='border-gray+5'] {border-color: rgb(13, 13, 13);}
+[class~='gray-1'] {color: rgb(109, 109, 109);}
+[class~='bg-gray-1'] {background-color: rgb(109, 109, 109);}
+[class~='border-gray-1'] {border-color: rgb(109, 109, 109);}
+[class~='gray-2'] {color: rgb(86, 86, 86);}
+[class~='bg-gray-2'] {background-color: rgb(86, 86, 86);}
+[class~='border-gray-2'] {border-color: rgb(86, 86, 86);}
+[class~='gray-3'] {color: rgb(64, 64, 64);}
+[class~='bg-gray-3'] {background-color: rgb(64, 64, 64);}
+[class~='border-gray-3'] {border-color: rgb(64, 64, 64);}
+[class~='gray-4'] {color: rgb(44, 44, 44);}
+[class~='bg-gray-4'] {background-color: rgb(44, 44, 44);}
+[class~='border-gray-4'] {border-color: rgb(44, 44, 44);}
+[class~='gray-5'] {color: rgb(26, 26, 26);}
+[class~='bg-gray-5'] {background-color: rgb(26, 26, 26);}
+[class~='border-gray-5'] {border-color: rgb(26, 26, 26);}
+[class~='gray1'] {color: rgb(153, 153, 153);}
+[class~='bg-gray1'] {background-color: rgb(153, 153, 153);}
+[class~='border-gray1'] {border-color: rgb(153, 153, 153);}
+[class~='gray2'] {color: rgb(170, 170, 170);}
+[class~='bg-gray2'] {background-color: rgb(170, 170, 170);}
+[class~='border-gray2'] {border-color: rgb(170, 170, 170);}
+[class~='gray3'] {color: rgb(192, 192, 192);}
+[class~='bg-gray3'] {background-color: rgb(192, 192, 192);}
+[class~='border-gray3'] {border-color: rgb(192, 192, 192);}
+[class~='gray4'] {color: rgb(223, 223, 223);}
+[class~='bg-gray4'] {background-color: rgb(223, 223, 223);}
+[class~='border-gray4'] {border-color: rgb(223, 223, 223);}
+[class~='gray5'] {color: rgb(245, 245, 245);}
+[class~='bg-gray5'] {background-color: rgb(245, 245, 245);}
+[class~='border-gray5'] {border-color: rgb(245, 245, 245);}
 .black{color: #000000;}
 .bg-black{background-color: #000000;}
 .border-black {border-color: #000000;}
@@ -1228,6 +1191,333 @@ COLORS
 .color-inherit{color: inherit;}
 .bg-inherit{background-color: inherit;}
 .border-inherit{border-color: inherit;}
+/*------------------------------------*\
+COLORS
+\*------------------------------------*/
+/* Yellow */
+[class~='hover-yellow']:hover {color: rgb(254, 215, 0);}
+[class~='hover-bg-yellow']:hover {background-color: rgb(254, 215, 0);}
+[class~='hover-border-yellow']:hover {border-color: rgb(254, 215, 0);}
+[class~='hover-yellow-1']:hover {color: rgb(216, 183, 0);}
+[class~='hover-bg-yellow-1']:hover {background-color: rgb(216, 183, 0);}
+[class~='hover-border-yellow-1']:hover {border-color: rgb(216, 183, 0);}
+[class~='hover-yellow-2']:hover {color: rgb(170, 144, 0);}
+[class~='hover-bg-yellow-2']:hover {background-color: rgb(170, 144, 0);}
+[class~='hover-border-yellow-2']:hover {border-color: rgb(170, 144, 0);}
+[class~='hover-yellow-3']:hover {color: rgb(127, 108, 0);}
+[class~='hover-bg-yellow-3']:hover {background-color: rgb(127, 108, 0);}
+[class~='hover-border-yellow-3']:hover {border-color: rgb(127, 108, 0);}
+[class~='hover-yellow-4']:hover {color: rgb(86, 73, 0);}
+[class~='hover-bg-yellow-4']:hover {background-color: rgb(86, 73, 0);}
+[class~='hover-border-yellow-4']:hover {border-color: rgb(86, 73, 0);}
+[class~='hover-yellow-5']:hover {color: rgb(51, 43, 0);}
+[class~='hover-bg-yellow-5']:hover {background-color: rgb(51, 43, 0);}
+[class~='hover-border-yellow-5']:hover {border-color: rgb(51, 43, 0);}
+[class~='hover-yellow1']:hover {color: rgb(254, 223, 51);}
+[class~='hover-bg-yellow1']:hover {background-color: rgb(254, 223, 51);}
+[class~='hover-border-yellow1']:hover {border-color: rgb(254, 223, 51);}
+[class~='hover-yellow2']:hover {color: rgb(254, 228, 84);}
+[class~='hover-bg-yellow2']:hover {background-color: rgb(254, 228, 84);}
+[class~='hover-border-yellow2']:hover {border-color: rgb(254, 228, 84);}
+[class~='hover-yellow3']:hover {color: rgb(255, 235, 128);}
+[class~='hover-bg-yellow3']:hover {background-color: rgb(255, 235, 128);}
+[class~='hover-border-yellow3']:hover {border-color: rgb(255, 235, 128);}
+[class~='hover-yellow4']:hover {color: rgb(255, 245, 191);}
+[class~='hover-bg-yellow4']:hover {background-color: rgb(255, 245, 191);}
+[class~='hover-border-yellow4']:hover {border-color: rgb(255, 245, 191);}
+[class~='hover-yellow5']:hover {color: rgb(255, 252, 235);}
+[class~='hover-bg-yellow5']:hover {background-color: rgb(255, 252, 235);}
+[class~='hover-border-yellow5']:hover {border-color: rgb(255, 252, 235);}
+/* green */
+[class~='hover-green']:hover {color: rgb(102, 204, 0);}
+[class~='hover-bg-green']:hover {background-color: rgb(102, 204, 0);}
+[class~='hover-border-green']:hover {border-color: rgb(102, 204, 0);}
+[class~='hover-green-1']:hover {color: rgb(87, 173, 0);}
+[class~='hover-bg-green-1']:hover {background-color: rgb(87, 173, 0);}
+[class~='hover-border-green-1']:hover {border-color: rgb(87, 173, 0);}
+[class~='hover-green-2']:hover {color: rgb(68, 137, 0);}
+[class~='hover-bg-green-2']:hover {background-color: rgb(68, 137, 0);}
+[class~='hover-border-green-2']:hover {border-color: rgb(68, 137, 0);}
+[class~='hover-green-3']:hover {color: rgb(51, 102, 0);}
+[class~='hover-bg-green-3']:hover {background-color: rgb(51, 102, 0);}
+[class~='hover-border-green-3']:hover {border-color: rgb(51, 102, 0);}
+[class~='hover-green-4']:hover {color: rgb(35, 69, 0);}
+[class~='hover-bg-green-4']:hover {background-color: rgb(35, 69, 0);}
+[class~='hover-border-green-4']:hover {border-color: rgb(35, 69, 0);}
+[class~='hover-green-5']:hover {color: rgb(20, 41, 0);}
+[class~='hover-bg-green-5']:hover {background-color: rgb(20, 41, 0);}
+[class~='hover-border-green-5']:hover {border-color: rgb(20, 41, 0);}
+[class~='hover-green1']:hover {color: rgb(133, 214, 51);}
+[class~='hover-bg-green1']:hover {background-color: rgb(133, 214, 51);}
+[class~='hover-border-green1']:hover {border-color: rgb(133, 214, 51);}
+[class~='hover-green2']:hover {color: rgb(152, 221, 84);}
+[class~='hover-bg-green2']:hover {background-color: rgb(152, 221, 84);}
+[class~='hover-border-green2']:hover {border-color: rgb(152, 221, 84);}
+[class~='hover-green3']:hover {color: rgb(179, 230, 128);}
+[class~='hover-bg-green3']:hover {background-color: rgb(179, 230, 128);}
+[class~='hover-border-green3']:hover {border-color: rgb(179, 230, 128);}
+[class~='hover-green4']:hover {color: rgb(217, 242, 191);}
+[class~='hover-bg-green4']:hover {background-color: rgb(217, 242, 191);}
+[class~='hover-border-green4']:hover {border-color: rgb(217, 242, 191);}
+[class~='hover-green5']:hover {color: rgb(243, 251, 235);}
+[class~='hover-bg-green5']:hover {background-color: rgb(243, 251, 235);}
+[class~='hover-border-green5']:hover {border-color: rgb(243, 251, 235);}
+/* teal */
+[class~='hover-teal']:hover {color: rgb(0, 180, 160);}
+[class~='hover-bg-teal']:hover {background-color: rgb(0, 180, 160);}
+[class~='hover-border-teal']:hover {border-color: rgb(0, 180, 160);}
+[class~='hover-teal-1']:hover {color: rgb(0, 153, 136);}
+[class~='hover-bg-teal-1']:hover {background-color: rgb(0, 153, 136);}
+[class~='hover-border-teal-1']:hover {border-color: rgb(0, 153, 136);}
+[class~='hover-teal-2']:hover {color: rgb(0, 121, 107);}
+[class~='hover-bg-teal-2']:hover {background-color: rgb(0, 121, 107);}
+[class~='hover-border-teal-2']:hover {border-color: rgb(0, 121, 107);}
+[class~='hover-teal-3']:hover {color: rgb(0, 90, 80);}
+[class~='hover-bg-teal-3']:hover {background-color: rgb(0, 90, 80);}
+[class~='hover-border-teal-3']:hover {border-color: rgb(0, 90, 80);}
+[class~='hover-teal-4']:hover {color: rgb(0, 61, 54);}
+[class~='hover-bg-teal-4']:hover {background-color: rgb(0, 61, 54);}
+[class~='hover-border-teal-4']:hover {border-color: rgb(0, 61, 54);}
+[class~='hover-teal-5']:hover {color: rgb(0, 36, 32);}
+[class~='hover-bg-teal-5']:hover {background-color: rgb(0, 36, 32);}
+[class~='hover-border-teal-5']:hover {border-color: rgb(0, 36, 32);}
+[class~='hover-teal1']:hover {color: rgb(51, 195, 179);}
+[class~='hover-bg-teal1']:hover {background-color: rgb(51, 195, 179);}
+[class~='hover-border-teal1']:hover {border-color: rgb(51, 195, 179);}
+[class~='hover-teal2']:hover {color: rgb(84, 205, 191);}
+[class~='hover-bg-teal2']:hover {background-color: rgb(84, 205, 191);}
+[class~='hover-border-teal2']:hover {border-color: rgb(84, 205, 191);}
+[class~='hover-teal3']:hover {color: rgb(128, 218, 208);}
+[class~='hover-bg-teal3']:hover {background-color: rgb(128, 218, 208);}
+[class~='hover-border-teal3']:hover {border-color: rgb(128, 218, 208);}
+[class~='hover-teal4']:hover {color: rgb(191, 236, 231);}
+[class~='hover-bg-teal4']:hover {background-color: rgb(191, 236, 231);}
+[class~='hover-border-teal4']:hover {border-color: rgb(191, 236, 231);}
+[class~='hover-teal5']:hover {color: rgb(235, 249, 247);}
+[class~='hover-bg-teal5']:hover {background-color: rgb(235, 249, 247);}
+[class~='hover-border-teal5']:hover {border-color: rgb(235, 249, 247);}
+/* blue */
+[class~='hover-blue']:hover {color: rgb(0, 119, 255);}
+[class~='hover-bg-blue']:hover {background-color: rgb(0, 119, 255);}
+[class~='hover-border-blue']:hover {border-color: rgb(0, 119, 255);}
+[class~='hover-blue-1']:hover {color: rgb(0, 101, 217);}
+[class~='hover-bg-blue-1']:hover {background-color: rgb(0, 101, 217);}
+[class~='hover-border-blue-1']:hover {border-color: rgb(0, 101, 217);}
+[class~='hover-blue-2']:hover {color: rgb(0, 80, 171);}
+[class~='hover-bg-blue-2']:hover {background-color: rgb(0, 80, 171);}
+[class~='hover-border-blue-2']:hover {border-color: rgb(0, 80, 171);}
+[class~='hover-blue-3']:hover {color: rgb(0, 60, 128);}
+[class~='hover-bg-blue-3']:hover {background-color: rgb(0, 60, 128);}
+[class~='hover-border-blue-3']:hover {border-color: rgb(0, 60, 128);}
+[class~='hover-blue-4']:hover {color: rgb(0, 40, 87);}
+[class~='hover-bg-blue-4']:hover {background-color: rgb(0, 40, 87);}
+[class~='hover-border-blue-4']:hover {border-color: rgb(0, 40, 87);}
+[class~='hover-blue-5']:hover {color: rgb(0, 24, 51);}
+[class~='hover-bg-blue-5']:hover {background-color: rgb(0, 24, 51);}
+[class~='hover-border-blue-5']:hover {border-color: rgb(0, 24, 51);}
+[class~='hover-blue1']:hover {color: rgb(51, 146, 255);}
+[class~='hover-bg-blue1']:hover {background-color: rgb(51, 146, 255);}
+[class~='hover-border-blue1']:hover {border-color: rgb(51, 146, 255);}
+[class~='hover-blue2']:hover {color: rgb(84, 164, 255);}
+[class~='hover-bg-blue2']:hover {background-color: rgb(84, 164, 255);}
+[class~='hover-border-blue2']:hover {border-color: rgb(84, 164, 255);}
+[class~='hover-blue3']:hover {color: rgb(128, 187, 255);}
+[class~='hover-bg-blue3']:hover {background-color: rgb(128, 187, 255);}
+[class~='hover-border-blue3']:hover {border-color: rgb(128, 187, 255);}
+[class~='hover-blue4']:hover {color: rgb(191, 221, 255);}
+[class~='hover-bg-blue4']:hover {background-color: rgb(191, 221, 255);}
+[class~='hover-border-blue4']:hover {border-color: rgb(191, 221, 255);}
+[class~='hover-blue5']:hover {color: rgb(235, 244, 255);}
+[class~='hover-bg-blue5']:hover {background-color: rgb(235, 244, 255);}
+[class~='hover-border-blue5']:hover {border-color: rgb(235, 244, 255);}
+/* purple */
+[class~='hover-purple']:hover {color: rgb(153, 79, 215);}
+[class~='hover-bg-purple']:hover {background-color: rgb(153, 79, 215);}
+[class~='hover-border-purple']:hover {border-color: rgb(153, 79, 215);}
+[class~='hover-purple-1']:hover {color: rgb(130, 67, 183);}
+[class~='hover-bg-purple-1']:hover {background-color: rgb(130, 67, 183);}
+[class~='hover-border-purple-1']:hover {border-color: rgb(130, 67, 183);}
+[class~='hover-purple-2']:hover {color: rgb(103, 53, 144);}
+[class~='hover-bg-purple-2']:hover {background-color: rgb(103, 53, 144);}
+[class~='hover-border-purple-2']:hover {border-color: rgb(103, 53, 144);}
+[class~='hover-purple-3']:hover {color: rgb(77, 40, 108);}
+[class~='hover-bg-purple-3']:hover {background-color: rgb(77, 40, 108);}
+[class~='hover-border-purple-3']:hover {border-color: rgb(77, 40, 108);}
+[class~='hover-purple-4']:hover {color: rgb(52, 27, 73);}
+[class~='hover-bg-purple-4']:hover {background-color: rgb(52, 27, 73);}
+[class~='hover-border-purple-4']:hover {border-color: rgb(52, 27, 73);}
+[class~='hover-purple-5']:hover {color: rgb(31, 16, 43);}
+[class~='hover-bg-purple-5']:hover {background-color: rgb(31, 16, 43);}
+[class~='hover-border-purple-5']:hover {border-color: rgb(31, 16, 43);}
+[class~='hover-purple1']:hover {color: rgb(173, 114, 223);}
+[class~='hover-bg-purple1']:hover {background-color: rgb(173, 114, 223);}
+[class~='hover-border-purple1']:hover {border-color: rgb(173, 114, 223);}
+[class~='hover-purple2']:hover {color: rgb(187, 137, 228);}
+[class~='hover-bg-purple2']:hover {background-color: rgb(187, 137, 228);}
+[class~='hover-border-purple2']:hover {border-color: rgb(187, 137, 228);}
+[class~='hover-purple3']:hover {color: rgb(204, 167, 235);}
+[class~='hover-bg-purple3']:hover {background-color: rgb(204, 167, 235);}
+[class~='hover-border-purple3']:hover {border-color: rgb(204, 167, 235);}
+[class~='hover-purple4']:hover {color: rgb(230, 211, 245);}
+[class~='hover-bg-purple4']:hover {background-color: rgb(230, 211, 245);}
+[class~='hover-border-purple4']:hover {border-color: rgb(230, 211, 245);}
+[class~='hover-purple5']:hover {color: rgb(247, 241, 252);}
+[class~='hover-bg-purple5']:hover {background-color: rgb(247, 241, 252);}
+[class~='hover-border-purple5']:hover {border-color: rgb(247, 241, 252);}
+/* magenta */
+[class~='hover-magenta']:hover {color: rgb(255, 53, 160);}
+[class~='hover-bg-magenta']:hover {background-color: rgb(255, 53, 160);}
+[class~='hover-border-magenta']:hover {border-color: rgb(255, 53, 160);}
+[class~='hover-magenta-1']:hover {color: rgb(217, 45, 136);}
+[class~='hover-bg-magenta-1']:hover {background-color: rgb(217, 45, 136);}
+[class~='hover-border-magenta-1']:hover {border-color: rgb(217, 45, 136);}
+[class~='hover-magenta-2']:hover {color: rgb(171, 36, 107);}
+[class~='hover-bg-magenta-2']:hover {background-color: rgb(171, 36, 107);}
+[class~='hover-border-magenta-2']:hover {border-color: rgb(171, 36, 107);}
+[class~='hover-magenta-3']:hover {color: rgb(128, 27, 80);}
+[class~='hover-bg-magenta-3']:hover {background-color: rgb(128, 27, 80);}
+[class~='hover-border-magenta-3']:hover {border-color: rgb(128, 27, 80);}
+[class~='hover-magenta-4']:hover {color: rgb(87, 18, 54);}
+[class~='hover-bg-magenta-4']:hover {background-color: rgb(87, 18, 54);}
+[class~='hover-border-magenta-4']:hover {border-color: rgb(87, 18, 54);}
+[class~='hover-magenta-5']:hover {color: rgb(51, 11, 32);}
+[class~='hover-bg-magenta-5']:hover {background-color: rgb(51, 11, 32);}
+[class~='hover-border-magenta-5']:hover {border-color: rgb(51, 11, 32);}
+[class~='hover-magenta1']:hover {color: rgb(255, 93, 179);}
+[class~='hover-bg-magenta1']:hover {background-color: rgb(255, 93, 179);}
+[class~='hover-border-magenta1']:hover {border-color: rgb(255, 93, 179);}
+[class~='hover-magenta2']:hover {color: rgb(255, 120, 191);}
+[class~='hover-bg-magenta2']:hover {background-color: rgb(255, 120, 191);}
+[class~='hover-border-magenta2']:hover {border-color: rgb(255, 120, 191);}
+[class~='hover-magenta3']:hover {color: rgb(255, 154, 208);}
+[class~='hover-bg-magenta3']:hover {background-color: rgb(255, 154, 208);}
+[class~='hover-border-magenta3']:hover {border-color: rgb(255, 154, 208);}
+[class~='hover-magenta4']:hover {color: rgb(255, 205, 231);}
+[class~='hover-bg-magenta4']:hover {background-color: rgb(255, 205, 231);}
+[class~='hover-border-magenta4']:hover {border-color: rgb(255, 205, 231);}
+[class~='hover-magenta5']:hover {color: rgb(255, 239, 247);}
+[class~='hover-bg-magenta5']:hover {background-color: rgb(255, 239, 247);}
+[class~='hover-border-magenta5']:hover {border-color: rgb(255, 239, 247);}
+/* red */
+[class~='hover-red']:hover {color: rgb(233, 34, 43);}
+[class~='hover-bg-red']:hover {background-color: rgb(233, 34, 43);}
+[class~='hover-border-red']:hover {border-color: rgb(233, 34, 43);}
+[class~='hover-red-1']:hover {color: rgb(198, 29, 37);}
+[class~='hover-bg-red-1']:hover {background-color: rgb(198, 29, 37);}
+[class~='hover-border-red-1']:hover {border-color: rgb(198, 29, 37);}
+[class~='hover-red-2']:hover {color: rgb(156, 23, 29);}
+[class~='hover-bg-red-2']:hover {background-color: rgb(156, 23, 29);}
+[class~='hover-border-red-2']:hover {border-color: rgb(156, 23, 29);}
+[class~='hover-red-3']:hover {color: rgb(117, 17, 22);}
+[class~='hover-bg-red-3']:hover {background-color: rgb(117, 17, 22);}
+[class~='hover-border-red-3']:hover {border-color: rgb(117, 17, 22);}
+[class~='hover-red-4']:hover {color: rgb(79, 12, 15);}
+[class~='hover-bg-red-4']:hover {background-color: rgb(79, 12, 15);}
+[class~='hover-border-red-4']:hover {border-color: rgb(79, 12, 15);}
+[class~='hover-red-5']:hover {color: rgb(47, 7, 9);}
+[class~='hover-bg-red-5']:hover {background-color: rgb(47, 7, 9);}
+[class~='hover-border-red-5']:hover {border-color: rgb(47, 7, 9);}
+[class~='hover-red1']:hover {color: rgb(237, 78, 85);}
+[class~='hover-bg-red1']:hover {background-color: rgb(237, 78, 85);}
+[class~='hover-border-red1']:hover {border-color: rgb(237, 78, 85);}
+[class~='hover-red2']:hover {color: rgb(240, 107, 113);}
+[class~='hover-bg-red2']:hover {background-color: rgb(240, 107, 113);}
+[class~='hover-border-red2']:hover {border-color: rgb(240, 107, 113);}
+[class~='hover-red3']:hover {color: rgb(244, 145, 149);}
+[class~='hover-bg-red3']:hover {background-color: rgb(244, 145, 149);}
+[class~='hover-border-red3']:hover {border-color: rgb(244, 145, 149);}
+[class~='hover-red4']:hover {color: rgb(250, 200, 202);}
+[class~='hover-bg-red4']:hover {background-color: rgb(250, 200, 202);}
+[class~='hover-border-red4']:hover {border-color: rgb(250, 200, 202);}
+[class~='hover-red5']:hover {color: rgb(253, 237, 238);}
+[class~='hover-bg-red5']:hover {background-color: rgb(253, 237, 238);}
+[class~='hover-border-red5']:hover {border-color: rgb(253, 237, 238);}
+/* orange */
+[class~='hover-orange']:hover {color: rgb(255, 120, 34);}
+[class~='hover-bg-orange']:hover {background-color: rgb(255, 120, 34);}
+[class~='hover-border-orange']:hover {border-color: rgb(255, 120, 34);}
+[class~='hover-orange-1']:hover {color: rgb(217, 102, 29);}
+[class~='hover-bg-orange-1']:hover {background-color: rgb(217, 102, 29);}
+[class~='hover-border-orange-1']:hover {border-color: rgb(217, 102, 29);}
+[class~='hover-orange-2']:hover {color: rgb(171, 80, 23);}
+[class~='hover-bg-orange-2']:hover {background-color: rgb(171, 80, 23);}
+[class~='hover-border-orange-2']:hover {border-color: rgb(171, 80, 23);}
+[class~='hover-orange-3']:hover {color: rgb(128, 60, 17);}
+[class~='hover-bg-orange-3']:hover {background-color: rgb(128, 60, 17);}
+[class~='hover-border-orange-3']:hover {border-color: rgb(128, 60, 17);}
+[class~='hover-orange-4']:hover {color: rgb(87, 41, 12);}
+[class~='hover-bg-orange-4']:hover {background-color: rgb(87, 41, 12);}
+[class~='hover-border-orange-4']:hover {border-color: rgb(87, 41, 12);}
+[class~='hover-orange-5']:hover {color: rgb(51, 24, 7);}
+[class~='hover-bg-orange-5']:hover {background-color: rgb(51, 24, 7);}
+[class~='hover-border-orange-5']:hover {border-color: rgb(51, 24, 7);}
+[class~='hover-orange1']:hover {color: rgb(255, 147, 78);}
+[class~='hover-bg-orange1']:hover {background-color: rgb(255, 147, 78);}
+[class~='hover-border-orange1']:hover {border-color: rgb(255, 147, 78);}
+[class~='hover-orange2']:hover {color: rgb(255, 165, 107);}
+[class~='hover-bg-orange2']:hover {background-color: rgb(255, 165, 107);}
+[class~='hover-border-orange2']:hover {border-color: rgb(255, 165, 107);}
+[class~='hover-orange3']:hover {color: rgb(255, 188, 145);}
+[class~='hover-bg-orange3']:hover {background-color: rgb(255, 188, 145);}
+[class~='hover-border-orange3']:hover {border-color: rgb(255, 188, 145);}
+[class~='hover-orange4']:hover {color: rgb(255, 221, 200);}
+[class~='hover-bg-orange4']:hover {background-color: rgb(255, 221, 200);}
+[class~='hover-border-orange4']:hover {border-color: rgb(255, 221, 200);}
+[class~='hover-orange5']:hover {color: rgb(255, 244, 237);}
+[class~='hover-bg-orange5']:hover {background-color: rgb(255, 244, 237);}
+[class~='hover-border-orange5']:hover {border-color: rgb(255, 244, 237);}
+/* gray */
+[class~='hover-gray']:hover {color: rgb(128, 128, 128);}
+[class~='hover-bg-gray']:hover {background-color: rgb(128, 128, 128);}
+[class~='hover-border-gray']:hover {border-color: rgb(128, 128, 128);}
+[class~='hover-gray-1']:hover {color: rgb(109, 109, 109);}
+[class~='hover-bg-gray-1']:hover {background-color: rgb(109, 109, 109);}
+[class~='hover-border-gray-1']:hover {border-color: rgb(109, 109, 109);}
+[class~='hover-gray-2']:hover {color: rgb(86, 86, 86);}
+[class~='hover-bg-gray-2']:hover {background-color: rgb(86, 86, 86);}
+[class~='hover-border-gray-2']:hover {border-color: rgb(86, 86, 86);}
+[class~='hover-gray-3']:hover {color: rgb(64, 64, 64);}
+[class~='hover-bg-gray-3']:hover {background-color: rgb(64, 64, 64);}
+[class~='hover-border-gray-3']:hover {border-color: rgb(64, 64, 64);}
+[class~='hover-gray-4']:hover {color: rgb(44, 44, 44);}
+[class~='hover-bg-gray-4']:hover {background-color: rgb(44, 44, 44);}
+[class~='hover-border-gray-4']:hover {border-color: rgb(44, 44, 44);}
+[class~='hover-gray-5']:hover {color: rgb(26, 26, 26);}
+[class~='hover-bg-gray-5']:hover {background-color: rgb(26, 26, 26);}
+[class~='hover-border-gray-5']:hover {border-color: rgb(26, 26, 26);}
+[class~='hover-gray1']:hover {color: rgb(153, 153, 153);}
+[class~='hover-bg-gray1']:hover {background-color: rgb(153, 153, 153);}
+[class~='hover-border-gray1']:hover {border-color: rgb(153, 153, 153);}
+[class~='hover-gray2']:hover {color: rgb(170, 170, 170);}
+[class~='hover-bg-gray2']:hover {background-color: rgb(170, 170, 170);}
+[class~='hover-border-gray2']:hover {border-color: rgb(170, 170, 170);}
+[class~='hover-gray3']:hover {color: rgb(192, 192, 192);}
+[class~='hover-bg-gray3']:hover {background-color: rgb(192, 192, 192);}
+[class~='hover-border-gray3']:hover {border-color: rgb(192, 192, 192);}
+[class~='hover-gray4']:hover {color: rgb(223, 223, 223);}
+[class~='hover-bg-gray4']:hover {background-color: rgb(223, 223, 223);}
+[class~='hover-border-gray4']:hover {border-color: rgb(223, 223, 223);}
+[class~='hover-gray5']:hover {color: rgb(245, 245, 245);}
+[class~='hover-bg-gray5']:hover {background-color: rgb(245, 245, 245);}
+[class~='hover-border-gray5']:hover {border-color: rgb(245, 245, 245);}
+.black{color: #000000;}
+.bg-black{background-color: #000000;}
+.border-black {border-color: #000000;}
+.hover-black:hover{color: #000000;}
+.hover-bg-black:hover{background-color: #000000;}
+.hover-border-black:hover {border-color: #000000;}
+.white {color: #ffffff;}
+.bg-white{background-color: #ffffff;}
+.border-white {border-color: #ffffff;}
+.hover-white:hover {color: #ffffff;}
+.hover-bg-white:hover{background-color: #ffffff;}
+.hover-border-white:hover {border-color: #ffffff;}
+.color-inherit{color: inherit;}
+.bg-inherit{background-color: inherit;}
+.border-inherit{border-color: inherit;}
+.hover-color-inherit:hover{color: inherit;}
+.hover-bg-inherit:hover{background-color: inherit;}
+.hover-border-inherit:hover{border-color: inherit;}
 .darken-1{color: rgba(0, 0, 0, 0.12);}
 .darken-2{color: rgba(0, 0, 0, 0.25);}
 .darken-3{color: rgba(0, 0, 0, 0.5);}
@@ -1293,6 +1583,28 @@ COLORS
 /* Base Colors */
 
 /* Modifiers */
+
+
+
+/* Yellow */
+
+/* Green */
+
+/* Teal */
+
+/* Blue */
+
+/* Purple */
+
+/* Magenta */
+
+/* Red */
+
+/* Orange */
+
+/* Gray */
+
+
 }
 /* aspect ratio blocks */
 .ratio-16-9 { width: 100%; padding-bottom: 56.25%; /* 16:9 */ position: relative; }
@@ -1341,3 +1653,56 @@ COLORS
 }
 .box:hover { }
 .box:hover::after { opacity: 1; }
+.range-slider {
+  -webkit-appearance: none;
+  height: 10px;
+  border-radius: 5px;
+  background: #ddd;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  
+}
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #2c3e50;
+  cursor: pointer;
+  -webkit-transition: background .15s ease-in-out;
+  transition: background .15s ease-in-out;
+}
+.range-slider::-webkit-slider-thumb:hover {
+  background: #1abc9c;
+}
+.range-slider:active::-webkit-slider-thumb {
+  background: #1abc9c;
+}
+.range-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-radius: 50%;
+  background: #2c3e50;
+  cursor: pointer;
+  -webkit-transition: background .15s ease-in-out;
+  transition: background .15s ease-in-out;
+}
+.range-slider::-moz-range-thumb:hover {
+  background: #1abc9c;
+}
+.range-slider:active::-moz-range-thumb {
+  background: #1abc9c;
+}
+::-moz-range-track {
+  background: #ddd;
+  border: 0;
+}
+input::-moz-focus-inner,
+input::-moz-focus-outer {
+  border: 0;
+}
+body{font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;}
+.work-sans{font-family: 'Work Sans', sans-serif;}

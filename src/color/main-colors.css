@@ -1,124 +1,3 @@
-:root {
-
-/* Yellow */
---yellow-5: color(var(--yellow) var(--tint-5));
---yellow-4: color(var(--yellow) var(--tint-4));
---yellow-3: color(var(--yellow) var(--tint-3));
---yellow-2: color(var(--yellow) var(--tint-2));
---yellow-1: color(var(--yellow) var(--tint-1));
---yellow0: color(var(--yellow));
---yellow1: color(var(--yellow) var(--shade-1));
---yellow2: color(var(--yellow) var(--shade-2));
---yellow3: color(var(--yellow) var(--shade-3));
---yellow4: color(var(--yellow) var(--shade-4));
---yellow5: color(var(--yellow) var(--shade-5));
-
-/* Green */
---green-5: color(var(--green) var(--tint-5));
---green-4: color(var(--green) var(--tint-4));
---green-3: color(var(--green) var(--tint-3));
---green-2: color(var(--green) var(--tint-2));
---green-1: color(var(--green) var(--tint-1));
---green0:  color(var(--green));
---green1:  color(var(--green) var(--shade-1));
---green2:  color(var(--green) var(--shade-2));
---green3:  color(var(--green) var(--shade-3));
---green4:  color(var(--green) var(--shade-4));
---green5:  color(var(--green) var(--shade-5));
-
-/* Teal */
---teal-5: color(var(--teal) var(--tint-5));
---teal-4: color(var(--teal) var(--tint-4));
---teal-3: color(var(--teal) var(--tint-3));
---teal-2: color(var(--teal) var(--tint-2));
---teal-1: color(var(--teal) var(--tint-1));
---teal0:  color(var(--teal));
---teal1:  color(var(--teal) var(--shade-1));
---teal2:  color(var(--teal) var(--shade-2));
---teal3:  color(var(--teal) var(--shade-3));
---teal4:  color(var(--teal) var(--shade-4));
---teal5:  color(var(--teal) var(--shade-5));
-
-/* Blue */
---blue-5: color(var(--blue) var(--tint-5));
---blue-4: color(var(--blue) var(--tint-4));
---blue-3: color(var(--blue) var(--tint-3));
---blue-2: color(var(--blue) var(--tint-2));
---blue-1: color(var(--blue) var(--tint-1));
---blue0:  color(var(--blue));
---blue1:  color(var(--blue) var(--shade-1));
---blue2:  color(var(--blue) var(--shade-2));
---blue3:  color(var(--blue) var(--shade-3));
---blue4:  color(var(--blue) var(--shade-4));
---blue5:  color(var(--blue) var(--shade-5));
-
-/* Purple */
---purple-5: color(var(--purple) var(--tint-5));
---purple-4: color(var(--purple) var(--tint-4));
---purple-3: color(var(--purple) var(--tint-3));
---purple-2: color(var(--purple) var(--tint-2));
---purple-1: color(var(--purple) var(--tint-1));
---purple0:  color(var(--purple));
---purple1:  color(var(--purple) var(--shade-1));
---purple2:  color(var(--purple) var(--shade-2));
---purple3:  color(var(--purple) var(--shade-3));
---purple4:  color(var(--purple) var(--shade-4));
---purple5:  color(var(--purple) var(--shade-5));
-
-/* Magenta */
---magenta-5: color(var(--magenta) var(--tint-5));
---magenta-4: color(var(--magenta) var(--tint-4));
---magenta-3: color(var(--magenta) var(--tint-3));
---magenta-2: color(var(--magenta) var(--tint-2));
---magenta-1: color(var(--magenta) var(--tint-1));
---magenta0:  color(var(--magenta));
---magenta1:  color(var(--magenta) var(--shade-1));
---magenta2:  color(var(--magenta) var(--shade-2));
---magenta3:  color(var(--magenta) var(--shade-3));
---magenta4:  color(var(--magenta) var(--shade-4));
---magenta5:  color(var(--magenta) var(--shade-5));
-
-/* Red */
---red-5: color(var(--red) var(--tint-5));
---red-4: color(var(--red) var(--tint-4));
---red-3: color(var(--red) var(--tint-3));
---red-2: color(var(--red) var(--tint-2));
---red-1: color(var(--red) var(--tint-1));
---red0:  color(var(--red));
---red1:  color(var(--red) var(--shade-1));
---red2:  color(var(--red) var(--shade-2));
---red3:  color(var(--red) var(--shade-3));
---red4:  color(var(--red) var(--shade-4));
---red5:  color(var(--red) var(--shade-5));
-
-/* Orange */
---orange-5: color(var(--orange) var(--tint-5));
---orange-4: color(var(--orange) var(--tint-4));
---orange-3: color(var(--orange) var(--tint-3));
---orange-2: color(var(--orange) var(--tint-2));
---orange-1: color(var(--orange) var(--tint-1));
---orange0:  color(var(--orange));
---orange1:  color(var(--orange) var(--shade-1));
---orange2:  color(var(--orange) var(--shade-2));
---orange3:  color(var(--orange) var(--shade-3));
---orange4:  color(var(--orange) var(--shade-4));
---orange5:  color(var(--orange) var(--shade-5));
-
-/* Gray */
---gray-5: color(var(--gray) var(--tint-5));
---gray-4: color(var(--gray) var(--tint-4));
---gray-3: color(var(--gray) var(--tint-3));
---gray-2: color(var(--gray) var(--tint-2));
---gray-1: color(var(--gray) var(--tint-1));
---gray0:  color(var(--gray));
---gray1:  color(var(--gray) var(--shade-1));
---gray2:  color(var(--gray) var(--shade-2));
---gray3:  color(var(--gray) var(--shade-3));
---gray4:  color(var(--gray) var(--shade-4));
---gray5:  color(var(--gray) var(--shade-5));
-
-}
-
 /*------------------------------------*\
 COLORS
 \*------------------------------------*/
@@ -149,25 +28,25 @@ COLORS
 [class~='bg-yellow-5'] {background-color: var(--yellow-5);}
 [class~='border-yellow-5'] {border-color: var(--yellow-5);}
 
-[class~='yellow+1'] {color: var(--yellow1);}
-[class~='bg-yellow+1'] {background-color: var(--yellow1);}
-[class~='border-yellow+1'] {border-color: var(--yellow1);}
+[class~='yellow1'] {color: var(--yellow1);}
+[class~='bg-yellow1'] {background-color: var(--yellow1);}
+[class~='border-yellow1'] {border-color: var(--yellow1);}
 
-[class~='yellow+2'] {color: var(--yellow2);}
-[class~='bg-yellow+2'] {background-color: var(--yellow2);}
-[class~='border-yellow+2'] {border-color: var(--yellow2);}
+[class~='yellow2'] {color: var(--yellow2);}
+[class~='bg-yellow2'] {background-color: var(--yellow2);}
+[class~='border-yellow2'] {border-color: var(--yellow2);}
 
-[class~='yellow+3'] {color: var(--yellow3);}
-[class~='bg-yellow+3'] {background-color: var(--yellow3);}
-[class~='border-yellow+3'] {border-color: var(--yellow3);}
+[class~='yellow3'] {color: var(--yellow3);}
+[class~='bg-yellow3'] {background-color: var(--yellow3);}
+[class~='border-yellow3'] {border-color: var(--yellow3);}
 
-[class~='yellow+4'] {color: var(--yellow4);}
-[class~='bg-yellow+4'] {background-color: var(--yellow4);}
-[class~='border-yellow+4'] {border-color: var(--yellow4);}
+[class~='yellow4'] {color: var(--yellow4);}
+[class~='bg-yellow4'] {background-color: var(--yellow4);}
+[class~='border-yellow4'] {border-color: var(--yellow4);}
 
-[class~='yellow+5'] {color: var(--yellow5);}
-[class~='bg-yellow+5'] {background-color: var(--yellow5);}
-[class~='border-yellow+5'] {border-color: var(--yellow5);}
+[class~='yellow5'] {color: var(--yellow5);}
+[class~='bg-yellow5'] {background-color: var(--yellow5);}
+[class~='border-yellow5'] {border-color: var(--yellow5);}
 
 /* green */
 
@@ -195,25 +74,25 @@ COLORS
 [class~='bg-green-5'] {background-color: var(--green-5);}
 [class~='border-green-5'] {border-color: var(--green-5);}
 
-[class~='green+1'] {color: var(--green1);}
-[class~='bg-green+1'] {background-color: var(--green1);}
-[class~='border-green+1'] {border-color: var(--green1);}
+[class~='green1'] {color: var(--green1);}
+[class~='bg-green1'] {background-color: var(--green1);}
+[class~='border-green1'] {border-color: var(--green1);}
 
-[class~='green+2'] {color: var(--green2);}
-[class~='bg-green+2'] {background-color: var(--green2);}
-[class~='border-green+2'] {border-color: var(--green2);}
+[class~='green2'] {color: var(--green2);}
+[class~='bg-green2'] {background-color: var(--green2);}
+[class~='border-green2'] {border-color: var(--green2);}
 
-[class~='green+3'] {color: var(--green3);}
-[class~='bg-green+3'] {background-color: var(--green3);}
-[class~='border-green+3'] {border-color: var(--green3);}
+[class~='green3'] {color: var(--green3);}
+[class~='bg-green3'] {background-color: var(--green3);}
+[class~='border-green3'] {border-color: var(--green3);}
 
-[class~='green+4'] {color: var(--green4);}
-[class~='bg-green+4'] {background-color: var(--green4);}
-[class~='border-green+4'] {border-color: var(--green4);}
+[class~='green4'] {color: var(--green4);}
+[class~='bg-green4'] {background-color: var(--green4);}
+[class~='border-green4'] {border-color: var(--green4);}
 
-[class~='green+5'] {color: var(--green5);}
-[class~='bg-green+5'] {background-color: var(--green5);}
-[class~='border-green+5'] {border-color: var(--green5);}
+[class~='green5'] {color: var(--green5);}
+[class~='bg-green5'] {background-color: var(--green5);}
+[class~='border-green5'] {border-color: var(--green5);}
 
 /* teal */
 
@@ -241,25 +120,25 @@ COLORS
 [class~='bg-teal-5'] {background-color: var(--teal-5);}
 [class~='border-teal-5'] {border-color: var(--teal-5);}
 
-[class~='teal+1'] {color: var(--teal1);}
-[class~='bg-teal+1'] {background-color: var(--teal1);}
-[class~='border-teal+1'] {border-color: var(--teal1);}
+[class~='teal1'] {color: var(--teal1);}
+[class~='bg-teal1'] {background-color: var(--teal1);}
+[class~='border-teal1'] {border-color: var(--teal1);}
 
-[class~='teal+2'] {color: var(--teal2);}
-[class~='bg-teal+2'] {background-color: var(--teal2);}
-[class~='border-teal+2'] {border-color: var(--teal2);}
+[class~='teal2'] {color: var(--teal2);}
+[class~='bg-teal2'] {background-color: var(--teal2);}
+[class~='border-teal2'] {border-color: var(--teal2);}
 
-[class~='teal+3'] {color: var(--teal3);}
-[class~='bg-teal+3'] {background-color: var(--teal3);}
-[class~='border-teal+3'] {border-color: var(--teal3);}
+[class~='teal3'] {color: var(--teal3);}
+[class~='bg-teal3'] {background-color: var(--teal3);}
+[class~='border-teal3'] {border-color: var(--teal3);}
 
-[class~='teal+4'] {color: var(--teal4);}
-[class~='bg-teal+4'] {background-color: var(--teal4);}
-[class~='border-teal+4'] {border-color: var(--teal4);}
+[class~='teal4'] {color: var(--teal4);}
+[class~='bg-teal4'] {background-color: var(--teal4);}
+[class~='border-teal4'] {border-color: var(--teal4);}
 
-[class~='teal+5'] {color: var(--teal5);}
-[class~='bg-teal+5'] {background-color: var(--teal5);}
-[class~='border-teal+5'] {border-color: var(--teal5);}
+[class~='teal5'] {color: var(--teal5);}
+[class~='bg-teal5'] {background-color: var(--teal5);}
+[class~='border-teal5'] {border-color: var(--teal5);}
 
 /* blue */
 
@@ -287,25 +166,25 @@ COLORS
 [class~='bg-blue-5'] {background-color: var(--blue-5);}
 [class~='border-blue-5'] {border-color: var(--blue-5);}
 
-[class~='blue+1'] {color: var(--blue1);}
-[class~='bg-blue+1'] {background-color: var(--blue1);}
-[class~='border-blue+1'] {border-color: var(--blue1);}
+[class~='blue1'] {color: var(--blue1);}
+[class~='bg-blue1'] {background-color: var(--blue1);}
+[class~='border-blue1'] {border-color: var(--blue1);}
 
-[class~='blue+2'] {color: var(--blue2);}
-[class~='bg-blue+2'] {background-color: var(--blue2);}
-[class~='border-blue+2'] {border-color: var(--blue2);}
+[class~='blue2'] {color: var(--blue2);}
+[class~='bg-blue2'] {background-color: var(--blue2);}
+[class~='border-blue2'] {border-color: var(--blue2);}
 
-[class~='blue+3'] {color: var(--blue3);}
-[class~='bg-blue+3'] {background-color: var(--blue3);}
-[class~='border-blue+3'] {border-color: var(--blue3);}
+[class~='blue3'] {color: var(--blue3);}
+[class~='bg-blue3'] {background-color: var(--blue3);}
+[class~='border-blue3'] {border-color: var(--blue3);}
 
-[class~='blue+4'] {color: var(--blue4);}
-[class~='bg-blue+4'] {background-color: var(--blue4);}
-[class~='border-blue+4'] {border-color: var(--blue4);}
+[class~='blue4'] {color: var(--blue4);}
+[class~='bg-blue4'] {background-color: var(--blue4);}
+[class~='border-blue4'] {border-color: var(--blue4);}
 
-[class~='blue+5'] {color: var(--blue5);}
-[class~='bg-blue+5'] {background-color: var(--blue5);}
-[class~='border-blue+5'] {border-color: var(--blue5);}
+[class~='blue5'] {color: var(--blue5);}
+[class~='bg-blue5'] {background-color: var(--blue5);}
+[class~='border-blue5'] {border-color: var(--blue5);}
 
 
 
@@ -334,25 +213,25 @@ COLORS
 [class~='bg-purple-5'] {background-color: var(--purple-5);}
 [class~='border-purple-5'] {border-color: var(--purple-5);}
 
-[class~='purple+1'] {color: var(--purple1);}
-[class~='bg-purple+1'] {background-color: var(--purple1);}
-[class~='border-purple+1'] {border-color: var(--purple1);}
+[class~='purple1'] {color: var(--purple1);}
+[class~='bg-purple1'] {background-color: var(--purple1);}
+[class~='border-purple1'] {border-color: var(--purple1);}
 
-[class~='purple+2'] {color: var(--purple2);}
-[class~='bg-purple+2'] {background-color: var(--purple2);}
-[class~='border-purple+2'] {border-color: var(--purple2);}
+[class~='purple2'] {color: var(--purple2);}
+[class~='bg-purple2'] {background-color: var(--purple2);}
+[class~='border-purple2'] {border-color: var(--purple2);}
 
-[class~='purple+3'] {color: var(--purple3);}
-[class~='bg-purple+3'] {background-color: var(--purple3);}
-[class~='border-purple+3'] {border-color: var(--purple3);}
+[class~='purple3'] {color: var(--purple3);}
+[class~='bg-purple3'] {background-color: var(--purple3);}
+[class~='border-purple3'] {border-color: var(--purple3);}
 
-[class~='purple+4'] {color: var(--purple4);}
-[class~='bg-purple+4'] {background-color: var(--purple4);}
-[class~='border-purple+4'] {border-color: var(--purple4);}
+[class~='purple4'] {color: var(--purple4);}
+[class~='bg-purple4'] {background-color: var(--purple4);}
+[class~='border-purple4'] {border-color: var(--purple4);}
 
-[class~='purple+5'] {color: var(--purple5);}
-[class~='bg-purple+5'] {background-color: var(--purple5);}
-[class~='border-purple+5'] {border-color: var(--purple5);}
+[class~='purple5'] {color: var(--purple5);}
+[class~='bg-purple5'] {background-color: var(--purple5);}
+[class~='border-purple5'] {border-color: var(--purple5);}
 
 
 
@@ -382,25 +261,25 @@ COLORS
 [class~='bg-magenta-5'] {background-color: var(--magenta-5);}
 [class~='border-magenta-5'] {border-color: var(--magenta-5);}
 
-[class~='magenta+1'] {color: var(--magenta1);}
-[class~='bg-magenta+1'] {background-color: var(--magenta1);}
-[class~='border-magenta+1'] {border-color: var(--magenta1);}
+[class~='magenta1'] {color: var(--magenta1);}
+[class~='bg-magenta1'] {background-color: var(--magenta1);}
+[class~='border-magenta1'] {border-color: var(--magenta1);}
 
-[class~='magenta+2'] {color: var(--magenta2);}
-[class~='bg-magenta+2'] {background-color: var(--magenta2);}
-[class~='border-magenta+2'] {border-color: var(--magenta2);}
+[class~='magenta2'] {color: var(--magenta2);}
+[class~='bg-magenta2'] {background-color: var(--magenta2);}
+[class~='border-magenta2'] {border-color: var(--magenta2);}
 
-[class~='magenta+3'] {color: var(--magenta3);}
-[class~='bg-magenta+3'] {background-color: var(--magenta3);}
-[class~='border-magenta+3'] {border-color: var(--magenta3);}
+[class~='magenta3'] {color: var(--magenta3);}
+[class~='bg-magenta3'] {background-color: var(--magenta3);}
+[class~='border-magenta3'] {border-color: var(--magenta3);}
 
-[class~='magenta+4'] {color: var(--magenta4);}
-[class~='bg-magenta+4'] {background-color: var(--magenta4);}
-[class~='border-magenta+4'] {border-color: var(--magenta4);}
+[class~='magenta4'] {color: var(--magenta4);}
+[class~='bg-magenta4'] {background-color: var(--magenta4);}
+[class~='border-magenta4'] {border-color: var(--magenta4);}
 
-[class~='magenta+5'] {color: var(--magenta5);}
-[class~='bg-magenta+5'] {background-color: var(--magenta5);}
-[class~='border-magenta+5'] {border-color: var(--magenta5);}
+[class~='magenta5'] {color: var(--magenta5);}
+[class~='bg-magenta5'] {background-color: var(--magenta5);}
+[class~='border-magenta5'] {border-color: var(--magenta5);}
 
 
 /* red */
@@ -429,25 +308,25 @@ COLORS
 [class~='bg-red-5'] {background-color: var(--red-5);}
 [class~='border-red-5'] {border-color: var(--red-5);}
 
-[class~='red+1'] {color: var(--red1);}
-[class~='bg-red+1'] {background-color: var(--red1);}
-[class~='border-red+1'] {border-color: var(--red1);}
+[class~='red1'] {color: var(--red1);}
+[class~='bg-red1'] {background-color: var(--red1);}
+[class~='border-red1'] {border-color: var(--red1);}
 
-[class~='red+2'] {color: var(--red2);}
-[class~='bg-red+2'] {background-color: var(--red2);}
-[class~='border-red+2'] {border-color: var(--red2);}
+[class~='red2'] {color: var(--red2);}
+[class~='bg-red2'] {background-color: var(--red2);}
+[class~='border-red2'] {border-color: var(--red2);}
 
-[class~='red+3'] {color: var(--red3);}
-[class~='bg-red+3'] {background-color: var(--red3);}
-[class~='border-red+3'] {border-color: var(--red3);}
+[class~='red3'] {color: var(--red3);}
+[class~='bg-red3'] {background-color: var(--red3);}
+[class~='border-red3'] {border-color: var(--red3);}
 
-[class~='red+4'] {color: var(--red4);}
-[class~='bg-red+4'] {background-color: var(--red4);}
-[class~='border-red+4'] {border-color: var(--red4);}
+[class~='red4'] {color: var(--red4);}
+[class~='bg-red4'] {background-color: var(--red4);}
+[class~='border-red4'] {border-color: var(--red4);}
 
-[class~='red+5'] {color: var(--red5);}
-[class~='bg-red+5'] {background-color: var(--red5);}
-[class~='border-red+5'] {border-color: var(--red5);}
+[class~='red5'] {color: var(--red5);}
+[class~='bg-red5'] {background-color: var(--red5);}
+[class~='border-red5'] {border-color: var(--red5);}
 
 
 
@@ -477,25 +356,25 @@ COLORS
 [class~='bg-orange-5'] {background-color: var(--orange-5);}
 [class~='border-orange-5'] {border-color: var(--orange-5);}
 
-[class~='orange+1'] {color: var(--orange1);}
-[class~='bg-orange+1'] {background-color: var(--orange1);}
-[class~='border-orange+1'] {border-color: var(--orange1);}
+[class~='orange1'] {color: var(--orange1);}
+[class~='bg-orange1'] {background-color: var(--orange1);}
+[class~='border-orange1'] {border-color: var(--orange1);}
 
-[class~='orange+2'] {color: var(--orange2);}
-[class~='bg-orange+2'] {background-color: var(--orange2);}
-[class~='border-orange+2'] {border-color: var(--orange2);}
+[class~='orange2'] {color: var(--orange2);}
+[class~='bg-orange2'] {background-color: var(--orange2);}
+[class~='border-orange2'] {border-color: var(--orange2);}
 
-[class~='orange+3'] {color: var(--orange3);}
-[class~='bg-orange+3'] {background-color: var(--orange3);}
-[class~='border-orange+3'] {border-color: var(--orange3);}
+[class~='orange3'] {color: var(--orange3);}
+[class~='bg-orange3'] {background-color: var(--orange3);}
+[class~='border-orange3'] {border-color: var(--orange3);}
 
-[class~='orange+4'] {color: var(--orange4);}
-[class~='bg-orange+4'] {background-color: var(--orange4);}
-[class~='border-orange+4'] {border-color: var(--orange4);}
+[class~='orange4'] {color: var(--orange4);}
+[class~='bg-orange4'] {background-color: var(--orange4);}
+[class~='border-orange4'] {border-color: var(--orange4);}
 
-[class~='orange+5'] {color: var(--orange5);}
-[class~='bg-orange+5'] {background-color: var(--orange5);}
-[class~='border-orange+5'] {border-color: var(--orange5);}
+[class~='orange5'] {color: var(--orange5);}
+[class~='bg-orange5'] {background-color: var(--orange5);}
+[class~='border-orange5'] {border-color: var(--orange5);}
 
 
 
@@ -525,25 +404,25 @@ COLORS
 [class~='bg-gray-5'] {background-color: var(--gray-5);}
 [class~='border-gray-5'] {border-color: var(--gray-5);}
 
-[class~='gray+1'] {color: var(--gray1);}
-[class~='bg-gray+1'] {background-color: var(--gray1);}
-[class~='border-gray+1'] {border-color: var(--gray1);}
+[class~='gray1'] {color: var(--gray1);}
+[class~='bg-gray1'] {background-color: var(--gray1);}
+[class~='border-gray1'] {border-color: var(--gray1);}
 
-[class~='gray+2'] {color: var(--gray2);}
-[class~='bg-gray+2'] {background-color: var(--gray2);}
-[class~='border-gray+2'] {border-color: var(--gray2);}
+[class~='gray2'] {color: var(--gray2);}
+[class~='bg-gray2'] {background-color: var(--gray2);}
+[class~='border-gray2'] {border-color: var(--gray2);}
 
-[class~='gray+3'] {color: var(--gray3);}
-[class~='bg-gray+3'] {background-color: var(--gray3);}
-[class~='border-gray+3'] {border-color: var(--gray3);}
+[class~='gray3'] {color: var(--gray3);}
+[class~='bg-gray3'] {background-color: var(--gray3);}
+[class~='border-gray3'] {border-color: var(--gray3);}
 
-[class~='gray+4'] {color: var(--gray4);}
-[class~='bg-gray+4'] {background-color: var(--gray4);}
-[class~='border-gray+4'] {border-color: var(--gray4);}
+[class~='gray4'] {color: var(--gray4);}
+[class~='bg-gray4'] {background-color: var(--gray4);}
+[class~='border-gray4'] {border-color: var(--gray4);}
 
-[class~='gray+5'] {color: var(--gray5);}
-[class~='bg-gray+5'] {background-color: var(--gray5);}
-[class~='border-gray+5'] {border-color: var(--gray5);}
+[class~='gray5'] {color: var(--gray5);}
+[class~='bg-gray5'] {background-color: var(--gray5);}
+[class~='border-gray5'] {border-color: var(--gray5);}
 
 
 .black{color: var(--black);}

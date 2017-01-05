@@ -3,16 +3,16 @@
   /* Base size */
 
   --base-size: 1rem;
-  --base-fluid: 2vmin;
+  --base-fluid: 1.618vmin;
 
 
   /* Modifiers */
 
   --ascend5: calc(var(--base-size) + (var(--base-fluid) * 2.4));
-  --ascend4: calc(var(--base-size) + (var(--base-fluid) * 1.6));
-  --ascend3: calc(var(--base-size) + (var(--base-fluid) * .8));
-  --ascend2: calc(var(--base-size) + (var(--base-fluid) * .4));
-  --ascend1: calc(var(--base-size) + (var(--base-fluid) * .2));
+  --ascend4: calc(var(--base-size) + (var(--base-fluid) * 1.5));
+  --ascend3: calc(var(--base-size) + (var(--base-fluid) * .9));
+  --ascend2: calc(var(--base-size) + (var(--base-fluid) * .6));
+  --ascend1: calc(var(--base-size) + (var(--base-fluid) * .3));
 
   --descend1: calc(var(--base-size) - (var(--base-fluid) * .1));
   --descend2: calc(var(--base-size) - (var(--base-fluid) * .2));
@@ -30,10 +30,10 @@
 [class~="size-2"]{font-size: var(--descend2);}
 [class~="size-1"]{font-size: var(--descend1);}
 [class~="size0"]{font-size: var(--base-size);}
-[class~="size+1"]{font-size: var(--ascend1);}
-[class~="size+2"]{font-size: var(--ascend2);}
-[class~="size+3"]{font-size: var(--ascend3);}
-[class~="size+4"]{font-size: var(--ascend4);}
-[class~="size+5"]{font-size: var(--ascend5);}
+[class~="size1"]{font-size: var(--ascend1);}
+[class~="size2"]{font-size: var(--ascend2);}
+[class~="size3"]{font-size: var(--ascend3);}
+[class~="size4"]{font-size: var(--ascend4);}
+[class~="size5"]{font-size: var(--ascend5);}
 
-.size-auto{ font-size: inherit;}
+.size-inherit{ font-size: inherit;}
