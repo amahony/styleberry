@@ -22,17 +22,17 @@
 
 /* Letter Spacing */
 
-[class~="spacing-5"]{letter-spacing: var(--decrease5);}
-[class~='spacing-4']{letter-spacing: var(--decrease4);}
-[class~='spacing-3']{letter-spacing: var(--decrease3);}
-[class~='spacing-2']{letter-spacing: var(--decrease2);}
-[class~='spacing-1']{letter-spacing: var(--decrease1);}
-[class~='spacing0']{letter-spacing: var(--base-spacing);}
-[class~='spacing1']{letter-spacing: var(--increase1);}
-[class~='spacing2']{letter-spacing: var(--increase2);}
-[class~='spacing3']{letter-spacing: var(--increase3);}
-[class~='spacing4']{letter-spacing: var(--increase4);}
-[class~='spacing5']{letter-spacing: var(--increase5);}
+.spacing-5{letter-spacing: var(--decrease5);}
+.spacing-4{letter-spacing: var(--decrease4);}
+.spacing-3{letter-spacing: var(--decrease3);}
+.spacing-2{letter-spacing: var(--decrease2);}
+.spacing-1{letter-spacing: var(--decrease1);}
+.spacing0{letter-spacing: var(--base-spacing);}
+.spacing1{letter-spacing: var(--increase1);}
+.spacing2{letter-spacing: var(--increase2);}
+.spacing3{letter-spacing: var(--increase3);}
+.spacing4{letter-spacing: var(--increase4);}
+.spacing5{letter-spacing: var(--increase5);}
 
 
 

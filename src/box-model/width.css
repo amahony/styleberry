@@ -1,89 +1,89 @@
 /* linear scale */
 
-[class~='width+1']{ width: 10%;}
-[class~='width+2']{ width: 20%;}
-[class~='width+3']{ width: 30%;}
-[class~='width+4']{ width: 40%;}
-[class~='width+5']{ width: 50%;}
-[class~='width+6']{ width: 60%;}
-[class~='width+7']{ width: 70%;}
-[class~='width+8']{ width: 80%;}
-[class~='width+9']{ width: 90%;}
-[class~='width+10']{ width: 100%;}
+.width1{ width: 10%;}
+.width2{ width: 20%;}
+.width3{ width: 30%;}
+.width4{ width: 40%;}
+.width5{ width: 50%;}
+.width6{ width: 60%;}
+.width7{ width: 70%;}
+.width8{ width: 80%;}
+.width9{ width: 90%;}
+.width10{ width: 100%;}
 
 
 
-/* ratio scale */
+/* ratio- scale */
 
-[class~='ratio1:1'],
-[class~='ratio2:2'],
-[class~='ratio3:3'],
-[class~='ratio4:4'],
-[class~='ratio5:5'],
-[class~='ratio6:6'],
-[class~='ratio7:7'],
-[class~='ratio8:8'],
-[class~='ratio9:9'],
-[class~='ratio10:10']{ width: 100%;}
+.ratio-1to1,
+.ratio-2to2,
+.ratio-3to3,
+.ratio-4to4,
+.ratio-5to5,
+.ratio-6to6,
+.ratio-7to7,
+.ratio-8to8,
+.ratio-9to9,
+.ratio-10to10{ width: 100%;}
 
-[class~='ratio1:2'],
-[class~='ratio2:4'],
-[class~='ratio3:6'],
-[class~='ratio4:8'],
-[class~='ratio5:10']{ width: calc(100% / 2);}
+.ratio-1to2,
+.ratio-2to4,
+.ratio-3to6,
+.ratio-4to8,
+.ratio-5to10{ width: calc(100% / 2);}
 
-[class~='ratio1:3'],
-[class~='ratio2:6'],
-[class~='ratio3:9'],
-[class~='ratio3:10']{ width: calc(100% / 3);}
+.ratio-1to3,
+.ratio-2to6,
+.ratio-3to9,
+.ratio-3to10{ width: calc(100% / 3);}
 
-[class~='ratio2:3'],
-[class~='ratio4:6'],
-[class~='ratio6:9']{ width: calc(100% / (3 / 2));}
+.ratio-2to3,
+.ratio-4to6,
+.ratio-6to9{ width: calc(100% / (3 / 2));}
 
-[class~='ratio1:4'],
-[class~='ratio2:8']{ width: calc(100% / 4);}
+.ratio-1to4,
+.ratio-2to8{ width: calc(100% / 4);}
 
-[class~='ratio3:4'],
-[class~='ratio6:8']{ width: calc(100% / (4 / 3));}
+.ratio-3to4,
+.ratio-6to8{ width: calc(100% / (4 / 3));}
 
-[class~='ratio1:5'],
-[class~='ratio2:10']{ width: calc(100% / 5);}
+.ratio-1to5,
+.ratio-2to10{ width: calc(100% / 5);}
 
-[class~='ratio2:5'],
-[class~='ratio4:10']{ width: calc(100% / (5 / 2));}
+.ratio-2to5,
+.ratio-4to10{ width: calc(100% / (5 / 2));}
 
-[class~='ratio3:5'],
-[class~='ratio6:10']{ width: calc(100% / (5 / 3));}
+.ratio-3to5,
+.ratio-6to10{ width: calc(100% / (5 / 3));}
 
-[class~='ratio4:5'],
-[class~='ratio8:10']{ width: calc(100% / (5 / 4));}
+.ratio-4to5,
+.ratio-8to10{ width: calc(100% / (5 / 4));}
 
-[class~='ratio1:6']{ width: calc(100% / 6);}
-[class~='ratio5:6']{ width: calc(100% / (6 / 5));}
+.ratio-1to6{ width: calc(100% / 6);}
+.ratio-5to6{ width: calc(100% / (6 / 5));}
 
-[class~='ratio1:7']{ width: calc(100% / 7);}
-[class~='ratio2:7']{ width: calc(100% / (7 / 2));}
-[class~='ratio3:7']{ width: calc(100% / (7 / 3));}
-[class~='ratio4:7']{ width: calc(100% / (7 / 4));}
-[class~='ratio5:7']{ width: calc(100% / (7 / 5));}
-[class~='ratio6:7']{ width: calc(100% / (7 / 6));}
+.ratio-1to7{ width: calc(100% / 7);}
+.ratio-2to7{ width: calc(100% / (7 / 2));}
+.ratio-3to7{ width: calc(100% / (7 / 3));}
+.ratio-4to7{ width: calc(100% / (7 / 4));}
+.ratio-5to7{ width: calc(100% / (7 / 5));}
+.ratio-6to7{ width: calc(100% / (7 / 6));}
 
-[class~='ratio1:8']{ width: calc(100% / 8);}
-[class~='ratio3:8']{ width: calc(100% / (8 / 3));}
-[class~='ratio5:8']{ width: calc(100% / (8 / 5));}
-[class~='ratio7:8']{ width: calc(100% / (8 / 7));}
+.ratio-1to8{ width: calc(100% / 8);}
+.ratio-3to8{ width: calc(100% / (8 / 3));}
+.ratio-5to8{ width: calc(100% / (8 / 5));}
+.ratio-7to8{ width: calc(100% / (8 / 7));}
 
-[class~='ratio1:9']{ width: calc(100% / 9);}
-[class~='ratio2:9']{ width: calc(100% / (9 / 2));}
-[class~='ratio4:9']{ width: calc(100% / (9 / 4));}
-[class~='ratio5:9']{ width: calc(100% / (9 / 5));}
-[class~='ratio7:9']{ width: calc(100% / (9 / 7));}
-[class~='ratio8:9']{ width: calc(100% / (9 / 8));}
+.ratio-1to9{ width: calc(100% / 9);}
+.ratio-2to9{ width: calc(100% / (9 / 2));}
+.ratio-4to9{ width: calc(100% / (9 / 4));}
+.ratio-5to9{ width: calc(100% / (9 / 5));}
+.ratio-7to9{ width: calc(100% / (9 / 7));}
+.ratio-8to9{ width: calc(100% / (9 / 8));}
 
-[class~='ratio1:10']{ width: calc(100% / 10);}
-[class~='ratio7:10']{ width: calc(100% / (10 / 7));}
-[class~='ratio9:10']{ width: calc(100% / (10 / 9));}
+.ratio-1to10{ width: calc(100% / 10);}
+.ratio-7to10{ width: calc(100% / (10 / 7));}
+.ratio-9to10{ width: calc(100% / (10 / 9));}
 
 /* Grid */
 

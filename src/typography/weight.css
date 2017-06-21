@@ -15,15 +15,15 @@
 
 /* Font Weight */
 
-[class~="weight-3"], .thin{ font-weight: var(--weight-1);}
-[class~="weight-2"], .extra-light{ font-weight: var(--weight-2);}
-[class~="weight-1"], .light{ font-weight: var(--weight-3);}
-[class~="weight0"], .normal{ font-weight: var(--weight-4);}
-[class~="weight1"], .medium{ font-weight: var(--weight-5);}
-[class~="weight2"], .semi-bold{ font-weight: var(--weight-6);}
-[class~="weight3"], .bold{ font-weight: var(--weight-7);}
-[class~="weight4"], .extra-bold{ font-weight: var(--weight-8);}
-[class~="weight5"], .heavy{ font-weight: var(--weight-9);}
+.weight-3, .thin{ font-weight: var(--weight-1);}
+.weight-2, .extra-light{ font-weight: var(--weight-2);}
+.weight-1, .light{ font-weight: var(--weight-3);}
+.weight0, .normal{ font-weight: var(--weight-4);}
+.weight1, .medium{ font-weight: var(--weight-5);}
+.weight2, .semi-bold{ font-weight: var(--weight-6);}
+.weight3, .bold{ font-weight: var(--weight-7);}
+.weight4, .extra-bold{ font-weight: var(--weight-8);}
+.weight5, .heavy{ font-weight: var(--weight-9);}
 
 .lighter{font-weight: lighter;}  /* lighter than parent element*/
 .bolder{font-weight: bolder;} /* bolder than parent element*/

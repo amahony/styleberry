@@ -24,16 +24,16 @@
 
 /* Size */
 
-[class~="size-5"]{font-size: var(--descend5);}
-[class~="size-4"]{font-size: var(--descend4);}
-[class~="size-3"]{font-size: var(--descend3);}
-[class~="size-2"]{font-size: var(--descend2);}
-[class~="size-1"]{font-size: var(--descend1);}
-[class~="size0"]{font-size: var(--base-size);}
-[class~="size1"]{font-size: var(--ascend1);}
-[class~="size2"]{font-size: var(--ascend2);}
-[class~="size3"]{font-size: var(--ascend3);}
-[class~="size4"]{font-size: var(--ascend4);}
-[class~="size5"]{font-size: var(--ascend5);}
+.size-5{font-size: var(--descend5);}
+.size-4{font-size: var(--descend4);}
+.size-3{font-size: var(--descend3);}
+.size-2{font-size: var(--descend2);}
+.size-1{font-size: var(--descend1);}
+.size0{font-size: var(--base-size);}
+.size1{font-size: var(--ascend1);}
+.size2{font-size: var(--ascend2);}
+.size3{font-size: var(--ascend3);}
+.size4{font-size: var(--ascend4);}
+.size5{font-size: var(--ascend5);}
 
 .size-inherit{ font-size: inherit;}

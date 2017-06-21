@@ -7,9 +7,9 @@
   <link href="dest/styleberry.css" rel="stylesheet">
 </head>
 <body>
-  <section>
+
   <header class="p4">
-    <h1 class="size4 bold spacing1">🍒 Styleberry</h1>
+    <h1 class="size4 bold">🍒 Styleberry</h1>
     <p>Scale based, Class-oriented, responsive CSS framework for fast prototyping and web applications, designed in the browser</p>
     <ul class="list-reset lift+5 bg-white rounded-2 inline-block">
       <li class="inline-block p2"><a class="link-reset" href="#SbTypography">✏️ Typography</a></li>
@@ -19,781 +19,782 @@
       <!-- <li class="inline-block p2"><a class="link-reset" href="#SbAnimation"><del>🎥 Animation</del></a></li> -->
     </ul>
   </header>
-</section>
 
-<section id="SbTypography">
-  <div class="px4 py2 bg-yellow2 yellow-4 border-top border-bottom">
-    <h1 class="size4 m0">✏️ Typography</h1>
-  </div>
-  <!-- Type Scale -->
-  <section class="p4 bg-white">
-    <div class="flex items-center">
-      <div class="width+6">
-        <h2 class="size3">⚫️ Type Scale</h2>
-        <p>Fully responsive typographic scale with 12 defined classes, based on 1rem/16px default. Adjustable to any viewport using formula.</p>
-        <h2 class="size5 flex items-center">This is text with size5</h2>
-        <h2 class="size4">This is text with size4</h2>
-        <h2 class="size3">This is text with size3</h2>
-        <h2 class="size2">This is text with size2</h2>
-        <h2 class="size1">This is text with size1</h2>
-        <h2 class="size0">This is text with size0</h2>
-        <h2 class="size-1">This is text with size-1</h2>
-        <h2 class="size-2">This is text with size-2</h2>
-        <h2 class="size-3">This is text with size-3</h2>
-        <h2 class="size-4">This is text with size-4</h2>
-        <h2 class="size-5">This is text with size-5</h2>
-        <p>Additionaly you can declare to inherit size from parent element using <code class="bg-yellow4 yellow-3 px1 rounded">.size-inherit</code></p>
-      </div>
-      <div class="width+4">
-        <div class="width+8 center block mx-auto">
-          <div class="ratio-1-1 bg-white rounded-3 lift+5 overflow-hidden">
-            <div>
-              <div class="flex flex-column h100">
-                <div class="bg-yellow yellow-3 p2 caps size-3 bold">Type Scale in action</div>
-                <div class="flex-auto flex items-center">
-                  <div class="size{{type.scale}} m0 mx-auto bold">
-                    <span class="block">Sample Text</span>
+
+  <section id="SbTypography">
+    <div class="px4 py2 bg-yellow2 yellow-4 border-top border-bottom">
+      <h1 class="size4 m0">✏️ Typography</h1>
+    </div>
+    <!-- Type Scale -->
+    <section class="p4 bg-white">
+      <div class="flex items-center">
+        <div class="width+6">
+          <h2 class="size3">⚫️ Type Scale</h2>
+          <p>Fully responsive typographic scale with 12 defined classes, based on 1rem/16px default. Adjustable to any viewport using formula.</p>
+          <h2 class="size5 flex items-center">This is text with size5</h2>
+          <h2 class="size4">This is text with size4</h2>
+          <h2 class="size3">This is text with size3</h2>
+          <h2 class="size2">This is text with size2</h2>
+          <h2 class="size1">This is text with size1</h2>
+          <h2 class="size0">This is text with size0</h2>
+          <h2 class="size-1">This is text with size-1</h2>
+          <h2 class="size-2">This is text with size-2</h2>
+          <h2 class="size-3">This is text with size-3</h2>
+          <h2 class="size-4">This is text with size-4</h2>
+          <h2 class="size-5">This is text with size-5</h2>
+          <p>Additionaly you can declare to inherit size from parent element using <code class="bg-yellow4 yellow-3 px1 rounded">.size-inherit</code></p>
+        </div>
+        <div class="width+4">
+          <div class="width+8 center block mx-auto">
+            <div class="ratio-1-1 bg-white rounded-3 lift+5 overflow-hidden">
+              <div>
+                <div class="flex flex-column h100">
+                  <div class="bg-yellow yellow-3 p2 caps size-3 bold">Type Scale in action</div>
+                  <div class="flex-auto flex items-center">
+                    <div class="size{{type.scale}} m0 mx-auto bold">
+                      <span class="block">Sample Text</span>
+                    </div>
                   </div>
-                </div>
-                <div class="p2 bg-gray5 size-2" ng-init="type.scale=5">
-                  <div class="mb2 flex">
-                    <span class="align-left width+5">Class</span>
-                    <span class="align-right width+5 bold">size{{type.scale}}</span>
+                  <div class="p2 bg-gray5 size-2" ng-init="type.scale=5">
+                    <div class="mb2 flex">
+                      <span class="align-left width+5">Class</span>
+                      <span class="align-right width+5 bold">size{{type.scale}}</span>
+                    </div>
+                    <input class="range-slider" type="range" name="model" min="-5" max="5" value="0" ng-model="type.scale" step="1">
                   </div>
-                  <input class="range-slider" type="range" name="model" min="-5" max="5" value="0" ng-model="type.scale" step="1">
                 </div>
               </div>
             </div>
+            <table class="table size-1 bg-blue4 width+10 align-left mt2 p1 rounded">
+              <tr>
+                <th class="border-bottom p1">Class Constructor</th>
+              </tr>
+              <tr>
+                <td class="border-bottom p1">Keyword<span class="right bold">size</span></td>
+              </tr>
+              <tr>
+                <td class="border-bottom p1">Operator<span class="right bold">none|-</span></td>
+              </tr>
+              <tr>
+                <td class="p1">Integer<span class="right bold">0|1|2|3|4|5</span></td>
+              </tr>
+            </table>
           </div>
-          <table class="table size-1 bg-blue4 width+10 align-left mt2 p1 rounded">
-            <tr>
-              <th class="border-bottom p1">Class Constructor</th>
-            </tr>
-            <tr>
-              <td class="border-bottom p1">Keyword<span class="right bold">size</span></td>
-            </tr>
-            <tr>
-              <td class="border-bottom p1">Operator<span class="right bold">none|-</span></td>
-            </tr>
-            <tr>
-              <td class="p1">Integer<span class="right bold">0|1|2|3|4|5</span></td>
-            </tr>
-          </table>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- / Type Scale -->
-  <!-- Type Weight -->
-  <section class="p4 bg-white border-top border-1 border-gray4">
-    <div class="flex items-center">
-      <div class="width+6">
-        <h2 class="size3">⚫️ Type Weight</h2>
-        <p>Fully responsive typographic scale with 12 defined classes, based on 1rem/16px default. Adjustable to any viewport using formula.</p>
-        <div class="work-sans">
-          <h2 class="thin">Thin 100</h2>
-          <h2 class="extra-light">Extra Light 200</h2>
-          <h2 class="light">Light 300</h2>
-          <h2 class="normal">Normal 400</h2>
-          <h2 class="medium">Medium 500</h2>
-          <h2 class="semi-bold">Semi Bold 600</h2>
-          <h2 class="bold">Bold 700</h2>
-          <h2 class="extra-bold">Extra Bold 800</h2>
-          <h2 class="heavy">Black 900</h2>
+    </section>
+    <!-- / Type Scale -->
+    <!-- Type Weight -->
+    <section class="p4 bg-white border-top border-1 border-gray4">
+      <div class="flex items-center">
+        <div class="width+6">
+          <h2 class="size3">⚫️ Type Weight</h2>
+          <p>Fully responsive typographic scale with 12 defined classes, based on 1rem/16px default. Adjustable to any viewport using formula.</p>
+          <div class="work-sans">
+            <h2 class="thin">Thin 100</h2>
+            <h2 class="extra-light">Extra Light 200</h2>
+            <h2 class="light">Light 300</h2>
+            <h2 class="normal">Normal 400</h2>
+            <h2 class="medium">Medium 500</h2>
+            <h2 class="semi-bold">Semi Bold 600</h2>
+            <h2 class="bold">Bold 700</h2>
+            <h2 class="extra-bold">Extra Bold 800</h2>
+            <h2 class="heavy">Black 900</h2>
+          </div>
         </div>
-      </div>
-      <div class="width+4">
-        <div class="width+8 center block mx-auto">
-          <div class="ratio-1-1 bg-white rounded-3 lift+5 overflow-hidden">
-            <div>
-              <div class="flex flex-column h100">
-                <div class="bg-yellow yellow-3 p2 caps size-3 bold">Type Weight in action</div>
-                <div class="flex-auto flex items-center">
-                  <div class="size5 weight{{typeweight}} m0 mx-auto work-sans">
-                    <span class="block">Sample Text</span>
+        <div class="width+4">
+          <div class="width+8 center block mx-auto">
+            <div class="ratio-1-1 bg-white rounded-3 lift+5 overflow-hidden">
+              <div>
+                <div class="flex flex-column h100">
+                  <div class="bg-yellow yellow-3 p2 caps size-3 bold">Type Weight in action</div>
+                  <div class="flex-auto flex items-center">
+                    <div class="size5 weight{{typeweight}} m0 mx-auto work-sans">
+                      <span class="block">Sample Text</span>
+                    </div>
                   </div>
-                </div>
-                <div class="p2 bg-gray5 size-2" ng-init="typeweight=0">
-                  <div class="mb2 flex">
-                    <span class="align-left width+5">Class</span>
-                    <span class="align-right width+5 bold">weight{{typeweight}}</span>
+                  <div class="p2 bg-gray5 size-2" ng-init="typeweight=0">
+                    <div class="mb2 flex">
+                      <span class="align-left width+5">Class</span>
+                      <span class="align-right width+5 bold">weight{{typeweight}}</span>
+                    </div>
+                    <input class="range-slider" type="range" name="model" min="-3" max="5" value="0" ng-model="typeweight" step="1">
                   </div>
-                  <input class="range-slider" type="range" name="model" min="-3" max="5" value="0" ng-model="typeweight" step="1">
                 </div>
               </div>
             </div>
+            <table class="table size-1 bg-blue4 width+10 align-left mt2 p1 rounded">
+              <tr>
+                <th class="border-bottom p1">Class Constructor</th>
+              </tr>
+              <tr>
+                <td class="border-bottom p1">Keyword<span class="right bold">weight</span></td>
+              </tr>
+              <tr>
+                <td class="border-bottom p1">Operator<span class="right bold">none|-</span></td>
+              </tr>
+              <tr>
+                <td class="p1">Integer<span class="right bold">0|1|2|3|4|5</span></td>
+              </tr>
+            </table>
           </div>
-          <table class="table size-1 bg-blue4 width+10 align-left mt2 p1 rounded">
-            <tr>
-              <th class="border-bottom p1">Class Constructor</th>
-            </tr>
-            <tr>
-              <td class="border-bottom p1">Keyword<span class="right bold">weight</span></td>
-            </tr>
-            <tr>
-              <td class="border-bottom p1">Operator<span class="right bold">none|-</span></td>
-            </tr>
-            <tr>
-              <td class="p1">Integer<span class="right bold">0|1|2|3|4|5</span></td>
-            </tr>
-          </table>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- / Type Weight -->
-  <!-- Letter Spacing -->
-  <section class="p4 bg-white border-top border-1 border-gray4">
-    <div class="flex items-center">
-      <div class="width+6">
-        <h2 class="size3">⚫️ Letter Spacing</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit tempora accusamus labore ab! Tempore magnam provident, perspiciatis quis reprehenderit. Tempora aperiam obcaecati porro suscipit harum molestias, nobis unde in modi.</p>
-        <p class="spacing-5">Letter Spacing-5</p>
-        <p class="spacing-4">Letter Spacing-4</p>
-        <p class="spacing-3">Letter Spacing-3</p>
-        <p class="spacing-2">Letter Spacing-2</p>
-        <p class="spacing-1">Letter Spacing1</p>
-        <p class="spacing0">Letter Spacing0</p>
-        <p class="spacing1">Letter Spacing1</p>
-        <p class="spacing2">Letter Spacing2</p>
-        <p class="spacing3">Letter Spacing3</p>
-        <p class="spacing4">Letter Spacing4</p>
-        <p class="spacing5">Letter Spacing5</p>
-      </div>
-      <div class="width+4">
-        <div class="width+8 center block mx-auto">
-          <div class="ratio-1-1 bg-white rounded-3 lift+5 overflow-hidden">
-            <div>
-              <div class="flex flex-column h100">
-                <div class="bg-yellow yellow-3 p2 caps size-3 bold">Letter Spacing in action</div>
-                <div class="flex-auto flex items-center">
-                  <div class="size2 spacing{{letter.spacing}} m0 mx-auto">
-                    <span class="block">Sample Text</span>
+    </section>
+    <!-- / Type Weight -->
+    <!-- Letter Spacing -->
+    <section class="p4 bg-white border-top border-1 border-gray4">
+      <div class="flex items-center">
+        <div class="width+6">
+          <h2 class="size3">⚫️ Letter Spacing</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit tempora accusamus labore ab! Tempore magnam provident, perspiciatis quis reprehenderit. Tempora aperiam obcaecati porro suscipit harum molestias, nobis unde in modi.</p>
+          <p class="spacing-5">Letter Spacing-5</p>
+          <p class="spacing-4">Letter Spacing-4</p>
+          <p class="spacing-3">Letter Spacing-3</p>
+          <p class="spacing-2">Letter Spacing-2</p>
+          <p class="spacing-1">Letter Spacing1</p>
+          <p class="spacing0">Letter Spacing0</p>
+          <p class="spacing1">Letter Spacing1</p>
+          <p class="spacing2">Letter Spacing2</p>
+          <p class="spacing3">Letter Spacing3</p>
+          <p class="spacing4">Letter Spacing4</p>
+          <p class="spacing5">Letter Spacing5</p>
+        </div>
+        <div class="width+4">
+          <div class="width+8 center block mx-auto">
+            <div class="ratio-1-1 bg-white rounded-3 lift+5 overflow-hidden">
+              <div>
+                <div class="flex flex-column h100">
+                  <div class="bg-yellow yellow-3 p2 caps size-3 bold">Letter Spacing in action</div>
+                  <div class="flex-auto flex items-center">
+                    <div class="size2 spacing{{letter.spacing}} m0 mx-auto">
+                      <span class="block">Sample Text</span>
+                    </div>
                   </div>
-                </div>
-                <div class="p2 bg-gray5 size-2" ng-init="letter.spacing=0">
-                  <div class="mb2 flex">
-                    <span class="align-left width+5">Class</span>
-                    <span class="align-right width+5 bold">weight{{letter.spacing}}</span>
+                  <div class="p2 bg-gray5 size-2" ng-init="letter.spacing=0">
+                    <div class="mb2 flex">
+                      <span class="align-left width+5">Class</span>
+                      <span class="align-right width+5 bold">weight{{letter.spacing}}</span>
+                    </div>
+                    <input class="range-slider" type="range" name="model" min="-5" max="5" value="0" ng-model="letter.spacing" step="1">
                   </div>
-                  <input class="range-slider" type="range" name="model" min="-5" max="5" value="0" ng-model="letter.spacing" step="1">
                 </div>
               </div>
             </div>
+            <table class="table size-1 bg-blue4 width+10 align-left mt2 p1 rounded">
+              <tr>
+                <th class="border-bottom p1">Class Constructor</th>
+              </tr>
+              <tr>
+                <td class="border-bottom p1">Keyword<span class="right bold">spacing</span></td>
+              </tr>
+              <tr>
+                <td class="border-bottom p1">Operator<span class="right bold">none|-</span></td>
+              </tr>
+              <tr>
+                <td class="p1">Integer<span class="right bold">0|1|2|3|4|5</span></td>
+              </tr>
+            </table>
           </div>
-          <table class="table size-1 bg-blue4 width+10 align-left mt2 p1 rounded">
-            <tr>
-              <th class="border-bottom p1">Class Constructor</th>
-            </tr>
-            <tr>
-              <td class="border-bottom p1">Keyword<span class="right bold">spacing</span></td>
-            </tr>
-            <tr>
-              <td class="border-bottom p1">Operator<span class="right bold">none|-</span></td>
-            </tr>
-            <tr>
-              <td class="p1">Integer<span class="right bold">0|1|2|3|4|5</span></td>
-            </tr>
-          </table>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- / Letter Spacing -->
-  <!-- Line Height -->
-  <section class="p4 bg-white border-top border-1 border-gray4">
-    <div class="flex items-center">
-      <div class="width+6">
-        <h2 class="size3">⚫️ Line Height(Leading)</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit tempora accusamus labore ab! Tempore magnam provident, perspiciatis quis reprehenderit. Tempora aperiam obcaecati porro suscipit harum molestias, nobis unde in modi.</p>
-        <p class="leading0 border-red4 border-top border-bottom">Line Height 0</p>
-        <p class="leading1 border-red4 border-top border-bottom">Line Height 1</p>
-        <p class="leading2 border-red4 border-top border-bottom">Line Height 2</p>
-        <p class="leading3 border-red4 border-top border-bottom">Line Height 3</p>
-        <p class="leading4 border-red4 border-top border-bottom">Line Height 4</p>
-        <p class="leading5 border-red4 border-top border-bottom">Line Height 5</p>
-      </div>
-      <div class="width+4">
-        <div class="width+8 center block mx-auto">
-          <div class="ratio-1-1 bg-white rounded-3 lift+5 overflow-hidden">
-            <div>
-              <div class="flex flex-column h100">
-                <div class="bg-yellow yellow-3 p2 caps size-3 bold">Leading in action</div>
-                <div class="flex-auto flex items-center">
-                  <div class="size2 leading{{leading}} m0 mx-auto">
-                    <p class="block bg-red5 border-red3 border-top border-bottom">Sample Text</p>
+    </section>
+    <!-- / Letter Spacing -->
+    <!-- Line Height -->
+    <section class="p4 bg-white border-top border-1 border-gray4">
+      <div class="flex items-center">
+        <div class="width+6">
+          <h2 class="size3">⚫️ Line Height(Leading)</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit tempora accusamus labore ab! Tempore magnam provident, perspiciatis quis reprehenderit. Tempora aperiam obcaecati porro suscipit harum molestias, nobis unde in modi.</p>
+          <p class="leading0 border-red4 border-top border-bottom">Line Height 0</p>
+          <p class="leading1 border-red4 border-top border-bottom">Line Height 1</p>
+          <p class="leading2 border-red4 border-top border-bottom">Line Height 2</p>
+          <p class="leading3 border-red4 border-top border-bottom">Line Height 3</p>
+          <p class="leading4 border-red4 border-top border-bottom">Line Height 4</p>
+          <p class="leading5 border-red4 border-top border-bottom">Line Height 5</p>
+        </div>
+        <div class="width+4">
+          <div class="width+8 center block mx-auto">
+            <div class="ratio-1-1 bg-white rounded-3 lift+5 overflow-hidden">
+              <div>
+                <div class="flex flex-column h100">
+                  <div class="bg-yellow yellow-3 p2 caps size-3 bold">Leading in action</div>
+                  <div class="flex-auto flex items-center">
+                    <div class="size2 leading{{leading}} m0 mx-auto">
+                      <p class="block bg-red5 border-red3 border-top border-bottom">Sample Text</p>
+                    </div>
                   </div>
-                </div>
-                <div class="p2 bg-gray5 size-2" ng-init="leading=0">
-                  <div class="mb2 flex">
-                    <span class="align-left width+5">Class</span>
-                    <span class="align-right width+5 bold">leading{{leading}}</span>
+                  <div class="p2 bg-gray5 size-2" ng-init="leading=0">
+                    <div class="mb2 flex">
+                      <span class="align-left width+5">Class</span>
+                      <span class="align-right width+5 bold">leading{{leading}}</span>
+                    </div>
+                    <input class="range-slider" type="range" name="model" min="0" max="5" value="0" ng-model="leading" step="1">
                   </div>
-                  <input class="range-slider" type="range" name="model" min="0" max="5" value="0" ng-model="leading" step="1">
                 </div>
               </div>
             </div>
+            <table class="table size-1 bg-blue4 width+10 align-left mt2 p1 rounded">
+              <tr>
+                <th class="border-bottom p1">Class Constructor</th>
+              </tr>
+              <tr>
+                <td class="border-bottom p1">Keyword<span class="right bold">leading</span></td>
+              </tr>
+              <tr>
+                <td class="border-bottom p1">Operator<span class="right bold">none</span></td>
+              </tr>
+              <tr>
+                <td class="p1">Integer<span class="right bold">0|1|2|3|4|5</span></td>
+              </tr>
+            </table>
           </div>
-          <table class="table size-1 bg-blue4 width+10 align-left mt2 p1 rounded">
-            <tr>
-              <th class="border-bottom p1">Class Constructor</th>
-            </tr>
-            <tr>
-              <td class="border-bottom p1">Keyword<span class="right bold">leading</span></td>
-            </tr>
-            <tr>
-              <td class="border-bottom p1">Operator<span class="right bold">none</span></td>
-            </tr>
-            <tr>
-              <td class="p1">Integer<span class="right bold">0|1|2|3|4|5</span></td>
-            </tr>
-          </table>
         </div>
       </div>
-    </div>
+    </section>
+    <!-- / Line Height -->
+    <!-- Type Utility -->
+    <section class="p4 bg-white border-top border-1 border-gray4">
+      <h2 class="size3">⚫️ Type Utility</h2>
+
+      <p class="italic">Italic</p>
+      <p class="caps">Caps</p>
+      <p class="small-caps">Small Caps</p>
+
+      <div class="">
+        <p class="align-left bg-red5">Text Align Left</p>
+        <p class="center bg-red5">Text Align Center</p>
+        <p class="align-right bg-red5">Text Align Right</p>
+      </div>
+
+      <p class="underline">Underline</p>
+      <p class="line-through">Line Through</p>
+
+      <p class="justify">Justify</p>
+      <p class="nowrap">Nowrap</p>
+      <p class="truncate">Truncate</p>
+
+      <p class="text-shadow">Text Shadow</p>
+      <p class="blockquote">Blockquote</p>
+
+    </section>
+    <!-- / Type Utility -->
+    <!-- Type Resets -->
+    <section class="p4 bg-white border-top border-1 border-gray4">
+      <h2 class="size3">⚫️ Type Resets</h2>
+      <h3>Links</h3>
+      <p>This paragraph contains a <a href="http://codeberry.io">Link</a> without link reset</p>
+      <p>This paragraph contains a <a class="link-reset" href="http://codeberry.io">Link</a> with link reset</p>
+      <h3>Lists</h3>
+      <p>This paragraph contains a list without list reset
+        <ul>
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Coca Cola</li>
+        </ul>
+      </p>
+      <p>This paragraph contains a list with list reset
+        <ul class="list-reset">
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Coca Cola</li>
+        </ul>
+      </p>
+    </section>
+    <!-- Type Resets -->
   </section>
-  <!-- / Line Height -->
-  <!-- Type Utility -->
-  <section class="p4 bg-white border-top border-1 border-gray4">
-    <h2 class="size3">⚫️ Type Utility</h2>
+  <section id="SbColor">
+    <header class="px4 py2 bg-orange1 orange-3 border-top border-bottom">
+      <h1 class="size4 m0">🎨 Color</h1>
+    </header>
 
-    <p class="italic">Italic</p>
-    <p class="caps">Caps</p>
-    <p class="small-caps">Small Caps</p>
+    <section class="p4">
+      <h2 class="size3">⚫️ Pallete</h2>
 
-    <div class="">
-      <p class="align-left bg-red5">Text Align Left</p>
-      <p class="center bg-red5">Text Align Center</p>
-      <p class="align-right bg-red5">Text Align Right</p>
-    </div>
+      <h3>Yellow</h3>
+      <div class="flex center">
+        <div class="flex-auto bg-yellow-5 yellow">-5</div>
+        <div class="flex-auto bg-yellow-4 yellow1">-4</div>
+        <div class="flex-auto bg-yellow-3 yellow2">-3</div>
+        <div class="flex-auto bg-yellow-2 yellow3">-2</div>
+        <div class="flex-auto bg-yellow-1 yellow4">-1</div>
+        <div class="flex-auto bg-yellow">&nbsp;</div>
+        <div class="flex-auto bg-yellow1 yellow-4">1</div>
+        <div class="flex-auto bg-yellow2 yellow-3">2</div>
+        <div class="flex-auto bg-yellow3 yellow-2">3</div>
+        <div class="flex-auto bg-yellow4 yellow-1">4</div>
+        <div class="flex-auto bg-yellow5 yellow">5</div>
+      </div>
 
-    <p class="underline">Underline</p>
-    <p class="line-through">Line Through</p>
+      <h3>Green</h3>
+      <div class="flex center">
+        <div class="flex-auto bg-green-5 green">-5</div>
+        <div class="flex-auto bg-green-4 green1">-4</div>
+        <div class="flex-auto bg-green-3 green2">-3</div>
+        <div class="flex-auto bg-green-2 green3">-2</div>
+        <div class="flex-auto bg-green-1 green4">-1</div>
+        <div class="flex-auto bg-green">&nbsp;</div>
+        <div class="flex-auto bg-green1 green-4">1</div>
+        <div class="flex-auto bg-green2 green-3">2</div>
+        <div class="flex-auto bg-green3 green-2">3</div>
+        <div class="flex-auto bg-green4 green-1">4</div>
+        <div class="flex-auto bg-green5 green">5</div>
+      </div>
 
-    <p class="justify">Justify</p>
-    <p class="nowrap">Nowrap</p>
-    <p class="truncate">Truncate</p>
+      <h3>Teal</h3>
+      <div class="flex center">
+        <div class="flex-auto bg-teal-5 teal">-5</div>
+        <div class="flex-auto bg-teal-4 teal1">-4</div>
+        <div class="flex-auto bg-teal-3 teal2">-3</div>
+        <div class="flex-auto bg-teal-2 teal3">-2</div>
+        <div class="flex-auto bg-teal-1 teal4">-1</div>
+        <div class="flex-auto bg-teal">&nbsp;</div>
+        <div class="flex-auto bg-teal1 teal-4">1</div>
+        <div class="flex-auto bg-teal2 teal-3">2</div>
+        <div class="flex-auto bg-teal3 teal-2">3</div>
+        <div class="flex-auto bg-teal4 teal-1">4</div>
+        <div class="flex-auto bg-teal5 teal">5</div>
+      </div>
 
-    <p class="text-shadow">Text Shadow</p>
-    <p class="blockquote">Blockquote</p>
+      <h3>Blue</h3>
+      <div class="flex center">
+        <div class="flex-auto bg-blue-5 blue">-5</div>
+        <div class="flex-auto bg-blue-4 blue1">-4</div>
+        <div class="flex-auto bg-blue-3 blue2">-3</div>
+        <div class="flex-auto bg-blue-2 blue3">-2</div>
+        <div class="flex-auto bg-blue-1 blue4">-1</div>
+        <div class="flex-auto bg-blue">&nbsp;</div>
+        <div class="flex-auto bg-blue1 blue-4">1</div>
+        <div class="flex-auto bg-blue2 blue-3">2</div>
+        <div class="flex-auto bg-blue3 blue-2">3</div>
+        <div class="flex-auto bg-blue4 blue-1">4</div>
+        <div class="flex-auto bg-blue5 blue">5</div>
+      </div>
 
-  </section>
-  <!-- / Type Utility -->
-  <!-- Type Resets -->
-  <section class="p4 bg-white border-top border-1 border-gray4">
-    <h2 class="size3">⚫️ Type Resets</h2>
-    <h3>Links</h3>
-    <p>This paragraph contains a <a href="http://codeberry.io">Link</a> without link reset</p>
-    <p>This paragraph contains a <a class="link-reset" href="http://codeberry.io">Link</a> with link reset</p>
-    <h3>Lists</h3>
-    <p>This paragraph contains a list without list reset
-      <ul>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Coca Cola</li>
-      </ul>
-    </p>
-    <p>This paragraph contains a list with list reset
-      <ul class="list-reset">
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Coca Cola</li>
-      </ul>
-    </p>
-  </section>
-  <!-- Type Resets -->
-</section>
-<section id="SbColor">
-  <header class="px4 py2 bg-orange1 orange-3 border-top border-bottom">
-    <h1 class="size4 m0">🎨 Color</h1>
-  </header>
+      <h3>Purple</h3>
+      <div class="flex center">
+        <div class="flex-auto bg-purple-5 purple">-5</div>
+        <div class="flex-auto bg-purple-4 purple1">-4</div>
+        <div class="flex-auto bg-purple-3 purple2">-3</div>
+        <div class="flex-auto bg-purple-2 purple3">-2</div>
+        <div class="flex-auto bg-purple-1 purple4">-1</div>
+        <div class="flex-auto bg-purple">&nbsp;</div>
+        <div class="flex-auto bg-purple1 purple-4">1</div>
+        <div class="flex-auto bg-purple2 purple-3">2</div>
+        <div class="flex-auto bg-purple3 purple-2">3</div>
+        <div class="flex-auto bg-purple4 purple-1">4</div>
+        <div class="flex-auto bg-purple5 purple">5</div>
+      </div>
 
-  <section class="p4">
-    <h2 class="size3">⚫️ Pallete</h2>
+      <h3>Magenta</h3>
+      <div class="flex center">
+        <div class="flex-auto bg-magenta-5 magenta">-5</div>
+        <div class="flex-auto bg-magenta-4 magenta1">-4</div>
+        <div class="flex-auto bg-magenta-3 magenta2">-3</div>
+        <div class="flex-auto bg-magenta-2 magenta3">-2</div>
+        <div class="flex-auto bg-magenta-1 magenta4">-1</div>
+        <div class="flex-auto bg-magenta">&nbsp;</div>
+        <div class="flex-auto bg-magenta1 magenta-4">1</div>
+        <div class="flex-auto bg-magenta2 magenta-3">2</div>
+        <div class="flex-auto bg-magenta3 magenta-2">3</div>
+        <div class="flex-auto bg-magenta4 magenta-1">4</div>
+        <div class="flex-auto bg-magenta5 magenta">5</div>
+      </div>
 
-    <h3>Yellow</h3>
-    <div class="flex center">
-      <div class="flex-auto bg-yellow-5 yellow">-5</div>
-      <div class="flex-auto bg-yellow-4 yellow1">-4</div>
-      <div class="flex-auto bg-yellow-3 yellow2">-3</div>
-      <div class="flex-auto bg-yellow-2 yellow3">-2</div>
-      <div class="flex-auto bg-yellow-1 yellow4">-1</div>
-      <div class="flex-auto bg-yellow">&nbsp;</div>
-      <div class="flex-auto bg-yellow1 yellow-4">1</div>
-      <div class="flex-auto bg-yellow2 yellow-3">2</div>
-      <div class="flex-auto bg-yellow3 yellow-2">3</div>
-      <div class="flex-auto bg-yellow4 yellow-1">4</div>
-      <div class="flex-auto bg-yellow5 yellow">5</div>
-    </div>
+      <h3>Red</h3>
+      <div class="flex center">
+        <div class="flex-auto bg-red-5 red">-5</div>
+        <div class="flex-auto bg-red-4 red1">-4</div>
+        <div class="flex-auto bg-red-3 red2">-3</div>
+        <div class="flex-auto bg-red-2 red3">-2</div>
+        <div class="flex-auto bg-red-1 red4">-1</div>
+        <div class="flex-auto bg-red">&nbsp;</div>
+        <div class="flex-auto bg-red1 red-4">1</div>
+        <div class="flex-auto bg-red2 red-3">2</div>
+        <div class="flex-auto bg-red3 red-2">3</div>
+        <div class="flex-auto bg-red4 red-1">4</div>
+        <div class="flex-auto bg-red5 red">5</div>
+      </div>
 
-    <h3>Green</h3>
-    <div class="flex center">
-      <div class="flex-auto bg-green-5 green">-5</div>
-      <div class="flex-auto bg-green-4 green1">-4</div>
-      <div class="flex-auto bg-green-3 green2">-3</div>
-      <div class="flex-auto bg-green-2 green3">-2</div>
-      <div class="flex-auto bg-green-1 green4">-1</div>
-      <div class="flex-auto bg-green">&nbsp;</div>
-      <div class="flex-auto bg-green1 green-4">1</div>
-      <div class="flex-auto bg-green2 green-3">2</div>
-      <div class="flex-auto bg-green3 green-2">3</div>
-      <div class="flex-auto bg-green4 green-1">4</div>
-      <div class="flex-auto bg-green5 green">5</div>
-    </div>
+      <h3>Orange</h3>
+      <div class="flex center">
+        <div class="flex-auto bg-orange-5 orange">-5</div>
+        <div class="flex-auto bg-orange-4 orange1">-4</div>
+        <div class="flex-auto bg-orange-3 orange2">-3</div>
+        <div class="flex-auto bg-orange-2 orange3">-2</div>
+        <div class="flex-auto bg-orange-1 orange4">-1</div>
+        <div class="flex-auto bg-orange">&nbsp;</div>
+        <div class="flex-auto bg-orange1 orange-4">1</div>
+        <div class="flex-auto bg-orange2 orange-3">2</div>
+        <div class="flex-auto bg-orange3 orange-2">3</div>
+        <div class="flex-auto bg-orange4 orange-1">4</div>
+        <div class="flex-auto bg-orange5 orange">5</div>
+      </div>
 
-    <h3>Teal</h3>
-    <div class="flex center">
-      <div class="flex-auto bg-teal-5 teal">-5</div>
-      <div class="flex-auto bg-teal-4 teal1">-4</div>
-      <div class="flex-auto bg-teal-3 teal2">-3</div>
-      <div class="flex-auto bg-teal-2 teal3">-2</div>
-      <div class="flex-auto bg-teal-1 teal4">-1</div>
-      <div class="flex-auto bg-teal">&nbsp;</div>
-      <div class="flex-auto bg-teal1 teal-4">1</div>
-      <div class="flex-auto bg-teal2 teal-3">2</div>
-      <div class="flex-auto bg-teal3 teal-2">3</div>
-      <div class="flex-auto bg-teal4 teal-1">4</div>
-      <div class="flex-auto bg-teal5 teal">5</div>
-    </div>
+      <h3 class="">Gray</h3>
+      <div class="flex center">
+        <div class="flex-auto bg-gray-5 gray">-5</div>
+        <div class="flex-auto bg-gray-4 gray1">-4</div>
+        <div class="flex-auto bg-gray-3 gray2">-3</div>
+        <div class="flex-auto bg-gray-2 gray3">-2</div>
+        <div class="flex-auto bg-gray-1 gray4">-1</div>
+        <div class="flex-auto bg-gray">&nbsp;</div>
+        <div class="flex-auto bg-gray1 gray-4">1</div>
+        <div class="flex-auto bg-gray2 gray-3">2</div>
+        <div class="flex-auto bg-gray3 gray-2">3</div>
+        <div class="flex-auto bg-gray4 gray-1">4</div>
+        <div class="flex-auto bg-gray5 gray">5</div>
+      </div>
 
-    <h3>Blue</h3>
-    <div class="flex center">
-      <div class="flex-auto bg-blue-5 blue">-5</div>
-      <div class="flex-auto bg-blue-4 blue1">-4</div>
-      <div class="flex-auto bg-blue-3 blue2">-3</div>
-      <div class="flex-auto bg-blue-2 blue3">-2</div>
-      <div class="flex-auto bg-blue-1 blue4">-1</div>
-      <div class="flex-auto bg-blue">&nbsp;</div>
-      <div class="flex-auto bg-blue1 blue-4">1</div>
-      <div class="flex-auto bg-blue2 blue-3">2</div>
-      <div class="flex-auto bg-blue3 blue-2">3</div>
-      <div class="flex-auto bg-blue4 blue-1">4</div>
-      <div class="flex-auto bg-blue5 blue">5</div>
-    </div>
-
-    <h3>Purple</h3>
-    <div class="flex center">
-      <div class="flex-auto bg-purple-5 purple">-5</div>
-      <div class="flex-auto bg-purple-4 purple1">-4</div>
-      <div class="flex-auto bg-purple-3 purple2">-3</div>
-      <div class="flex-auto bg-purple-2 purple3">-2</div>
-      <div class="flex-auto bg-purple-1 purple4">-1</div>
-      <div class="flex-auto bg-purple">&nbsp;</div>
-      <div class="flex-auto bg-purple1 purple-4">1</div>
-      <div class="flex-auto bg-purple2 purple-3">2</div>
-      <div class="flex-auto bg-purple3 purple-2">3</div>
-      <div class="flex-auto bg-purple4 purple-1">4</div>
-      <div class="flex-auto bg-purple5 purple">5</div>
-    </div>
-
-    <h3>Magenta</h3>
-    <div class="flex center">
-      <div class="flex-auto bg-magenta-5 magenta">-5</div>
-      <div class="flex-auto bg-magenta-4 magenta1">-4</div>
-      <div class="flex-auto bg-magenta-3 magenta2">-3</div>
-      <div class="flex-auto bg-magenta-2 magenta3">-2</div>
-      <div class="flex-auto bg-magenta-1 magenta4">-1</div>
-      <div class="flex-auto bg-magenta">&nbsp;</div>
-      <div class="flex-auto bg-magenta1 magenta-4">1</div>
-      <div class="flex-auto bg-magenta2 magenta-3">2</div>
-      <div class="flex-auto bg-magenta3 magenta-2">3</div>
-      <div class="flex-auto bg-magenta4 magenta-1">4</div>
-      <div class="flex-auto bg-magenta5 magenta">5</div>
-    </div>
-
-    <h3>Red</h3>
-    <div class="flex center">
-      <div class="flex-auto bg-red-5 red">-5</div>
-      <div class="flex-auto bg-red-4 red1">-4</div>
-      <div class="flex-auto bg-red-3 red2">-3</div>
-      <div class="flex-auto bg-red-2 red3">-2</div>
-      <div class="flex-auto bg-red-1 red4">-1</div>
-      <div class="flex-auto bg-red">&nbsp;</div>
-      <div class="flex-auto bg-red1 red-4">1</div>
-      <div class="flex-auto bg-red2 red-3">2</div>
-      <div class="flex-auto bg-red3 red-2">3</div>
-      <div class="flex-auto bg-red4 red-1">4</div>
-      <div class="flex-auto bg-red5 red">5</div>
-    </div>
-
-    <h3>Orange</h3>
-    <div class="flex center">
-      <div class="flex-auto bg-orange-5 orange">-5</div>
-      <div class="flex-auto bg-orange-4 orange1">-4</div>
-      <div class="flex-auto bg-orange-3 orange2">-3</div>
-      <div class="flex-auto bg-orange-2 orange3">-2</div>
-      <div class="flex-auto bg-orange-1 orange4">-1</div>
-      <div class="flex-auto bg-orange">&nbsp;</div>
-      <div class="flex-auto bg-orange1 orange-4">1</div>
-      <div class="flex-auto bg-orange2 orange-3">2</div>
-      <div class="flex-auto bg-orange3 orange-2">3</div>
-      <div class="flex-auto bg-orange4 orange-1">4</div>
-      <div class="flex-auto bg-orange5 orange">5</div>
-    </div>
-
-    <h3 class="">Gray</h3>
-    <div class="flex center">
-      <div class="flex-auto bg-gray-5 gray">-5</div>
-      <div class="flex-auto bg-gray-4 gray1">-4</div>
-      <div class="flex-auto bg-gray-3 gray2">-3</div>
-      <div class="flex-auto bg-gray-2 gray3">-2</div>
-      <div class="flex-auto bg-gray-1 gray4">-1</div>
-      <div class="flex-auto bg-gray">&nbsp;</div>
-      <div class="flex-auto bg-gray1 gray-4">1</div>
-      <div class="flex-auto bg-gray2 gray-3">2</div>
-      <div class="flex-auto bg-gray3 gray-2">3</div>
-      <div class="flex-auto bg-gray4 gray-1">4</div>
-      <div class="flex-auto bg-gray5 gray">5</div>
-    </div>
-
-    <div class="flex items-center">
-      <div class="width+4">
-        <div class="center block mx-auto">
-          <table class="table size-1 bg-blue4 width+10 align-left mt2 p1 rounded">
-            <tr>
-              <th class="border-bottom p1">Class Constructor</th>
-            </tr>
-            <tr>
-              <td class="border-bottom p1">State Prefix<span class="right bold">none|hover-</span></td>
-            </tr>
-            <tr>
-              <td class="border-bottom p1">Element Prefix<span class="right bold">none|bg-|border-|</span></td>
-            </tr>
-            <tr>
-              <td class="border-bottom p1">Keyword<span class="right bold">yellow|blue|teal|<br>blue|magenta|purple|<br>red|orange|gray|<br>white|black</span></td>
-            </tr>
-            <tr>
-              <td class="border-bottom p1">Operator<span class="right bold">none|-</span></td>
-            </tr>
-            <tr>
-              <td class="p1">Integer<span class="right bold">none|1|2|3|4|5</span></td>
-            </tr>
-          </table>
+      <div class="flex items-center">
+        <div class="width+4">
+          <div class="center block mx-auto">
+            <table class="table size-1 bg-blue4 width+10 align-left mt2 p1 rounded">
+              <tr>
+                <th class="border-bottom p1">Class Constructor</th>
+              </tr>
+              <tr>
+                <td class="border-bottom p1">State Prefix<span class="right bold">none|hover-</span></td>
+              </tr>
+              <tr>
+                <td class="border-bottom p1">Element Prefix<span class="right bold">none|bg-|border-|</span></td>
+              </tr>
+              <tr>
+                <td class="border-bottom p1">Keyword<span class="right bold">yellow|blue|teal|<br>blue|magenta|purple|<br>red|orange|gray|<br>white|black</span></td>
+              </tr>
+              <tr>
+                <td class="border-bottom p1">Operator<span class="right bold">none|-</span></td>
+              </tr>
+              <tr>
+                <td class="p1">Integer<span class="right bold">none|1|2|3|4|5</span></td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-</section>
-
-
-  <header id="SbBModel" class="px4 py2 bg-red1 red-3 border-top border-bottom">
-    <h1 class="size4 m0">📦 Box Model</h1>
-  </header>
-
-
-  <section class="p4">
-    <h2 class="size3">⚫️ Width</h2>
-    <h3>Linear Scale</h3>
-    <div class="flex center">
-      <div class="bg-blue4 width+1 m1">1</div>
-      <div class="bg-blue4 width+9 m1">9</div>
-    </div>
-    <div class="flex center">
-      <div class="bg-blue4 width+2 m1">2</div>
-      <div class="bg-blue4 width+8 m1">8</div>
-    </div>
-    <div class="flex center">
-      <div class="bg-blue4 width+3 m1">3</div>
-      <div class="bg-blue4 width+7 m1">7</div>
-    </div>
-    <div class="flex center">
-      <div class="bg-blue4 width+4 m1">4</div>
-      <div class="bg-blue4 width+6 m1">6</div>
-    </div>
-    <div class="flex center">
-      <div class="bg-blue4 width+5 m1">5</div>
-      <div class="bg-blue4 width+5 m1">5</div>
-    </div>
-    <div class="flex center">
-      <div class="bg-blue4 width+10 m1">10</div>
-    </div>
-
-    <h3> Ratio Scale </h3>
-    <div class="flex center">
-      <div class="bg-magenta4 ratio1:1 m1">1:1</div>
-    </div>
-
-    <div class="flex center">
-      <div class="bg-magenta4 ratio1:2 m1">1:2</div>
-      <div class="bg-magenta4 ratio1:2 m1">1:2</div>
-    </div>
-
-    <div class="flex center">
-      <div class="bg-magenta4 ratio1:3 m1">1:3</div>
-      <div class="bg-magenta4 ratio2:3 m1">2:3</div>
-    </div>
-    <div class="flex center">
-      <div class="bg-magenta4 ratio1:4 m1">1:4</div>
-      <div class="bg-magenta4 ratio3:4 m1">3:4</div>
-    </div>
-
-    <div class="flex center">
-      <div class="bg-magenta4 ratio1:5 m1">1:5</div>
-      <div class="bg-magenta4 ratio4:5 m1">4:5</div>
-    </div>
-
-    <div class="flex center">
-      <div class="bg-magenta4 ratio1:6 m1">1:6</div>
-      <div class="bg-magenta4 ratio5:6 m1">5:6</div>
-    </div>
-
-    <div class="flex center">
-      <div class="bg-magenta4 ratio1:7 m1">1:7</div>
-      <div class="bg-magenta4 ratio6:7 m1">6:7</div>
-    </div>
-
-    <div class="flex center">
-      <div class="bg-magenta4 ratio1:8 m1">1:8</div>
-      <div class="bg-magenta4 ratio7:8 m1">7:8</div>
-    </div>
-
-    <div class="flex center">
-      <div class="bg-magenta4 ratio1:9 m1">1:9</div>
-      <div class="bg-magenta4 ratio8:9 m1">8:9</div>
-    </div>
-
-    <div class="flex center">
-      <div class="bg-magenta4 ratio1:10 m1">1:10</div>
-      <div class="bg-magenta4 ratio9:10 m1">9:10</div>
-    </div>
-
+    </section>
   </section>
 
+  <section id="SbBModel">
+    <header class="px4 py2 bg-red1 red-3 border-top border-bottom">
+      <h1 class="size4 m0">📦 Box Model</h1>
+    </header>
 
-  <header id="SbLayout" class="px4 py2 bg-magenta1 magenta-3 border-top border-bottom">
-    <h1 class="size4 m0">📐 Layout</h1>
-  </header>
 
-  <section class="p4">
-    <h2 class="size3">⚫️ Display</h2>
-    <div class="bg-blue5 p1">
-      <div class="bg-blue4 block">block</div>
-    </div>
+    <section class="p4">
+      <h2 class="size3">⚫️ Width</h2>
+      <h3>Linear Scale</h3>
+      <div class="flex center">
+        <div class="bg-blue4 width+1 m1">1</div>
+        <div class="bg-blue4 width+9 m1">9</div>
+      </div>
+      <div class="flex center">
+        <div class="bg-blue4 width+2 m1">2</div>
+        <div class="bg-blue4 width+8 m1">8</div>
+      </div>
+      <div class="flex center">
+        <div class="bg-blue4 width+3 m1">3</div>
+        <div class="bg-blue4 width+7 m1">7</div>
+      </div>
+      <div class="flex center">
+        <div class="bg-blue4 width+4 m1">4</div>
+        <div class="bg-blue4 width+6 m1">6</div>
+      </div>
+      <div class="flex center">
+        <div class="bg-blue4 width+5 m1">5</div>
+        <div class="bg-blue4 width+5 m1">5</div>
+      </div>
+      <div class="flex center">
+        <div class="bg-blue4 width+10 m1">10</div>
+      </div>
 
-    <div class="bg-blue5 mt1 p1 clearfix">
-      <div class="bg-blue4 left">float left</div>
-    </div>
-    <div class="bg-blue5 mt1 p1 clearfix">
-      <div class="bg-blue4 right">float right</div>
-    </div>
+      <h3> Ratio Scale </h3>
+      <div class="flex center">
+        <div class="bg-magenta4 ratio1:1 m1">1:1</div>
+      </div>
 
-    <div class="bg-blue5 mt1 p1">
-      <div class="bg-blue4 inline">inline</div>
-    </div>
-    <div class="bg-blue5 mt1 p1">
-      <div class="bg-blue4 inline-block">inline-block</div>
-    </div>
-    <div class="bg-blue5 mt1 p1">
-      <div class="bg-blue4 table">table</div>
-    </div>
+      <div class="flex center">
+        <div class="bg-magenta4 ratio1:2 m1">1:2</div>
+        <div class="bg-magenta4 ratio1:2 m1">1:2</div>
+      </div>
+
+      <div class="flex center">
+        <div class="bg-magenta4 ratio1:3 m1">1:3</div>
+        <div class="bg-magenta4 ratio2:3 m1">2:3</div>
+      </div>
+      <div class="flex center">
+        <div class="bg-magenta4 ratio1:4 m1">1:4</div>
+        <div class="bg-magenta4 ratio3:4 m1">3:4</div>
+      </div>
+
+      <div class="flex center">
+        <div class="bg-magenta4 ratio1:5 m1">1:5</div>
+        <div class="bg-magenta4 ratio4:5 m1">4:5</div>
+      </div>
+
+      <div class="flex center">
+        <div class="bg-magenta4 ratio1:6 m1">1:6</div>
+        <div class="bg-magenta4 ratio5:6 m1">5:6</div>
+      </div>
+
+      <div class="flex center">
+        <div class="bg-magenta4 ratio1:7 m1">1:7</div>
+        <div class="bg-magenta4 ratio6:7 m1">6:7</div>
+      </div>
+
+      <div class="flex center">
+        <div class="bg-magenta4 ratio1:8 m1">1:8</div>
+        <div class="bg-magenta4 ratio7:8 m1">7:8</div>
+      </div>
+
+      <div class="flex center">
+        <div class="bg-magenta4 ratio1:9 m1">1:9</div>
+        <div class="bg-magenta4 ratio8:9 m1">8:9</div>
+      </div>
+
+      <div class="flex center">
+        <div class="bg-magenta4 ratio1:10 m1">1:10</div>
+        <div class="bg-magenta4 ratio9:10 m1">9:10</div>
+      </div>
+
+    </section>
   </section>
 
-  <section class="p4 bg-gray5">
-    <h2 class="size3">⚫️ Flexbox</h2>
-    <h3>Direction and Wrap</h3>
-    <div class="flex mxn3">
-      <div class="ratio1:4 px3">
-        <p>To align items to appear one next to another apply <code class="bg-yellow4 yellow-3 px1 rounded">.flex</code> class to the element container. By default, items are stretched to fit the container.</p>
-        <div class="border border-gray3 rounded lift+1">
-          <div class="ratio-4-3 center bg-blue5 rounded-top">
-            <div class="flex p2">
-              <div class="bg-blue4 flex-auto ml1">1</div>
-              <div class="bg-blue4 flex-auto mx1">2</div>
-              <div class="bg-blue4 flex-auto mr1">3</div>
-            </div>
-          </div>
-          <pre class="bg-white m0 border-top rounded-bottom">
-            <code>
-  <&zwj;div class="flex">
-    <&zwj;div>Item 1<&zwj;/div>
-    <&zwj;div>Item 2<&zwj;/div>
-    <&zwj;div>Item 3<&zwj;/div>
-  <&zwj;/div>
-            </code>
-          </pre>
-        </div>
+  <section id="SbLayout">
+    <header class="px4 py2 bg-magenta1 magenta-3 border-top border-bottom">
+      <h1 class="size4 m0">📐 Layout</h1>
+    </header>
+
+    <section class="p4">
+      <h2 class="size3">⚫️ Display</h2>
+      <div class="bg-blue5 p1">
+        <div class="bg-blue4 block">block</div>
       </div>
 
-      <div class="ratio1:4 px3">
-        <p>To align items to appear vertically inside a container use <code class="bg-yellow4 yellow-3 px1 rounded">.flex</code> <code class="bg-yellow4 yellow-3 px1 rounded">.flex-column</code> classes to the element container.</p>
-        <div class="border border-gray3 rounded lift+1">
-          <div class="ratio-4-3 center bg-blue5 rounded-top">
-            <div class="flex flex-column p2">
-              <div class="bg-blue4 flex-auto mt1">1</div>
-              <div class="bg-blue4 flex-auto mt1">2</div>
-              <div class="bg-blue4 flex-auto mt1">3</div>
-            </div>
-          </div>
-          <pre class="bg-white m0 border-top rounded-bottom">
-            <code>
-  <&zwj;div class="flex flex-column">
-    <&zwj;div>Item 1<&zwj;/div>
-    <&zwj;div>Item 2<&zwj;/div>
-    <&zwj;div>Item 3<&zwj;/div>
-  <&zwj;/div>
-            </code>
-          </pre>
-        </div>
+      <div class="bg-blue5 mt1 p1 clearfix">
+        <div class="bg-blue4 left">float left</div>
+      </div>
+      <div class="bg-blue5 mt1 p1 clearfix">
+        <div class="bg-blue4 right">float right</div>
       </div>
 
-      <div class="ratio1:4 px3">
-        <p>To wrap elements inside a flex container apply <code class="bg-yellow4 yellow-3 px1 rounded">.flex</code> <code class="bg-yellow4 yellow-3 px1 rounded">.flex-wrap</code> classes to the element container.</p>
-        <div class="border border-gray3 rounded lift+1">
-          <div class="ratio-4-3 center bg-blue5 rounded-top">
-            <div class="flex flex-wrap p2">
-              <div class="bg-blue4 width+5">1</div>
-              <div class="bg-blue4 width+3 mx1">2</div>
-              <div class="bg-blue4 width+6 mt1">3</div>
+      <div class="bg-blue5 mt1 p1">
+        <div class="bg-blue4 inline">inline</div>
+      </div>
+      <div class="bg-blue5 mt1 p1">
+        <div class="bg-blue4 inline-block">inline-block</div>
+      </div>
+      <div class="bg-blue5 mt1 p1">
+        <div class="bg-blue4 table">table</div>
+      </div>
+    </section>
+
+    <section class="p4 bg-gray5">
+      <h2 class="size3">⚫️ Flexbox</h2>
+      <h3>Direction and Wrap</h3>
+      <div class="flex mxn3">
+        <div class="ratio1:4 px3">
+          <p>To align items to appear one next to another apply <code class="bg-yellow4 yellow-3 px1 rounded">.flex</code> class to the element container. By default, items are stretched to fit the container.</p>
+          <div class="border border-gray3 rounded lift+1">
+            <div class="ratio-4-3 center bg-blue5 rounded-top">
+              <div class="flex p2">
+                <div class="bg-blue4 flex-auto ml1">1</div>
+                <div class="bg-blue4 flex-auto mx1">2</div>
+                <div class="bg-blue4 flex-auto mr1">3</div>
+              </div>
             </div>
+            <pre class="bg-white m0 border-top rounded-bottom">
+              <code>
+                <&zwj;div class="flex">
+                <&zwj;div>Item 1<&zwj;/div>
+                <&zwj;div>Item 2<&zwj;/div>
+                <&zwj;div>Item 3<&zwj;/div>
+                <&zwj;/div>
+              </code>
+            </pre>
           </div>
-          <pre class="bg-white m0 border-top rounded-bottom">
-            <code>
-  <&zwj;div class="flex flex-wrap">
-    <&zwj;div>Item 1<&zwj;/div>
-    <&zwj;div>Item 2<&zwj;/div>
-    <&zwj;div>Item 3<&zwj;/div>
-  <&zwj;/div>
-            </code>
-          </pre>
         </div>
+
+        <div class="ratio1:4 px3">
+          <p>To align items to appear vertically inside a container use <code class="bg-yellow4 yellow-3 px1 rounded">.flex</code> <code class="bg-yellow4 yellow-3 px1 rounded">.flex-column</code> classes to the element container.</p>
+          <div class="border border-gray3 rounded lift+1">
+            <div class="ratio-4-3 center bg-blue5 rounded-top">
+              <div class="flex flex-column p2">
+                <div class="bg-blue4 flex-auto mt1">1</div>
+                <div class="bg-blue4 flex-auto mt1">2</div>
+                <div class="bg-blue4 flex-auto mt1">3</div>
+              </div>
+            </div>
+            <pre class="bg-white m0 border-top rounded-bottom">
+              <code>
+                <&zwj;div class="flex flex-column">
+                <&zwj;div>Item 1<&zwj;/div>
+                <&zwj;div>Item 2<&zwj;/div>
+                <&zwj;div>Item 3<&zwj;/div>
+                <&zwj;/div>
+              </code>
+            </pre>
+          </div>
+        </div>
+
+        <div class="ratio1:4 px3">
+          <p>To wrap elements inside a flex container apply <code class="bg-yellow4 yellow-3 px1 rounded">.flex</code> <code class="bg-yellow4 yellow-3 px1 rounded">.flex-wrap</code> classes to the element container.</p>
+          <div class="border border-gray3 rounded lift+1">
+            <div class="ratio-4-3 center bg-blue5 rounded-top">
+              <div class="flex flex-wrap p2">
+                <div class="bg-blue4 width+5">1</div>
+                <div class="bg-blue4 width+3 mx1">2</div>
+                <div class="bg-blue4 width+6 mt1">3</div>
+              </div>
+            </div>
+            <pre class="bg-white m0 border-top rounded-bottom">
+              <code>
+                <&zwj;div class="flex flex-wrap">
+                <&zwj;div>Item 1<&zwj;/div>
+                <&zwj;div>Item 2<&zwj;/div>
+                <&zwj;div>Item 3<&zwj;/div>
+                <&zwj;/div>
+              </code>
+            </pre>
+          </div>
+        </div>
+
+        <div class="ratio1:4 px3">
+          <p>To control the flex property of items inside a container apply <code class="bg-yellow4 yellow-3 px1 rounded">.flex-auto</code> or <code class="bg-yellow4 yellow-3 px1 rounded">.flex-none</code> class to the item.</p>
+          <div class="border border-gray3 rounded lift+1">
+            <div class="ratio-4-3 center bg-blue5 rounded-top">
+              <div class="flex p2">
+                <div class="bg-blue4 flex-auto ml1">1</div>
+                <div class="bg-blue4 flex-auto mx1">2</div>
+                <div class="bg-blue4 flex-none mr1">3</div>
+              </div>
+            </div>
+            <pre class="bg-white m0 border-top rounded-bottom">
+              <code>
+                <&zwj;div class="flex">
+                <&zwj;div class="flex-auto">Item 1<&zwj;/div>
+                <&zwj;div class="flex-auto">Item 2<&zwj;/div>
+                <&zwj;div class="flex-none">Item 3<&zwj;/div>
+                <&zwj;/div>
+              </code>
+            </pre>
+          </div>
+        </div>
+
       </div>
 
-      <div class="ratio1:4 px3">
-        <p>To control the flex property of items inside a container apply <code class="bg-yellow4 yellow-3 px1 rounded">.flex-auto</code> or <code class="bg-yellow4 yellow-3 px1 rounded">.flex-none</code> class to the item.</p>
-        <div class="border border-gray3 rounded lift+1">
-          <div class="ratio-4-3 center bg-blue5 rounded-top">
-            <div class="flex p2">
-              <div class="bg-blue4 flex-auto ml1">1</div>
-              <div class="bg-blue4 flex-auto mx1">2</div>
-              <div class="bg-blue4 flex-none mr1">3</div>
+
+      <h3>Items Align</h3>
+
+      <div class="flex mxn3">
+        <div class="ratio1:4 px3">
+          <p>To position the items at the center of the container use <code class="bg-yellow4 yellow-3 px1 rounded">.items-center</code> class.</p>
+          <div class="border border-gray3 rounded lift+1">
+
+            <div class="ratio-4-3 center bg-blue5 rounded-top">
+              <div class="flex items-center p2">
+                <div class="bg-blue4 flex-auto m1 p2">1</div>
+                <div class="bg-blue4 flex-auto m1">2</div>
+                <div class="bg-blue4 flex-auto m1 p3">3</div>
+              </div>
             </div>
+            <pre class="bg-white m0 border-top rounded-bottom">
+              <code>
+                <&zwj;div class="flex items-center">
+                <&zwj;div>Flex Item 1<&zwj;/div>
+                <&zwj;div>Flex Item 2<&zwj;/div>
+                <&zwj;div>Flex Item 3<&zwj;/div>
+                <&zwj;/div>
+              </code>
+            </pre>
           </div>
-          <pre class="bg-white m0 border-top rounded-bottom">
-            <code>
-<&zwj;div class="flex">
-  <&zwj;div class="flex-auto">Item 1<&zwj;/div>
-  <&zwj;div class="flex-auto">Item 2<&zwj;/div>
-  <&zwj;div class="flex-none">Item 3<&zwj;/div>
-<&zwj;/div>
-            </code>
-          </pre>
         </div>
+
+        <div class="ratio1:4 px3">
+          <p>To position the items at the begining of the container use <code class="bg-yellow4 yellow-3 px1 rounded">.items-start</code> class.</p>
+          <div class="border border-gray3 rounded lift+1">
+            <div class="ratio-4-3 center bg-blue5 rounded-top">
+              <div class="flex items-start p2">
+                <div class="bg-blue4 flex-auto m1 p2">1</div>
+                <div class="bg-blue4 flex-auto m1">2</div>
+                <div class="bg-blue4 flex-auto m1 p3">3</div>
+              </div>
+            </div>
+            <pre class="bg-white m0 border-top rounded-bottom">
+              <code>
+                <&zwj;div class="flex items-start">
+                <&zwj;div>Flex Item 1<&zwj;/div>
+                <&zwj;div>Flex Item 2<&zwj;/div>
+                <&zwj;div>Flex Item 3<&zwj;/div>
+                <&zwj;/div>
+              </code>
+            </pre>
+          </div>
+        </div>
+
+        <div class="ratio1:4 px3">
+          <p>To position the items at the end of the container use <code class="bg-yellow4 yellow-3 px1 rounded">.items-end</code> class.</p>
+          <div class="border border-gray3 rounded lift+1">
+            <div class="ratio-4-3 center bg-blue5 rounded-top">
+              <div class="flex items-end p2">
+                <div class="bg-blue4 flex-auto m1 p2">1</div>
+                <div class="bg-blue4 flex-auto m1">2</div>
+                <div class="bg-blue4 flex-auto m1 p3">3</div>
+              </div>
+            </div>
+            <pre class="bg-white m0 border-top rounded-bottom">
+              <code>
+                <&zwj;div class="flex items-end">
+                <&zwj;div>Flex Item 1<&zwj;/div>
+                <&zwj;div>Flex Item 2<&zwj;/div>
+                <&zwj;div>Flex Item 3<&zwj;/div>
+                <&zwj;/div>
+              </code>
+            </pre>
+          </div>
+        </div>
+
+        <div class="ratio1:4 px3">
+          <p>To position the items at the baseline of the container use <code class="bg-yellow4 yellow-3 px1 rounded">.items-baseline</code> class.</p>
+          <div class="border border-gray3 rounded lift+1">
+            <div class="ratio-4-3 center bg-blue5 rounded-top">
+              <div class="flex items-baseline p2">
+                <div class="bg-blue4 flex-auto m1 p2 size4">1</div>
+                <div class="bg-blue4 flex-auto m1">2</div>
+                <div class="bg-blue4 flex-auto m1 p3">3</div>
+              </div>
+            </div>
+            <pre class="bg-white m0 border-top rounded-bottom">
+              <code>
+                <&zwj;div class="flex items-baseline">
+                <&zwj;div>Flex Item 1<&zwj;/div>
+                <&zwj;div>Flex Item 2<&zwj;/div>
+                <&zwj;div>Flex Item 3<&zwj;/div>
+                <&zwj;/div>
+              </code>
+            </pre>
+          </div>
+        </div>
+
       </div>
 
-    </div>
 
-
-    <h3>Items Align</h3>
-
-    <div class="flex mxn3">
-      <div class="ratio1:4 px3">
-        <p>To position the items at the center of the container use <code class="bg-yellow4 yellow-3 px1 rounded">.items-center</code> class.</p>
-        <div class="border border-gray3 rounded lift+1">
-
-          <div class="ratio-4-3 center bg-blue5 rounded-top">
-            <div class="flex items-center p2">
-              <div class="bg-blue4 flex-auto m1 p2">1</div>
-              <div class="bg-blue4 flex-auto m1">2</div>
-              <div class="bg-blue4 flex-auto m1 p3">3</div>
-            </div>
-          </div>
-          <pre class="bg-white m0 border-top rounded-bottom">
-            <code>
-  <&zwj;div class="flex items-center">
-    <&zwj;div>Flex Item 1<&zwj;/div>
-    <&zwj;div>Flex Item 2<&zwj;/div>
-    <&zwj;div>Flex Item 3<&zwj;/div>
-  <&zwj;/div>
-            </code>
-          </pre>
-        </div>
-      </div>
-
-      <div class="ratio1:4 px3">
-        <p>To position the items at the begining of the container use <code class="bg-yellow4 yellow-3 px1 rounded">.items-start</code> class.</p>
-        <div class="border border-gray3 rounded lift+1">
-          <div class="ratio-4-3 center bg-blue5 rounded-top">
-            <div class="flex items-start p2">
-              <div class="bg-blue4 flex-auto m1 p2">1</div>
-              <div class="bg-blue4 flex-auto m1">2</div>
-              <div class="bg-blue4 flex-auto m1 p3">3</div>
-            </div>
-          </div>
-          <pre class="bg-white m0 border-top rounded-bottom">
-            <code>
-  <&zwj;div class="flex items-start">
-    <&zwj;div>Flex Item 1<&zwj;/div>
-    <&zwj;div>Flex Item 2<&zwj;/div>
-    <&zwj;div>Flex Item 3<&zwj;/div>
-  <&zwj;/div>
-            </code>
-          </pre>
-        </div>
-      </div>
-
-      <div class="ratio1:4 px3">
-        <p>To position the items at the end of the container use <code class="bg-yellow4 yellow-3 px1 rounded">.items-end</code> class.</p>
-        <div class="border border-gray3 rounded lift+1">
-          <div class="ratio-4-3 center bg-blue5 rounded-top">
-            <div class="flex items-end p2">
-              <div class="bg-blue4 flex-auto m1 p2">1</div>
-              <div class="bg-blue4 flex-auto m1">2</div>
-              <div class="bg-blue4 flex-auto m1 p3">3</div>
-            </div>
-          </div>
-          <pre class="bg-white m0 border-top rounded-bottom">
-            <code>
-  <&zwj;div class="flex items-end">
-    <&zwj;div>Flex Item 1<&zwj;/div>
-    <&zwj;div>Flex Item 2<&zwj;/div>
-    <&zwj;div>Flex Item 3<&zwj;/div>
-  <&zwj;/div>
-            </code>
-          </pre>
-        </div>
-      </div>
-
-      <div class="ratio1:4 px3">
-        <p>To position the items at the baseline of the container use <code class="bg-yellow4 yellow-3 px1 rounded">.items-baseline</code> class.</p>
-        <div class="border border-gray3 rounded lift+1">
-          <div class="ratio-4-3 center bg-blue5 rounded-top">
-            <div class="flex items-baseline p2">
-              <div class="bg-blue4 flex-auto m1 p2 size4">1</div>
-              <div class="bg-blue4 flex-auto m1">2</div>
-              <div class="bg-blue4 flex-auto m1 p3">3</div>
-            </div>
-          </div>
-          <pre class="bg-white m0 border-top rounded-bottom">
-            <code>
-  <&zwj;div class="flex items-baseline">
-    <&zwj;div>Flex Item 1<&zwj;/div>
-    <&zwj;div>Flex Item 2<&zwj;/div>
-    <&zwj;div>Flex Item 3<&zwj;/div>
-  <&zwj;/div>
-            </code>
-          </pre>
-        </div>
-      </div>
-
-    </div>
-
-
+    </section>
   </section>
 
-
-<!-- <section class="p4">
+  <!-- <section class="p4">
 
   <form class="width+5">
-    <div>
-      <label for="one">Label one</label>
-      <input class="size1" id="one" name="one" type="text">
-    </div>
-    <div>
-      <label for="two">Label two</label>
-      <input id="two" name="two" type="text">
-    </div>
-    <button class=btn type="submit">Submit</button>
-  </form>
+  <div>
+  <label for="one">Label one</label>
+  <input class="size1" id="one" name="one" type="text">
+</div>
+<div>
+<label for="two">Label two</label>
+<input id="two" name="two" type="text">
+</div>
+<button class=btn type="submit">Submit</button>
+</form>
 
 
 </section> -->
