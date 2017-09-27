@@ -1,4 +1,4 @@
-/* custom media queries */
+/* range media queries */
 /* components */
 @media (max-width: 40em){
 
@@ -320,13 +320,13 @@ textarea {
 @media (max-width: 40em) {
   .xs-flex { display: -webkit-box; display: -ms-flexbox; display: flex;}
 }
-@media (max-width: 52em) {
+@media (min-width: 40em) {
   .sm-flex { display: -webkit-box; display: -ms-flexbox; display: flex;}
 }
-@media (max-width: 64em) {
+@media (min-width: 52em) {
   .md-flex { display: -webkit-box; display: -ms-flexbox; display: flex;}
 }
-@media (max-width: 80em){
+@media (min-width: 64em){
   .lg-flex { display: -webkit-box; display: -ms-flexbox; display: flex; }
 }
 @media (min-width: 80em) {
@@ -551,7 +551,7 @@ Borders
   .xs-width\+9{ width: 90%;}
   .xs-width\+10{ width: 100%;}
 }
-@media (max-width: 52em){
+@media (min-width: 40em){
   .sm-width\+1{ width: 10%;}
   .sm-width\+2{ width: 20%;}
   .sm-width\+3{ width: 30%;}
@@ -563,7 +563,7 @@ Borders
   .sm-width\+9{ width: 90%;}
   .sm-width\+10{ width: 100%;}
 }
-@media (max-width: 64em){
+@media (min-width: 52em){
   .md-width\+1{ width: 10%;}
   .md-width\+2{ width: 20%;}
   .md-width\+3{ width: 30%;}
@@ -575,7 +575,7 @@ Borders
   .md-width\+9{ width: 90%;}
   .md-width\+10{ width: 100%;}
 }
-@media (max-width: 80em){
+@media (min-width: 64em){
   .lg-width\+1{ width: 10%;}
   .lg-width\+2{ width: 20%;}
   .lg-width\+3{ width: 30%;}
