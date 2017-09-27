@@ -25,7 +25,7 @@
   .xs-width\+9{ width: 90%;}
   .xs-width\+10{ width: 100%;}
 }
-@media (--only-sm-screen){
+@media (--sm-screen){
   .sm-width\+1{ width: 10%;}
   .sm-width\+2{ width: 20%;}
   .sm-width\+3{ width: 30%;}
@@ -37,7 +37,7 @@
   .sm-width\+9{ width: 90%;}
   .sm-width\+10{ width: 100%;}
 }
-@media (--only-md-screen){
+@media (--md-screen){
   .md-width\+1{ width: 10%;}
   .md-width\+2{ width: 20%;}
   .md-width\+3{ width: 30%;}
@@ -49,7 +49,7 @@
   .md-width\+9{ width: 90%;}
   .md-width\+10{ width: 100%;}
 }
-@media (--only-lg-screen){
+@media (--lg-screen){
   .lg-width\+1{ width: 10%;}
   .lg-width\+2{ width: 20%;}
   .lg-width\+3{ width: 30%;}

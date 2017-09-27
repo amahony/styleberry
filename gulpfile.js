@@ -17,7 +17,7 @@ gulp.task('css', function() {
       atImport(),
       cssnext()
     ]))
-    .pipe(gulp.dest('dest'));
+    .pipe(gulp.dest('dist'));
 });
 
 gulp.task('minify', function() {
@@ -28,7 +28,7 @@ gulp.task('minify', function() {
       cssnext({warnForDuplicates:false}),
       cssnano()
     ]))
-    .pipe(gulp.dest('dest'));
+    .pipe(gulp.dest('dist'));
 });
 
 gulp.task('watch', function(){

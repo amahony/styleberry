@@ -320,13 +320,13 @@ textarea {
 @media (max-width: 40em) {
   .xs-flex { display: -webkit-box; display: -ms-flexbox; display: flex;}
 }
-@media (min-width: 40em) and (max-width: 52em) {
+@media (max-width: 52em) {
   .sm-flex { display: -webkit-box; display: -ms-flexbox; display: flex;}
 }
-@media (min-width: 52em) and (max-width: 64em) {
+@media (max-width: 64em) {
   .md-flex { display: -webkit-box; display: -ms-flexbox; display: flex;}
 }
-@media (min-width: 64em) and (max-width: 80em){
+@media (max-width: 80em){
   .lg-flex { display: -webkit-box; display: -ms-flexbox; display: flex; }
 }
 @media (min-width: 80em) {
@@ -523,11 +523,11 @@ Borders
 .py4 { padding-top: 64px; padding-top: 4rem; padding-bottom: 64px; padding-bottom: 4rem }
 .px4 { padding-left: 64px; padding-left: 4rem; padding-right: 64px; padding-right: 4rem }
 /* box-shadow */
-.lift1{box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.125);}
-.lift2{box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);}
-.lift3{box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);}
-.lift4{box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);}
-.lift5{box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.15);}
+.lift\+1{box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.125);}
+.lift\+2{box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);}
+.lift\+3{box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);}
+.lift\+4{box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);}
+.lift\+5{box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.15);}
 /* linear scale */
 .width\+1{ width: 10%;}
 .width\+2{ width: 20%;}
@@ -551,7 +551,7 @@ Borders
   .xs-width\+9{ width: 90%;}
   .xs-width\+10{ width: 100%;}
 }
-@media (min-width: 40em) and (max-width: 52em){
+@media (max-width: 52em){
   .sm-width\+1{ width: 10%;}
   .sm-width\+2{ width: 20%;}
   .sm-width\+3{ width: 30%;}
@@ -563,7 +563,7 @@ Borders
   .sm-width\+9{ width: 90%;}
   .sm-width\+10{ width: 100%;}
 }
-@media (min-width: 52em) and (max-width: 64em){
+@media (max-width: 64em){
   .md-width\+1{ width: 10%;}
   .md-width\+2{ width: 20%;}
   .md-width\+3{ width: 30%;}
@@ -575,7 +575,7 @@ Borders
   .md-width\+9{ width: 90%;}
   .md-width\+10{ width: 100%;}
 }
-@media (min-width: 64em) and (max-width: 80em){
+@media (max-width: 80em){
   .lg-width\+1{ width: 10%;}
   .lg-width\+2{ width: 20%;}
   .lg-width\+3{ width: 30%;}

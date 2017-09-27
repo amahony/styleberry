@@ -56,13 +56,13 @@
 @media (--only-xs-screen) {
   .xs-flex { display: flex;}
 }
-@media (--only-sm-screen) {
+@media (--sm-screen) {
   .sm-flex { display: flex;}
 }
-@media (--only-md-screen) {
+@media (--md-screen) {
   .md-flex { display: flex;}
 }
-@media (--only-lg-screen){
+@media (--lg-screen){
   .lg-flex { display: flex; }
 }
 @media (--only-xl-screen) {

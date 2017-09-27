@@ -1,11 +1,13 @@
+@custom-media --sm-screen (width <= 52em);
+@custom-media --md-screen (width <= 64em);
+@custom-media --lg-screen (width <= 80em);
+
 /* custom media queries */
 @custom-media --only-xs-screen (width <= 40em);
 @custom-media --only-sm-screen (width >= 40em) and (width <= 52em);
 @custom-media --only-md-screen (width >= 52em) and (width <= 64em);
 @custom-media --only-lg-screen (width >= 64em) and (width <= 80em);
 @custom-media --only-xl-screen (width >= 80em);
-
-
 
 /* components */
 
