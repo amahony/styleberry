@@ -1,11 +1,7 @@
-angular.module('themeApp', [])
+angular.module('myApp', [])
 
 
 .controller('mainController', function($scope) {
-
-  //theme defaults
-  $scope.adminSide = 'right-0';
-
 
 })
 

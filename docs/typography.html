@@ -1,0 +1,274 @@
+<section id="SbTypography">
+  <div class="px4 py2 bg-yellow+2 yellow-4 border-top border-bottom">
+    <h1 class="size+4 m0">✏️ Typography</h1>
+  </div>
+  <!-- Type Scale -->
+  <section class="p4 flex items-center bg-white">
+      <div class="width+6">
+        <h2>⚫️ Type Scale</h2>
+        <p>Fully responsive typographic scale with 12 defined classes, based on 1rem/16px default. Adjustable to any viewport using formula.</p>
+        <h2 class="size+5 flex items-center">This is text with size+5</h2>
+        <h2 class="size+4">This is text with size+4</h2>
+        <h2 class="size+3">This is text with size+3</h2>
+        <h2 class="size+2">This is text with size+2</h2>
+        <h2 class="size+1">This is text with size+1</h2>
+        <h2 class="size0">This is text with size0</h2>
+        <h2 class="size-1">This is text with size-1</h2>
+        <h2 class="size-2">This is text with size-2</h2>
+        <h2 class="size-3">This is text with size-3</h2>
+        <h2 class="size-4">This is text with size-4</h2>
+        <h2 class="size-5">This is text with size-5</h2>
+        <p>Additionaly you can declare to inherit size from parent element using <code class="bg-yellow+4 yellow-3 px1 rounded">.size-inherit</code></p>
+      </div>
+      <div class="width+4">
+        <div class="width+8 center block mx-auto">
+          <div class="ratio-1-1 bg-white rounded-3 lift5 overflow-hidden">
+            <div>
+              <div class="flex flex-column h100">
+                <div class="bg-yellow yellow-3 p2 caps size-3 bold">Type Scale in action</div>
+                <div class="flex-auto flex items-center">
+                  <div class="size{{type.scale <= 0 ? type.scale : '+' + type.scale}} m0 mx-auto bold">
+                    <span class="block">Sample Text</span>
+                  </div>
+                </div>
+                <div class="p2 bg-gray+5 size-2" ng-init="type.scale=5">
+                  <div class="mb2 flex">
+                    <span class="align-left width+5">Class</span>
+                    <span class="align-right width+5 bold">size{{type.scale <= 0 ? type.scale : '+' + type.scale}}</span>
+                  </div>
+                  <input class="range-slider" type="range" name="model" min="-5" max="+5" value="0" ng-model="type.scale" step="1">
+                </div>
+              </div>
+            </div>
+          </div>
+          <table class="table size-1 bg-blue+4 width+10 align-left mt2 p1 rounded">
+            <tr>
+              <th class="border-bottom p1">Class Constructor</th>
+            </tr>
+            <tr>
+              <td class="border-bottom p1">Keyword<span class="right bold">size</span></td>
+            </tr>
+            <tr>
+              <td class="border-bottom p1">Operator<span class="right bold">+|-</span></td>
+            </tr>
+            <tr>
+              <td class="p1">Integer<span class="right bold">0|1|2|3|4|5</span></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+  </section>
+  <!-- / Type Scale -->
+  <!-- Type Weight -->
+  <section class="p4 flex items-center bg-white border-top border-1 border-gray+4">
+      <div class="width+6">
+        <h2>⚫️ Type Weight</h2>
+        <p>Fully responsive typographic scale with 12 defined classes, based on 1rem/16px default. Adjustable to any viewport using formula.</p>
+        <div class="work-sans">
+          <h2 class="thin">Thin 100</h2>
+          <h2 class="extra-light">Extra Light 200</h2>
+          <h2 class="light">Light 300</h2>
+          <h2 class="normal">Normal 400</h2>
+          <h2 class="medium">Medium 500</h2>
+          <h2 class="semi-bold">Semi Bold 600</h2>
+          <h2 class="bold">Bold 700</h2>
+          <h2 class="extra-bold">Extra Bold 800</h2>
+          <h2 class="heavy">Black 900</h2>
+        </div>
+      </div>
+      <div class="width+4">
+        <div class="width+8 center block mx-auto">
+          <div class="ratio-1-1 bg-white rounded-3 lift5 overflow-hidden">
+            <div>
+              <div class="flex flex-column h100">
+                <div class="bg-yellow yellow-3 p2 caps size-3 bold">Type Weight in action</div>
+                <div class="flex-auto flex items-center">
+                  <div class="size+5 weight{{type.weight <= 0 ? type.weight : '+' + type.weight}} m0 mx-auto work-sans">
+                    <span class="block">Sample Text</span>
+                  </div>
+                </div>
+                <div class="p2 bg-gray+5 size-2" ng-init="typeweight=0">
+                  <div class="mb2 flex">
+                    <span class="align-left width+5">Class</span>
+                    <span class="align-right width+5 bold">weight{{type.weight <= 0 ? type.weight : '+' + type.weight}}</span>
+                  </div>
+                  <input class="range-slider" type="range" name="model" min="-3" max="5" value="0" ng-model="type.weight" step="1">
+                </div>
+              </div>
+            </div>
+          </div>
+          <table class="table size-1 bg-blue+4 width+10 align-left mt2 p1 rounded">
+            <tr>
+              <th class="border-bottom p1">Class Constructor</th>
+            </tr>
+            <tr>
+              <td class="border-bottom p1">Keyword<span class="right bold">weight</span></td>
+            </tr>
+            <tr>
+              <td class="border-bottom p1">Operator<span class="right bold">none|-</span></td>
+            </tr>
+            <tr>
+              <td class="p1">Integer<span class="right bold">0|1|2|3|4|5</span></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+  </section>
+  <!-- / Type Weight -->
+  <!-- Letter Spacing -->
+  <section id="sbSpacing" class="p4 flex items-center bg-white border-top border-1 border-gray+4">
+      <div class="width+6">
+        <h2>⚫️ Letter Spacing</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit tempora accusamus labore ab! Tempore magnam provident, perspiciatis quis reprehenderit. Tempora aperiam obcaecati porro suscipit harum molestias, nobis unde in modi.</p>
+        <p class="spacing-5">Letter Spacing-5</p>
+        <p class="spacing-4">Letter Spacing-4</p>
+        <p class="spacing-3">Letter Spacing-3</p>
+        <p class="spacing-2">Letter Spacing-2</p>
+        <p class="spacing-1">Letter Spacing1</p>
+        <p class="spacing0">Letter Spacing0</p>
+        <p class="spacing1">Letter Spacing+1</p>
+        <p class="spacing2">Letter Spacing+2</p>
+        <p class="spacing3">Letter Spacing+3</p>
+        <p class="spacing4">Letter Spacing+4</p>
+        <p class="spacing5">Letter Spacing+5</p>
+      </div>
+      <div class="width+4">
+        <div class="width+8 center block mx-auto">
+          <div class="ratio-1-1 bg-white rounded-3 lift5 overflow-hidden">
+            <div>
+              <div class="flex flex-column h100">
+                <div class="bg-yellow yellow-3 p2 caps size-3 bold">Letter Spacing in action</div>
+                <div class="flex-auto flex items-center">
+                  <div class="size+2 m0 mx-auto spacing{{letter.spacing <= 0 ? letter.spacing : '+' + letter.spacing}}">
+                    <span class="block">Sample Text</span>
+                  </div>
+                </div>
+                <div class="p2 bg-gray+5 size-2" ng-init="letter.spacing=0">
+                  <div class="mb2 flex">
+                    <span class="align-left width+5">Class</span>
+                    <span class="align-right width+5 bold">spacing{{letter.spacing}}</span>
+                  </div>
+                  <input class="range-slider" type="range" name="model" min="-5" max="5" value="0" ng-model="letter.spacing" step="1">
+                </div>
+              </div>
+            </div>
+          </div>
+          <table class="table size-1 bg-blue+4 width+10 align-left mt2 p1 rounded">
+            <tr>
+              <th class="border-bottom p1">Class Constructor</th>
+            </tr>
+            <tr>
+              <td class="border-bottom p1">Keyword<span class="right bold">spacing</span></td>
+            </tr>
+            <tr>
+              <td class="border-bottom p1">Operator<span class="right bold">none|-</span></td>
+            </tr>
+            <tr>
+              <td class="p1">Integer<span class="right bold">0|1|2|3|4|5</span></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+  </section>
+  <!-- / Letter Spacing -->
+  <!-- Line Height -->
+  <section id="sbLineHeight" class="p4 flex items-center bg-white border-top border-1 border-gray+4">
+      <div class="width+6">
+        <h2>⚫️ Line Height(Leading)</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit tempora accusamus labore ab! Tempore magnam provident, perspiciatis quis reprehenderit. Tempora aperiam obcaecati porro suscipit harum molestias, nobis unde in modi.</p>
+        <p class="leading0 border-red+4 border-top border-bottom">Line Height 0</p>
+        <p class="leading1 border-red+4 border-top border-bottom">Line Height 1</p>
+        <p class="leading2 border-red+4 border-top border-bottom">Line Height 2</p>
+        <p class="leading3 border-red+4 border-top border-bottom">Line Height 3</p>
+        <p class="leading4 border-red+4 border-top border-bottom">Line Height 4</p>
+        <p class="leading5 border-red+4 border-top border-bottom">Line Height 5</p>
+      </div>
+      <div class="width+4">
+        <div class="width+8 center block mx-auto">
+          <div class="ratio-1-1 bg-white rounded-3 lift5 overflow-hidden">
+            <div>
+              <div class="flex flex-column h100">
+                <div class="bg-yellow yellow-3 p2 caps size-3 bold">Leading in action</div>
+                <div class="flex-auto flex items-center">
+                  <div class="size+2 leading{{leading <= 0 ? leading : '+' + leading}} m0 mx-auto">
+                    <p class="block bg-red5 border-red3 border-top border-bottom">Sample Text</p>
+                  </div>
+                </div>
+                <div class="p2 bg-gray+5 size-2" ng-init="leading=0">
+                  <div class="mb2 flex">
+                    <span class="align-left width+5">Class</span>
+                    <span class="align-right width+5 bold">leading{{leading <= 0 ? leading : '+' + leading}}</span>
+                  </div>
+                  <input class="range-slider" type="range" name="model" min="0" max="5" value="0" ng-model="leading" step="1">
+                </div>
+              </div>
+            </div>
+          </div>
+          <table class="table size-1 bg-blue+4 width+10 align-left mt2 p1 rounded">
+            <tr>
+              <th class="border-bottom p1">Class Constructor</th>
+            </tr>
+            <tr>
+              <td class="border-bottom p1">Keyword<span class="right bold">leading</span></td>
+            </tr>
+            <tr>
+              <td class="border-bottom p1">Operator<span class="right bold">none</span></td>
+            </tr>
+            <tr>
+              <td class="p1">Integer<span class="right bold">0|1|2|3|4|5</span></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+  </section>
+  <!-- / Line Height -->
+  <!-- Type Utility -->
+  <section class="p4 bg-white border-top border-1 border-gray+4">
+    <h2>⚫️ Type Utility</h2>
+
+    <p class="italic">Italic</p>
+    <p class="caps">Caps</p>
+    <p class="small-caps">Small Caps</p>
+
+    <div class="">
+      <p class="align-left bg-red+5">Text Align Left</p>
+      <p class="center bg-red+5">Text Align Center</p>
+      <p class="align-right bg-red+5">Text Align Right</p>
+    </div>
+
+    <p class="underline">Underline</p>
+    <p class="line-through">Line Through</p>
+
+    <p class="justify">Justify</p>
+    <p class="nowrap">Nowrap</p>
+    <p class="truncate">Truncate</p>
+
+    <p class="text-shadow">Text Shadow</p>
+    <p class="blockquote">Blockquote</p>
+
+  </section>
+  <!-- / Type Utility -->
+  <!-- Type Resets -->
+  <section class="p4 bg-white border-top border-1 border-gray+4">
+    <h2>⚫️ Type Resets</h2>
+    <h3>Links</h3>
+    <p>This paragraph contains a <a href="http://codeberry.io">Link</a> without link reset</p>
+    <p>This paragraph contains a <a class="link-reset" href="http://codeberry.io">Link</a> with link reset</p>
+    <h3>Lists</h3>
+    <p>This paragraph contains a list without list reset
+      <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+      </ul>
+    </p>
+    <p>This paragraph contains a list with list reset
+      <ul class="list-reset">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+      </ul>
+    </p>
+  </section>
+  <!-- Type Resets -->
+</section>

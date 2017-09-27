@@ -17,10 +17,10 @@
 /* Line Height */
 
 .leading0{line-height: 0}
-.leading1{line-height: var(--base-leading);}
-.leading2{line-height: var(--inc1);}
-.leading3{line-height: var(--inc2);}
-.leading4{line-height: var(--inc3);}
-.leading5{line-height: var(--inc4);}
+.leading\+1{line-height: var(--base-leading);}
+.leading\+2{line-height: var(--inc1);}
+.leading\+3{line-height: var(--inc2);}
+.leading\+4{line-height: var(--inc3);}
+.leading\+5{line-height: var(--inc4);}
 
-.leading-auto{ line-height: inherit;}
+.leading-inherit{ line-height: inherit;}

@@ -30,10 +30,10 @@
 .size-2{font-size: var(--descend2);}
 .size-1{font-size: var(--descend1);}
 .size0{font-size: var(--base-size);}
-.size1{font-size: var(--ascend1);}
-.size2{font-size: var(--ascend2);}
-.size3{font-size: var(--ascend3);}
-.size4{font-size: var(--ascend4);}
-.size5{font-size: var(--ascend5);}
+.size\+1{font-size: var(--ascend1);}
+.size\+2{font-size: var(--ascend2);}
+.size\+3{font-size: var(--ascend3);}
+.size\+4{font-size: var(--ascend4);}
+.size\+5{font-size: var(--ascend5);}
 
 .size-inherit{ font-size: inherit;}

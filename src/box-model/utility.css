@@ -1,5 +1,3 @@
-.box-inset { box-shadow:inset 0px 0px 6px color(black alpha(0.48));}
-
 /* overflow related */
  .overflow-hidden { overflow: hidden;}
  .overflow-scroll { overflow: scroll;}
@@ -7,22 +5,13 @@
  .overflow-y      { overflow-y: auto;}
 
 /* max-width related */
- .fit { max-width: 100%;}
-
-/* width related */
-
- .half-width { width: 50%;}
- .full-width { width: 100%;}
+ .maxw100 { max-width: 100%;}
 
 /* max-height related */
-
- .max-h, .maxh100{max-height: 100%;}
-
- .maxh50{ max-height:50vh;}
+ .maxh100 { max-height: 100%;}
  .maxh100vh{ max-height: 100vh;}
 
 /* min-height related */
-
  .minh50{ min-height:50vh;}
  .minh66{ min-height:66vh;}
  .minh100{ min-height: 100vh;}
@@ -38,11 +27,9 @@
 
 /* height related */
 
-.h20{ height: 20rem;}
 .h100{ height: 100%;}
 .h50{ height: 50%;}
 
-.h50vh{ height: 50vh;}
 
 /* box-sizing related */
 
