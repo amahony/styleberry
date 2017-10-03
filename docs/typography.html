@@ -1,9 +1,9 @@
 <section id="SbTypography">
-  <div class="px4 py2 bg-yellow+2 yellow-4 border-top border-bottom">
+  <div class="px4 py2">
     <h1 class="size+4 m0">✏️ Typography</h1>
   </div>
   <!-- Type Scale -->
-  <section class="p4 flex items-center bg-white">
+  <section class="p4 flex items-center">
       <div class="width+6">
         <h2>⚫️ Type Scale</h2>
         <p>Fully responsive typographic scale with 12 defined classes, based on 1rem/16px default. Adjustable to any viewport using formula.</p>
@@ -22,7 +22,7 @@
       </div>
       <div class="width+4">
         <div class="width+8 center block mx-auto">
-          <div class="ratio-1-1 bg-white rounded-3 lift5 overflow-hidden">
+          <div class="ratio-1-1 bg-white rounded-3 lift+5 overflow-hidden">
             <div>
               <div class="flex flex-column h100">
                 <div class="bg-yellow yellow-3 p2 caps size-3 bold">Type Scale in action</div>
@@ -60,7 +60,7 @@
   </section>
   <!-- / Type Scale -->
   <!-- Type Weight -->
-  <section class="p4 flex items-center bg-white border-top border-1 border-gray+4">
+  <section class="p4 flex items-center border-top border-1 border-gray+4">
       <div class="width+6">
         <h2>⚫️ Type Weight</h2>
         <p>Fully responsive typographic scale with 12 defined classes, based on 1rem/16px default. Adjustable to any viewport using formula.</p>
@@ -78,7 +78,7 @@
       </div>
       <div class="width+4">
         <div class="width+8 center block mx-auto">
-          <div class="ratio-1-1 bg-white rounded-3 lift5 overflow-hidden">
+          <div class="ratio-1-1 bg-white rounded-3 lift+5 overflow-hidden">
             <div>
               <div class="flex flex-column h100">
                 <div class="bg-yellow yellow-3 p2 caps size-3 bold">Type Weight in action</div>
@@ -116,7 +116,7 @@
   </section>
   <!-- / Type Weight -->
   <!-- Letter Spacing -->
-  <section id="sbSpacing" class="p4 flex items-center bg-white border-top border-1 border-gray+4">
+  <section id="sbSpacing" class="p4 flex items-center border-top border-1 border-gray+4">
       <div class="width+6">
         <h2>⚫️ Letter Spacing</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit tempora accusamus labore ab! Tempore magnam provident, perspiciatis quis reprehenderit. Tempora aperiam obcaecati porro suscipit harum molestias, nobis unde in modi.</p>
@@ -134,7 +134,7 @@
       </div>
       <div class="width+4">
         <div class="width+8 center block mx-auto">
-          <div class="ratio-1-1 bg-white rounded-3 lift5 overflow-hidden">
+          <div class="ratio-1-1 bg-white rounded-3 lift+5 overflow-hidden">
             <div>
               <div class="flex flex-column h100">
                 <div class="bg-yellow yellow-3 p2 caps size-3 bold">Letter Spacing in action</div>
@@ -172,29 +172,29 @@
   </section>
   <!-- / Letter Spacing -->
   <!-- Line Height -->
-  <section id="sbLineHeight" class="p4 flex items-center bg-white border-top border-1 border-gray+4">
+  <section id="sbLineHeight" class="p4 flex items-center border-top border-1 border-gray+4">
       <div class="width+6">
         <h2>⚫️ Line Height(Leading)</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit tempora accusamus labore ab! Tempore magnam provident, perspiciatis quis reprehenderit. Tempora aperiam obcaecati porro suscipit harum molestias, nobis unde in modi.</p>
         <p class="leading0 border-red+4 border-top border-bottom">Line Height 0</p>
-        <p class="leading1 border-red+4 border-top border-bottom">Line Height 1</p>
-        <p class="leading2 border-red+4 border-top border-bottom">Line Height 2</p>
-        <p class="leading3 border-red+4 border-top border-bottom">Line Height 3</p>
-        <p class="leading4 border-red+4 border-top border-bottom">Line Height 4</p>
-        <p class="leading5 border-red+4 border-top border-bottom">Line Height 5</p>
+        <p class="leading+1 border-red+4 border-top border-bottom">Line Height 1</p>
+        <p class="leading+2 border-red+4 border-top border-bottom">Line Height 2</p>
+        <p class="leading+3 border-red+4 border-top border-bottom">Line Height 3</p>
+        <p class="leading+4 border-red+4 border-top border-bottom">Line Height 4</p>
+        <p class="leading+5 border-red+4 border-top border-bottom">Line Height 5</p>
       </div>
       <div class="width+4">
         <div class="width+8 center block mx-auto">
-          <div class="ratio-1-1 bg-white rounded-3 lift5 overflow-hidden">
+          <div class="ratio-1-1 bg-white rounded-3 lift+5 overflow-hidden">
             <div>
               <div class="flex flex-column h100">
                 <div class="bg-yellow yellow-3 p2 caps size-3 bold">Leading in action</div>
                 <div class="flex-auto flex items-center">
                   <div class="size+2 leading{{leading <= 0 ? leading : '+' + leading}} m0 mx-auto">
-                    <p class="block bg-red5 border-red3 border-top border-bottom">Sample Text</p>
+                    <p class="block bg-red5 border-red+3 border-top border-bottom">Sample Text</p>
                   </div>
                 </div>
-                <div class="p2 bg-gray+5 size-2" ng-init="leading=0">
+                <div class="p2 bg-gray+5 size-2" ng-init="leading=3">
                   <div class="mb2 flex">
                     <span class="align-left width+5">Class</span>
                     <span class="align-right width+5 bold">leading{{leading <= 0 ? leading : '+' + leading}}</span>
@@ -223,7 +223,7 @@
   </section>
   <!-- / Line Height -->
   <!-- Type Utility -->
-  <section class="p4 bg-white border-top border-1 border-gray+4">
+  <section class="p4 border-top border-1 border-gray+4">
     <h2>⚫️ Type Utility</h2>
 
     <p class="italic">Italic</p>
@@ -249,7 +249,7 @@
   </section>
   <!-- / Type Utility -->
   <!-- Type Resets -->
-  <section class="p4 bg-white border-top border-1 border-gray+4">
+  <section class="p4 border-top border-1 border-gray+4">
     <h2>⚫️ Type Resets</h2>
     <h3>Links</h3>
     <p>This paragraph contains a <a href="http://codeberry.io">Link</a> without link reset</p>
