@@ -1,6 +1,6 @@
 {
   "name": "styleberry",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Class Oriented CSS Framework",
   "devDependencies": {
     "cssnano": "^3.8.0",
