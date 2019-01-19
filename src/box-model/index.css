@@ -17,10 +17,13 @@ Box model properties
   width
  */
 
-
-:root{
---space-1: .5rem;
---space-2: 1rem;
---space-3: 2rem;
---space-4: 4rem;
+:root {
+    
+--space: 1rem;
+--space-1: calc(var(--space) * .25);
+--space-2: calc(var(--space) * .5);
+--space-3: calc(var(--space) * 1);
+--space-4: calc(var(--space) * 2);
+--space-5: calc(var(--space) * 4);
+ 
 }

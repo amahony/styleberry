@@ -76,72 +76,73 @@
 
 /* ratio scale */
 
-.ratio1-1,
-.ratio2-2,
-.ratio3-3,
-.ratio4-4,
-.ratio5-5,
-.ratio6-6,
-.ratio7-7,
-.ratio8-8,
-.ratio9-9,
-.ratio10-10{ width: 100%;}
+.r1\:1,
+.r2\:2,
+.r3\:3,
+.r4\:4,
+.r5\:5,
+.r6\:6,
+.r7\:7,
+.r8\:8,
+.r9\:9,
+.r10\:10{ width: 100%;}
 
-.ratio1-2,
-.ratio2-4,
-.ratio3-6,
-.ratio4-8,
-.ratio5-10{ width: calc(100% / 2);}
 
-.ratio1-3,
-.ratio2-6,
-.ratio3-9,
-.ratio3-10{ width: calc(100% / 3);}
+.r1\:2,
+.r2\:4,
+.r3\:6,
+.r4\:8,
+.r5\:10{ width: calc(100% / 2);}
 
-.ratio2-3,
-.ratio4-6,
-.ratio6-9{ width: calc(100% / (3 / 2));}
+.r1\:3,
+.r2\:6,
+.r3\:9,
+.r3\:10{ width: calc(100% / 3);}
 
-.ratio1-4,
-.ratio2-8{ width: calc(100% / 4);}
+.r2\:3,
+.r4\:6,
+.r6\:9{ width: calc(100% / (3 / 2));}
 
-.ratio3-4,
-.ratio6-8{ width: calc(100% / (4 / 3));}
+.r1\:4,
+.r2\:8{ width: calc(100% / 4);}
 
-.ratio1-5,
-.ratio2-10{ width: calc(100% / 5);}
+.r3\:4,
+.r6\:8{ width: calc(100% / (4 / 3));}
 
-.ratio2-5,
-.ratio4-10{ width: calc(100% / (5 / 2));}
+.r1\:5,
+.r2\:10{ width: calc(100% / 5);}
 
-.ratio3-5,
-.ratio6-10{ width: calc(100% / (5 / 3));}
+.r2\:5,
+.r4\:10{ width: calc(100% / (5 / 2));}
 
-.ratio4-5,
-.ratio8-10{ width: calc(100% / (5 / 4));}
+.r3\:5,
+.r6\:10{ width: calc(100% / (5 / 3));}
 
-.ratio1-6{ width: calc(100% / 6);}
-.ratio5-6{ width: calc(100% / (6 / 5));}
+.r4\:5,
+.r8\:10{ width: calc(100% / (5 / 4));}
 
-.ratio1-7{ width: calc(100% / 7);}
-.ratio2-7{ width: calc(100% / (7 / 2));}
-.ratio3-7{ width: calc(100% / (7 / 3));}
-.ratio4-7{ width: calc(100% / (7 / 4));}
-.ratio5-7{ width: calc(100% / (7 / 5));}
-.ratio6-7{ width: calc(100% / (7 / 6));}
+.r1\:6{ width: calc(100% / 6);}
+.r5\:6{ width: calc(100% / (6 / 5));}
 
-.ratio1-8{ width: calc(100% / 8);}
-.ratio3-8{ width: calc(100% / (8 / 3));}
-.ratio5-8{ width: calc(100% / (8 / 5));}
-.ratio7-8{ width: calc(100% / (8 / 7));}
+.r1\:7{ width: calc(100% / 7);}
+.r2\:7{ width: calc(100% / (7 / 2));}
+.r3\:7{ width: calc(100% / (7 / 3));}
+.r4\:7{ width: calc(100% / (7 / 4));}
+.r5\:7{ width: calc(100% / (7 / 5));}
+.r6\:7{ width: calc(100% / (7 / 6));}
 
-.ratio1-9{ width: calc(100% / 9);}
-.ratio2-9{ width: calc(100% / (9 / 2));}
-.ratio4-9{ width: calc(100% / (9 / 4));}
-.ratio5-9{ width: calc(100% / (9 / 5));}
-.ratio7-9{ width: calc(100% / (9 / 7));}
-.ratio8-9{ width: calc(100% / (9 / 8));}
+.r1\:8{ width: calc(100% / 8);}
+.r3\:8{ width: calc(100% / (8 / 3));}
+.r5\:8{ width: calc(100% / (8 / 5));}
+.r7\:8{ width: calc(100% / (8 / 7));}
 
-.ratio1-10{ width: calc(100% / 10);}
-.ratio7-10{ width: calc(100% / (10 / 7));}
-.ratio9-10{ width: calc(100% / (10 / 9));}
+.r1\:9{ width: calc(100% / 9);}
+.r2\:9{ width: calc(100% / (9 / 2));}
+.r4\:9{ width: calc(100% / (9 / 4));}
+.r5\:9{ width: calc(100% / (9 / 5));}
+.r7\:9{ width: calc(100% / (9 / 7));}
+.r8\:9{ width: calc(100% / (9 / 8));}
+
+.r1\:10{ width: calc(100% / 10);}
+.r7\:10{ width: calc(100% / (10 / 7));}
+.r9\:10{ width: calc(100% / (10 / 9));}

@@ -32,16 +32,16 @@
                   </div>
                 </div>
                 <div class="p2 bg-gray+5 size-2" ng-init="type.scale=5">
-                  <div class="mb2 flex">
+                  <div class="mb+2 flex">
                     <span class="align-left width+5">Class</span>
-                    <span class="align-right width+5 bold">size{{type.scale <= 0 ? type.scale : '+' + type.scale}}</span>
+                    <span class="align-right width+5 bold">.size{{type.scale <= 0 ? type.scale : '+' + type.scale}}</span>
                   </div>
                   <input class="range-slider" type="range" name="model" min="-5" max="+5" value="0" ng-model="type.scale" step="1">
                 </div>
               </div>
             </div>
           </div>
-          <table class="table size-1 bg-blue+4 width+10 align-left mt2 p1 rounded">
+          <table class="table size-1 bg-blue+4 width+10 align-left mt+2 p1 rounded">
             <tr>
               <th class="border-bottom p1">Class Constructor</th>
             </tr>
@@ -49,7 +49,7 @@
               <td class="border-bottom p1">Keyword<span class="right bold">size</span></td>
             </tr>
             <tr>
-              <td class="border-bottom p1">Operator<span class="right bold">+|-</span></td>
+              <td class="border-bottom p1">Operator<span class="right bold">-|+</span></td>
             </tr>
             <tr>
               <td class="p1">Integer<span class="right bold">0|1|2|3|4|5</span></td>
@@ -88,16 +88,16 @@
                   </div>
                 </div>
                 <div class="p2 bg-gray+5 size-2" ng-init="typeweight=0">
-                  <div class="mb2 flex">
+                  <div class="mb+2 flex">
                     <span class="align-left width+5">Class</span>
-                    <span class="align-right width+5 bold">weight{{type.weight <= 0 ? type.weight : '+' + type.weight}}</span>
+                    <span class="align-right width+5 bold">.weight{{type.weight <= 0 ? type.weight : '+' + type.weight}}</span>
                   </div>
                   <input class="range-slider" type="range" name="model" min="-3" max="5" value="0" ng-model="type.weight" step="1">
                 </div>
               </div>
             </div>
           </div>
-          <table class="table size-1 bg-blue+4 width+10 align-left mt2 p1 rounded">
+          <table class="table size-1 bg-blue+4 width+10 align-left mt+2 p1 rounded">
             <tr>
               <th class="border-bottom p1">Class Constructor</th>
             </tr>
@@ -105,7 +105,7 @@
               <td class="border-bottom p1">Keyword<span class="right bold">weight</span></td>
             </tr>
             <tr>
-              <td class="border-bottom p1">Operator<span class="right bold">none|-</span></td>
+              <td class="border-bottom p1">Operator<span class="right bold">-|+</span></td>
             </tr>
             <tr>
               <td class="p1">Integer<span class="right bold">0|1|2|3|4|5</span></td>
@@ -144,16 +144,16 @@
                   </div>
                 </div>
                 <div class="p2 bg-gray+5 size-2" ng-init="letter.spacing=0">
-                  <div class="mb2 flex">
+                  <div class="mb+2 flex">
                     <span class="align-left width+5">Class</span>
-                    <span class="align-right width+5 bold">spacing{{letter.spacing}}</span>
+                    <span class="align-right width+5 bold">.spacing{{letter.spacing <= 0 ? letter.spacing : '+' + letter.spacing}}</span>
                   </div>
                   <input class="range-slider" type="range" name="model" min="-5" max="5" value="0" ng-model="letter.spacing" step="1">
                 </div>
               </div>
             </div>
           </div>
-          <table class="table size-1 bg-blue+4 width+10 align-left mt2 p1 rounded">
+          <table class="table size-1 bg-blue+4 width+10 align-left mt+2 p1 rounded">
             <tr>
               <th class="border-bottom p1">Class Constructor</th>
             </tr>
@@ -161,7 +161,7 @@
               <td class="border-bottom p1">Keyword<span class="right bold">spacing</span></td>
             </tr>
             <tr>
-              <td class="border-bottom p1">Operator<span class="right bold">none|-</span></td>
+              <td class="border-bottom p1">Operator<span class="right bold">-|+</span></td>
             </tr>
             <tr>
               <td class="p1">Integer<span class="right bold">0|1|2|3|4|5</span></td>
@@ -195,16 +195,16 @@
                   </div>
                 </div>
                 <div class="p2 bg-gray+5 size-2" ng-init="leading=3">
-                  <div class="mb2 flex">
+                  <div class="mb+2 flex">
                     <span class="align-left width+5">Class</span>
-                    <span class="align-right width+5 bold">leading{{leading <= 0 ? leading : '+' + leading}}</span>
+                    <span class="align-right width+5 bold">.leading{{leading <= 0 ? leading : '+' + leading}}</span>
                   </div>
                   <input class="range-slider" type="range" name="model" min="0" max="5" value="0" ng-model="leading" step="1">
                 </div>
               </div>
             </div>
           </div>
-          <table class="table size-1 bg-blue+4 width+10 align-left mt2 p1 rounded">
+          <table class="table size-1 bg-blue+4 width+10 align-left mt+2 p1 rounded">
             <tr>
               <th class="border-bottom p1">Class Constructor</th>
             </tr>
@@ -225,27 +225,60 @@
   <!-- Type Utility -->
   <section class="p4 border-top border-1 border-gray+4">
     <h2>⚫️ Type Utility</h2>
-
-    <p class="italic">Italic</p>
-    <p class="caps">Caps</p>
-    <p class="small-caps">Small Caps</p>
-
-    <div class="">
-      <p class="align-left bg-red+5">Text Align Left</p>
-      <p class="center bg-red+5">Text Align Center</p>
-      <p class="align-right bg-red+5">Text Align Right</p>
+    <div class="flex items-center mb1">
+        <code class="bg-yellow+4 yellow-3 px1 rounded">.italic</code>
+        <p class="italic m0 ml+2">Italic</p>
+    </div>
+    <div class="flex items-center mb1">
+        <code class="bg-yellow+4 yellow-3 px1 rounded">.caps</code>
+        <p class="caps m0 ml+2">Caps</p>
+    </div>
+    <div class="flex items-center mb1">
+        <code class="bg-yellow+4 yellow-3 px1 rounded">.small-caps</code>
+        <p class="small-caps m0 ml+2">Small Caps</p>
     </div>
 
-    <p class="underline">Underline</p>
-    <p class="line-through">Line Through</p>
-
-    <p class="justify">Justify</p>
-    <p class="nowrap">Nowrap</p>
-    <p class="truncate">Truncate</p>
-
-    <p class="text-shadow">Text Shadow</p>
-    <p class="blockquote">Blockquote</p>
-
+    <div class="flex items-center mb1">
+        <code class="bg-yellow+4 yellow-3 px1 rounded">.align-left</code>
+        <p class="align-left bg-red+5 m0 ml+2 flex-auto">Text Align Left</p>
+    </div>
+    <div class="flex items-center mb1">
+        <code class="bg-yellow+4 yellow-3 px1 rounded">.center</code>
+        <p class="center bg-red+5 m0 ml+2 flex-auto">Text Align Center</p>
+    </div>
+    <div class="flex items-center mb1">
+        <code class="bg-yellow+4 yellow-3 px1 rounded">.align-right</code>
+        <p class="align-right bg-red+5 m0 ml+2 flex-auto">Text Align Right</p>
+    </div>
+    <div class="flex items-center mb1">
+        <code class="bg-yellow+4 yellow-3 px1 rounded">.underline</code>
+        <p class="underline m0 ml+2">Underline</p>
+    </div>
+    <div class="flex items-center mb1">
+        <code class="bg-yellow+4 yellow-3 px1 rounded">.line-through</code>
+        <p class="line-through m0 ml+2">Line Through</p>
+    </div>
+    <div class="flex items-center mb1">
+        <code class="bg-yellow+4 yellow-3 px1 rounded">.justify</code>
+        <p class="justify m0 ml+2">Justify</p>
+    </div>
+    <div class="flex items-center mb1">
+        <code class="bg-yellow+4 yellow-3 px1 rounded">.nowrap</code>
+        <p class="nowrap m0 ml+2 width+1 bg-red+5">Nowrap some characters</p>
+    </div>
+    <div class="flex items-center mb1">
+        <code class="bg-yellow+4 yellow-3 px1 rounded">.truncate</code>
+        <p class="truncate m0 ml+2 width+1 bg-red+5">Truncate some characters</p>
+    </div>
+    <div class="flex items-center mb1">
+        <code class="bg-yellow+4 yellow-3 px1 rounded">.text-shadow</code>
+        <p class="text-shadow m0 ml+2">Text Shadow</p>
+    </div>
+    <div class="flex items-center mb1">
+        <code class="bg-yellow+4 yellow-3 px1 rounded">.blockquote</code>
+        <p class="blockquote m0 ml+2">Blockquote</p>
+    </div>
+                  
   </section>
   <!-- / Type Utility -->
   <!-- Type Resets -->
